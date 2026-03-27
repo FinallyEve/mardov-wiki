@@ -15,7 +15,15 @@ const config: QuartzConfig = {
     analytics: null,
     locale: "en-US",
     baseUrl: "finallyeve.github.io/mardov-wiki",
-    ignorePatterns: ["private", "_templates", ".obsidian"],
+    ignorePatterns: [
+      "private",
+      "_templates",
+      ".obsidian",
+      "**/timeline-viz/data/**",
+      "**/credentials*",
+      "**/secrets*",
+      "**/*.jsonl",
+    ],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
