@@ -1,0 +1,1021 @@
+{
+  "nodes": [
+    {
+      "id": "4c658107aac5451f",
+      "type": "text",
+      "x": -50,
+      "y": -250,
+      "width": 600,
+      "height": 100,
+      "text": "# Mardov Campaign Timeline\n\nLeft to right: Ancient -> Endgame\nGreen=Act1 | Yellow=Act2 | Orange=Act3 | Red=Act4 | Purple=Ancient/Prophesied | Cyan=Recent"
+    },
+    {
+      "id": "911eeba77c8d479a",
+      "type": "text",
+      "x": 0,
+      "y": -120,
+      "width": 350,
+      "height": 80,
+      "color": "6",
+      "text": "# Ancient History"
+    },
+    {
+      "id": "be4b84b011544fde",
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 350,
+      "height": 70,
+      "color": "6",
+      "text": "Vecna and Sabine Ra — original twin souls, divine jealousy begins"
+    },
+    {
+      "id": "980785dd71fd4de1",
+      "type": "text",
+      "x": 0,
+      "y": 90,
+      "width": 350,
+      "height": 70,
+      "color": "6",
+      "text": "Sabine founds Circle of the Murder (Ramses) + Artificer's Guild (Xerxes)"
+    },
+    {
+      "id": "a32d9e1c959a4d42",
+      "type": "text",
+      "x": 0,
+      "y": 180,
+      "width": 350,
+      "height": 70,
+      "color": "6",
+      "text": "Ramses forces lichdom on Sabine; she crystallizes as Demi-Lich in a phylactery"
+    },
+    {
+      "id": "b40ffcbfaa0d41b6",
+      "type": "text",
+      "x": 0,
+      "y": 270,
+      "width": 350,
+      "height": 70,
+      "color": "6",
+      "text": "Tygras makes a deal with an arch-fey from Vecna's plane; creates a weapon to bridge worlds"
+    },
+    {
+      "id": "58abe45d136747b8",
+      "type": "text",
+      "x": 0,
+      "y": 360,
+      "width": 350,
+      "height": 70,
+      "color": "6",
+      "text": "Ranar Surefoot steals the Diadem of Dawn during the weapon's use; the weapon backfires"
+    },
+    {
+      "id": "e2df38b1344a43ed",
+      "type": "text",
+      "x": 0,
+      "y": 450,
+      "width": 350,
+      "height": 70,
+      "color": "6",
+      "text": "Tygras's superweapon destroys Uma, creating the desert; Tygras sealed in Harvest's Zenith"
+    },
+    {
+      "id": "67578ca4cdc14305",
+      "type": "text",
+      "x": 0,
+      "y": 540,
+      "width": 350,
+      "height": 70,
+      "color": "6",
+      "text": "The Matrim Pact formed: human sailors, gnomes of Fae'ish, and Qual'Xar half-elves"
+    },
+    {
+      "id": "a1d7cf484f3041eb",
+      "type": "text",
+      "x": 0,
+      "y": 630,
+      "width": 350,
+      "height": 70,
+      "color": "6",
+      "text": "Covenants of Magic established after Tygras's destruction — no being except the Alabaster Seat may possess such power again"
+    },
+    {
+      "id": "371109ce9d324d8c",
+      "type": "text",
+      "x": 0,
+      "y": 720,
+      "width": 350,
+      "height": 70,
+      "color": "6",
+      "text": "Kolyma (Last Curator) establishes Zodiac guardianship of the Zeniths"
+    },
+    {
+      "id": "7bc651ebd2a14ba2",
+      "type": "text",
+      "x": 0,
+      "y": 810,
+      "width": 350,
+      "height": 70,
+      "color": "6",
+      "text": "The forgesworn order established; Thorin Bronzebeard builds the original Warforged army"
+    },
+    {
+      "id": "5effd06855ed46fc",
+      "type": "text",
+      "x": 400,
+      "y": -120,
+      "width": 350,
+      "height": 80,
+      "color": "5",
+      "text": "# Recent Past"
+    },
+    {
+      "id": "32b5591d51ee4b27",
+      "type": "text",
+      "x": 400,
+      "y": 0,
+      "width": 350,
+      "height": 70,
+      "color": "5",
+      "text": "~26 years ago: Nyx born; parents make a deal with Reynardine for the philosopher's stone"
+    },
+    {
+      "id": "ddf91b2164954ee6",
+      "type": "text",
+      "x": 400,
+      "y": 90,
+      "width": 350,
+      "height": 70,
+      "color": "5",
+      "text": "~8 years ago: Nyx's dominant soul emerges; her sister taken; parents spurn Nyx"
+    },
+    {
+      "id": "b056766ec4ee4e70",
+      "type": "text",
+      "x": 400,
+      "y": 180,
+      "width": 350,
+      "height": 70,
+      "color": "5",
+      "text": "~7 years ago: Xyn born — the \"perfect vessel\" for the arch-fey's plan"
+    },
+    {
+      "id": "bb8a89eeb8db4401",
+      "type": "text",
+      "x": 400,
+      "y": 270,
+      "width": 350,
+      "height": 70,
+      "color": "5",
+      "text": "Mordred possesses Finkle Hollingsworth (Gnome, NOT Goblin) at Forest's Zenith"
+    },
+    {
+      "id": "bf07dd409abd4f83",
+      "type": "text",
+      "x": 400,
+      "y": 360,
+      "width": 350,
+      "height": 70,
+      "color": "5",
+      "text": "Scarlet Tunic Brigade founded as a soul-harvesting front"
+    },
+    {
+      "id": "a615303e18804e26",
+      "type": "text",
+      "x": 400,
+      "y": 450,
+      "width": 350,
+      "height": 70,
+      "color": "5",
+      "text": "Thorkon Fireforge betrays Thorson Bronzebeard II at Ghost-Eye Thorrin's urging"
+    },
+    {
+      "id": "c88605e1ce094a62",
+      "type": "text",
+      "x": 400,
+      "y": 540,
+      "width": 350,
+      "height": 70,
+      "color": "5",
+      "text": "Ghost-Eye Thorrin betrays Thorkon, hunts all forgesworn"
+    },
+    {
+      "id": "1e05352b8a3c4cfd",
+      "type": "text",
+      "x": 400,
+      "y": 630,
+      "width": 350,
+      "height": 70,
+      "color": "5",
+      "text": "Thorkon and Hlin flee Vag'Mahar; Hlin dies giving birth to Daina and an older brother"
+    },
+    {
+      "id": "b82a376724804d83",
+      "type": "text",
+      "x": 400,
+      "y": 720,
+      "width": 350,
+      "height": 70,
+      "color": "5",
+      "text": "Blood Star kills Thorson Bronzebeard II"
+    },
+    {
+      "id": "882343eb835e4975",
+      "type": "text",
+      "x": 400,
+      "y": 810,
+      "width": 350,
+      "height": 70,
+      "color": "5",
+      "text": "Oblivion Wayne deposes her brother, unites all Drow under vampire rule"
+    },
+    {
+      "id": "28456265156c41e2",
+      "type": "text",
+      "x": 400,
+      "y": 900,
+      "width": 350,
+      "height": 70,
+      "color": "5",
+      "text": "Ebon Wayne captures Bat Zodiac, discovers Spell Plague"
+    },
+    {
+      "id": "e6129051f1ea41b4",
+      "type": "text",
+      "x": 400,
+      "y": 990,
+      "width": 350,
+      "height": 70,
+      "color": "5",
+      "text": "Vecna raises Peraxis Geth as Illithilich"
+    },
+    {
+      "id": "dcd8abfd50cd43e3",
+      "type": "text",
+      "x": 400,
+      "y": 1080,
+      "width": 350,
+      "height": 70,
+      "color": "5",
+      "text": "Peraxis Phyrexia corrupts the Elder Brain"
+    },
+    {
+      "id": "10e7bbed035c45df",
+      "type": "text",
+      "x": 400,
+      "y": 1170,
+      "width": 350,
+      "height": 70,
+      "color": "5",
+      "text": "Ned'Zailok attacks Tower Bridge; Varis's father Yeldan goes missing"
+    },
+    {
+      "id": "c23b2e4db5f54c7c",
+      "type": "text",
+      "x": 400,
+      "y": 1260,
+      "width": 350,
+      "height": 70,
+      "color": "5",
+      "text": "Scarlet Tunic Brigade covers the evacuation; Varis enlists"
+    },
+    {
+      "id": "cae84c6d17994683",
+      "type": "text",
+      "x": 400,
+      "y": 1350,
+      "width": 350,
+      "height": 70,
+      "color": "5",
+      "text": "Ned'Zailok defeated after 18 months of fighting"
+    },
+    {
+      "id": "82fe8f7871db463e",
+      "type": "text",
+      "x": 800,
+      "y": -120,
+      "width": 350,
+      "height": 80,
+      "color": "4",
+      "text": "# Act 1: The Awakening\n(Ch. 0-13)"
+    },
+    {
+      "id": "380811cfdc7e404d",
+      "type": "text",
+      "x": 800,
+      "y": 0,
+      "width": 350,
+      "height": 70,
+      "color": "4",
+      "text": "Ch. 0: Party recruited into Scarlet Tunic Brigade. Jorgen arrives pursued by kobolds. Sewer descent."
+    },
+    {
+      "id": "5dc437b7b0e84387",
+      "type": "text",
+      "x": 800,
+      "y": 90,
+      "width": 350,
+      "height": 70,
+      "color": "4",
+      "text": "Ch. 1: [[Dallor Dallorbill"
+    },
+    {
+      "id": "0273f77bdf7c457e",
+      "type": "text",
+      "x": 800,
+      "y": 180,
+      "width": 350,
+      "height": 70,
+      "color": "4",
+      "text": "Ch. 2: [[Finkle Hollingsworth"
+    },
+    {
+      "id": "abde728c7660499b",
+      "type": "text",
+      "x": 800,
+      "y": 270,
+      "width": 350,
+      "height": 70,
+      "color": "4",
+      "text": "Ch. 3-5: Artificer's Guild rescue. Xerxes exposition. Soul tether."
+    },
+    {
+      "id": "9d8066c50f284e39",
+      "type": "text",
+      "x": 800,
+      "y": 360,
+      "width": 350,
+      "height": 70,
+      "color": "4",
+      "text": "Ch. 6: Dopplegangers. V-Mardov rift opens. [[Varis Liadon"
+    },
+    {
+      "id": "4998dfab310047aa",
+      "type": "text",
+      "x": 800,
+      "y": 450,
+      "width": 350,
+      "height": 70,
+      "color": "4",
+      "text": "Ch. 7-8: Jorgen revenant pursues [[Finkle Hollingsworth"
+    },
+    {
+      "id": "016e171695fe470d",
+      "type": "text",
+      "x": 800,
+      "y": 540,
+      "width": 350,
+      "height": 70,
+      "color": "4",
+      "text": "Ch. 9: First Prophecy (Ruth)."
+    },
+    {
+      "id": "e1d8867d1b7b4e60",
+      "type": "text",
+      "x": 800,
+      "y": 630,
+      "width": 350,
+      "height": 70,
+      "color": "4",
+      "text": "Ch. 11: Golden Reach demons (Danelle/Markus) exposed at Festival of Light. [[Stalwart Little Goldentooth"
+    },
+    {
+      "id": "b7c20bdecf5f4955",
+      "type": "text",
+      "x": 800,
+      "y": 720,
+      "width": 350,
+      "height": 70,
+      "color": "4",
+      "text": "Ch. 12: Second Prophecy (Hags). Pestilence discovered — brewed from children's souls."
+    },
+    {
+      "id": "854ef61d58504e0d",
+      "type": "text",
+      "x": 800,
+      "y": 810,
+      "width": 350,
+      "height": 70,
+      "color": "4",
+      "text": "Ch. 13: Third Prophecy (Mia). Mia reveals she wiped party's memories."
+    },
+    {
+      "id": "0610901b27a04929",
+      "type": "text",
+      "x": 1200,
+      "y": -120,
+      "width": 350,
+      "height": 80,
+      "color": "3",
+      "text": "# Act 2: The Voyage\n(Ch. 14-40)"
+    },
+    {
+      "id": "d3224a7446c84fe9",
+      "type": "text",
+      "x": 1200,
+      "y": 0,
+      "width": 350,
+      "height": 70,
+      "color": "3",
+      "text": "Ch. 17: Nathan Yanagan (spy for Jafar) aboard Thornberry Shade. Tiefling prejudice arc."
+    },
+    {
+      "id": "b4f03ce1ceb04354",
+      "type": "text",
+      "x": 1200,
+      "y": 90,
+      "width": 350,
+      "height": 70,
+      "color": "3",
+      "text": "Ch. 19: Soul glamours for [[Nyx Khamestria"
+    },
+    {
+      "id": "a699bf5d59a74b98",
+      "type": "text",
+      "x": 1200,
+      "y": 180,
+      "width": 350,
+      "height": 70,
+      "color": "3",
+      "text": "Ch. 23: Zodiac spirits revealed — they bet their immortality on the champions."
+    },
+    {
+      "id": "a0e2bdbaa27e4389",
+      "type": "text",
+      "x": 1200,
+      "y": 270,
+      "width": 350,
+      "height": 70,
+      "color": "3",
+      "text": "Ch. 24-25: Tomb of the Last Curator. Four Zenith hieroglyphics."
+    },
+    {
+      "id": "80fe4e8c059f496a",
+      "type": "text",
+      "x": 1200,
+      "y": 360,
+      "width": 350,
+      "height": 70,
+      "color": "3",
+      "text": "Ch. 26: Kelik Waystar revealed as air genasi prince."
+    },
+    {
+      "id": "72abfbda74ba4d98",
+      "type": "text",
+      "x": 1200,
+      "y": 450,
+      "width": 350,
+      "height": 70,
+      "color": "3",
+      "text": "Ch. 29: Green Tides of St. Ashbury warning."
+    },
+    {
+      "id": "e1bb2306909a45e0",
+      "type": "text",
+      "x": 1200,
+      "y": 540,
+      "width": 350,
+      "height": 70,
+      "color": "3",
+      "text": "Ch. 30-31: Peraxis Phyrexia revealed. Reynaldine's network exposed. Xyn used as messenger."
+    },
+    {
+      "id": "13b1322903ef4b67",
+      "type": "text",
+      "x": 1200,
+      "y": 630,
+      "width": 350,
+      "height": 70,
+      "color": "3",
+      "text": "Ch. 34: [[Thorkon Fireforge"
+    },
+    {
+      "id": "715f1c1cd226403f",
+      "type": "text",
+      "x": 1200,
+      "y": 720,
+      "width": 350,
+      "height": 70,
+      "color": "3",
+      "text": "Ch. 36: [[Fen Darkeyes"
+    },
+    {
+      "id": "2307969edc844743",
+      "type": "text",
+      "x": 1200,
+      "y": 810,
+      "width": 350,
+      "height": 70,
+      "color": "3",
+      "text": "Ch. 37-38: Dvinter Castle / Phoenix arc. forgesworn connections revealed."
+    },
+    {
+      "id": "9f27f3e605c9481f",
+      "type": "text",
+      "x": 1600,
+      "y": -120,
+      "width": 350,
+      "height": 80,
+      "color": "2",
+      "text": "# Act 3: The Escalation\n(Ch. 41-86)"
+    },
+    {
+      "id": "8a64c35a5e514aec",
+      "type": "text",
+      "x": 1600,
+      "y": 0,
+      "width": 350,
+      "height": 70,
+      "color": "2",
+      "text": "Ch. 42+: Campaign splits into parallel tracks."
+    },
+    {
+      "id": "0c5c6be0b79c4c82",
+      "type": "text",
+      "x": 1600,
+      "y": 90,
+      "width": 350,
+      "height": 70,
+      "color": "2",
+      "text": "Ch. 86: Reunion. Battle of the Distillery."
+    },
+    {
+      "id": "67e15411bea3450c",
+      "type": "text",
+      "x": 2000,
+      "y": -120,
+      "width": 350,
+      "height": 80,
+      "color": "1",
+      "text": "# Act 4: The Endgame\n(Ch. 87-136)"
+    },
+    {
+      "id": "4e2de4815139441b",
+      "type": "text",
+      "x": 2000,
+      "y": 0,
+      "width": 350,
+      "height": 70,
+      "color": "1",
+      "text": "Ch. 103: Second Reunion. TPK and revival via myconid network. [[Bergs Fireforge"
+    },
+    {
+      "id": "868e588dc7a94208",
+      "type": "text",
+      "x": 2000,
+      "y": 90,
+      "width": 350,
+      "height": 70,
+      "color": "1",
+      "text": "Ch. 104-105: Reginald Providence killed (kenku in disguise). Anchor of War silenced. Therzadun thwarted. Silence/Timothy unmasked as Therzadun's vessel."
+    },
+    {
+      "id": "aa80cd8ed7ff4d98",
+      "type": "text",
+      "x": 2000,
+      "y": 180,
+      "width": 350,
+      "height": 70,
+      "color": "1",
+      "text": "Ch. 106: Declaration of War on gods. [[Peraxis Phyrexia"
+    },
+    {
+      "id": "59f537b4e598468b",
+      "type": "text",
+      "x": 2000,
+      "y": 270,
+      "width": 350,
+      "height": 70,
+      "color": "1",
+      "text": "Ch. 107: Ragnarok. Warforged awakening. Irethia revealed as aasimar created in image of Ashara Everstar."
+    },
+    {
+      "id": "a291a0b3be414c03",
+      "type": "text",
+      "x": 2000,
+      "y": 360,
+      "width": 350,
+      "height": 70,
+      "color": "1",
+      "text": "Ch. 108: Three races of elves' gods revealed. Casaval reveals Irethia (prototype), [[Riven Fen"
+    },
+    {
+      "id": "eaca7d17b04944e1",
+      "type": "text",
+      "x": 2000,
+      "y": 450,
+      "width": 350,
+      "height": 70,
+      "color": "1",
+      "text": "Ch. 109: Josh Coolbreeze cleanses [[Nocturnus Wayne"
+    },
+    {
+      "id": "ce388b47900a4399",
+      "type": "text",
+      "x": 2000,
+      "y": 540,
+      "width": 350,
+      "height": 70,
+      "color": "1",
+      "text": "Ch. 113: [[Brigit Wildfire"
+    },
+    {
+      "id": "22d402bb100b4f73",
+      "type": "text",
+      "x": 2000,
+      "y": 630,
+      "width": 350,
+      "height": 70,
+      "color": "1",
+      "text": "Ch. 116: Convergence and Betrayal — all planes converging into the Feywild."
+    },
+    {
+      "id": "ce1814b2f42949c2",
+      "type": "text",
+      "x": 2000,
+      "y": 720,
+      "width": 350,
+      "height": 70,
+      "color": "1",
+      "text": "Ch. 119: Time paradox — [[Bergs Fireforge"
+    },
+    {
+      "id": "c2a6a60cce5b48c9",
+      "type": "text",
+      "x": 2000,
+      "y": 810,
+      "width": 350,
+      "height": 70,
+      "color": "1",
+      "text": "Ch. 133: Reynaldine's true plan revealed: orchestrated everything to ascend to godhood and save Gabriel. Hearthstone exposed as triple agent."
+    },
+    {
+      "id": "d13dd2a786aa4c6a",
+      "type": "text",
+      "x": 2000,
+      "y": 900,
+      "width": 350,
+      "height": 70,
+      "color": "1",
+      "text": "Ch. 135: Book of Shadows plot to open Harvest and Winter Zenith. Tiamat at Harvest Zenith."
+    },
+    {
+      "id": "e4d8c1bac88343de",
+      "type": "text",
+      "x": 2000,
+      "y": 990,
+      "width": 350,
+      "height": 70,
+      "color": "1",
+      "text": "Ch. 136: Asmodeus killed by Josh Coolbreeze. Three specters: one into [[Nocturnus Wayne"
+    },
+    {
+      "id": "324900646fa84a8e",
+      "type": "text",
+      "x": 2400,
+      "y": -120,
+      "width": 350,
+      "height": 80,
+      "color": "6",
+      "text": "# Prophesied:\nGard'Daemon"
+    }
+  ],
+  "edges": [
+    {
+      "id": "41eb9cee8e94478a",
+      "fromNode": "911eeba77c8d479a",
+      "toNode": "be4b84b011544fde"
+    },
+    {
+      "id": "84667510cd7e4b0f",
+      "fromNode": "be4b84b011544fde",
+      "toNode": "980785dd71fd4de1"
+    },
+    {
+      "id": "2b466bab78a64f33",
+      "fromNode": "980785dd71fd4de1",
+      "toNode": "a32d9e1c959a4d42"
+    },
+    {
+      "id": "51b7ad071a064cd1",
+      "fromNode": "a32d9e1c959a4d42",
+      "toNode": "b40ffcbfaa0d41b6"
+    },
+    {
+      "id": "87e9eabda44d4ae2",
+      "fromNode": "b40ffcbfaa0d41b6",
+      "toNode": "58abe45d136747b8"
+    },
+    {
+      "id": "071ed61c03044965",
+      "fromNode": "58abe45d136747b8",
+      "toNode": "e2df38b1344a43ed"
+    },
+    {
+      "id": "3f2154e6a22c4dd4",
+      "fromNode": "e2df38b1344a43ed",
+      "toNode": "67578ca4cdc14305"
+    },
+    {
+      "id": "67e1686d5b6d4e2f",
+      "fromNode": "67578ca4cdc14305",
+      "toNode": "a1d7cf484f3041eb"
+    },
+    {
+      "id": "ba9653c20d234e37",
+      "fromNode": "a1d7cf484f3041eb",
+      "toNode": "371109ce9d324d8c"
+    },
+    {
+      "id": "29c2848125da482e",
+      "fromNode": "371109ce9d324d8c",
+      "toNode": "7bc651ebd2a14ba2"
+    },
+    {
+      "id": "2dde4e430fe04ca6",
+      "fromNode": "5effd06855ed46fc",
+      "toNode": "32b5591d51ee4b27"
+    },
+    {
+      "id": "c643198f8e014ab4",
+      "fromNode": "32b5591d51ee4b27",
+      "toNode": "ddf91b2164954ee6"
+    },
+    {
+      "id": "e9616adc828e429a",
+      "fromNode": "ddf91b2164954ee6",
+      "toNode": "b056766ec4ee4e70"
+    },
+    {
+      "id": "2507483c28a44b50",
+      "fromNode": "b056766ec4ee4e70",
+      "toNode": "bb8a89eeb8db4401"
+    },
+    {
+      "id": "940aec3e98cd4935",
+      "fromNode": "bb8a89eeb8db4401",
+      "toNode": "bf07dd409abd4f83"
+    },
+    {
+      "id": "16345f92d93d4a85",
+      "fromNode": "bf07dd409abd4f83",
+      "toNode": "a615303e18804e26"
+    },
+    {
+      "id": "850805ee721f4b54",
+      "fromNode": "a615303e18804e26",
+      "toNode": "c88605e1ce094a62"
+    },
+    {
+      "id": "6aad61f556b44b67",
+      "fromNode": "c88605e1ce094a62",
+      "toNode": "1e05352b8a3c4cfd"
+    },
+    {
+      "id": "39dd508edeb94118",
+      "fromNode": "1e05352b8a3c4cfd",
+      "toNode": "b82a376724804d83"
+    },
+    {
+      "id": "895134f6a9184954",
+      "fromNode": "b82a376724804d83",
+      "toNode": "882343eb835e4975"
+    },
+    {
+      "id": "84ab43ec16324638",
+      "fromNode": "882343eb835e4975",
+      "toNode": "28456265156c41e2"
+    },
+    {
+      "id": "d8d32ab2d2ae4980",
+      "fromNode": "28456265156c41e2",
+      "toNode": "e6129051f1ea41b4"
+    },
+    {
+      "id": "3e66e11ad7bb4e82",
+      "fromNode": "e6129051f1ea41b4",
+      "toNode": "dcd8abfd50cd43e3"
+    },
+    {
+      "id": "823bc6b6ed79489f",
+      "fromNode": "dcd8abfd50cd43e3",
+      "toNode": "10e7bbed035c45df"
+    },
+    {
+      "id": "9d4968de82df49e1",
+      "fromNode": "10e7bbed035c45df",
+      "toNode": "c23b2e4db5f54c7c"
+    },
+    {
+      "id": "8bf8366b9b5f4f3c",
+      "fromNode": "c23b2e4db5f54c7c",
+      "toNode": "cae84c6d17994683"
+    },
+    {
+      "id": "0887930c1e0d4bf8",
+      "fromNode": "7bc651ebd2a14ba2",
+      "toNode": "5effd06855ed46fc",
+      "label": "-->"
+    },
+    {
+      "id": "9bae14c6292e421e",
+      "fromNode": "82fe8f7871db463e",
+      "toNode": "380811cfdc7e404d"
+    },
+    {
+      "id": "fb87ecad565e4a87",
+      "fromNode": "380811cfdc7e404d",
+      "toNode": "5dc437b7b0e84387"
+    },
+    {
+      "id": "c01e9c6a87d74c4d",
+      "fromNode": "5dc437b7b0e84387",
+      "toNode": "0273f77bdf7c457e"
+    },
+    {
+      "id": "421d8562ae3a4949",
+      "fromNode": "0273f77bdf7c457e",
+      "toNode": "abde728c7660499b"
+    },
+    {
+      "id": "53d0d2e60dd1446e",
+      "fromNode": "abde728c7660499b",
+      "toNode": "9d8066c50f284e39"
+    },
+    {
+      "id": "8e3905647f874593",
+      "fromNode": "9d8066c50f284e39",
+      "toNode": "4998dfab310047aa"
+    },
+    {
+      "id": "c2a96c1fbcd34914",
+      "fromNode": "4998dfab310047aa",
+      "toNode": "016e171695fe470d"
+    },
+    {
+      "id": "03745442f4be463e",
+      "fromNode": "016e171695fe470d",
+      "toNode": "e1d8867d1b7b4e60"
+    },
+    {
+      "id": "b755fae5fdf0446b",
+      "fromNode": "e1d8867d1b7b4e60",
+      "toNode": "b7c20bdecf5f4955"
+    },
+    {
+      "id": "a1c083328de04a27",
+      "fromNode": "b7c20bdecf5f4955",
+      "toNode": "854ef61d58504e0d"
+    },
+    {
+      "id": "c326ff929ce3421c",
+      "fromNode": "cae84c6d17994683",
+      "toNode": "82fe8f7871db463e",
+      "label": "-->"
+    },
+    {
+      "id": "cd7a9ecd126f4970",
+      "fromNode": "0610901b27a04929",
+      "toNode": "d3224a7446c84fe9"
+    },
+    {
+      "id": "ccc65b63e1b34e5f",
+      "fromNode": "d3224a7446c84fe9",
+      "toNode": "b4f03ce1ceb04354"
+    },
+    {
+      "id": "7bf1da8ed55541a7",
+      "fromNode": "b4f03ce1ceb04354",
+      "toNode": "a699bf5d59a74b98"
+    },
+    {
+      "id": "224e2b10f45947f0",
+      "fromNode": "a699bf5d59a74b98",
+      "toNode": "a0e2bdbaa27e4389"
+    },
+    {
+      "id": "9d1731de577d4ca1",
+      "fromNode": "a0e2bdbaa27e4389",
+      "toNode": "80fe4e8c059f496a"
+    },
+    {
+      "id": "fb40c704326543c7",
+      "fromNode": "80fe4e8c059f496a",
+      "toNode": "72abfbda74ba4d98"
+    },
+    {
+      "id": "1fcef9b897414fb6",
+      "fromNode": "72abfbda74ba4d98",
+      "toNode": "e1bb2306909a45e0"
+    },
+    {
+      "id": "9ebe3b73ccb44f6f",
+      "fromNode": "e1bb2306909a45e0",
+      "toNode": "13b1322903ef4b67"
+    },
+    {
+      "id": "b37bd5174698401e",
+      "fromNode": "13b1322903ef4b67",
+      "toNode": "715f1c1cd226403f"
+    },
+    {
+      "id": "115a186fa1e94a73",
+      "fromNode": "715f1c1cd226403f",
+      "toNode": "2307969edc844743"
+    },
+    {
+      "id": "55dbb913d7f84cd0",
+      "fromNode": "854ef61d58504e0d",
+      "toNode": "0610901b27a04929",
+      "label": "-->"
+    },
+    {
+      "id": "8ec4d3e770f54703",
+      "fromNode": "9f27f3e605c9481f",
+      "toNode": "8a64c35a5e514aec"
+    },
+    {
+      "id": "16558a37252441b5",
+      "fromNode": "8a64c35a5e514aec",
+      "toNode": "0c5c6be0b79c4c82"
+    },
+    {
+      "id": "11241e6fb0004529",
+      "fromNode": "2307969edc844743",
+      "toNode": "9f27f3e605c9481f",
+      "label": "-->"
+    },
+    {
+      "id": "724c38bf194e4318",
+      "fromNode": "67e15411bea3450c",
+      "toNode": "4e2de4815139441b"
+    },
+    {
+      "id": "d9774d5c373a4817",
+      "fromNode": "4e2de4815139441b",
+      "toNode": "868e588dc7a94208"
+    },
+    {
+      "id": "5a47a8ac1a2f4abc",
+      "fromNode": "868e588dc7a94208",
+      "toNode": "aa80cd8ed7ff4d98"
+    },
+    {
+      "id": "a39870c81fe646a1",
+      "fromNode": "aa80cd8ed7ff4d98",
+      "toNode": "59f537b4e598468b"
+    },
+    {
+      "id": "1f4d285d72e44df2",
+      "fromNode": "59f537b4e598468b",
+      "toNode": "a291a0b3be414c03"
+    },
+    {
+      "id": "8cd815875a7540b2",
+      "fromNode": "a291a0b3be414c03",
+      "toNode": "eaca7d17b04944e1"
+    },
+    {
+      "id": "dceccf87158544c6",
+      "fromNode": "eaca7d17b04944e1",
+      "toNode": "ce388b47900a4399"
+    },
+    {
+      "id": "82f57184625d4a07",
+      "fromNode": "ce388b47900a4399",
+      "toNode": "22d402bb100b4f73"
+    },
+    {
+      "id": "b30b53dc64e743c7",
+      "fromNode": "22d402bb100b4f73",
+      "toNode": "ce1814b2f42949c2"
+    },
+    {
+      "id": "e14c13395ad04fbf",
+      "fromNode": "ce1814b2f42949c2",
+      "toNode": "c2a6a60cce5b48c9"
+    },
+    {
+      "id": "4c9145994c62486d",
+      "fromNode": "c2a6a60cce5b48c9",
+      "toNode": "d13dd2a786aa4c6a"
+    },
+    {
+      "id": "0a6796856a774aa3",
+      "fromNode": "d13dd2a786aa4c6a",
+      "toNode": "e4d8c1bac88343de"
+    },
+    {
+      "id": "bf25345d491b4afb",
+      "fromNode": "0c5c6be0b79c4c82",
+      "toNode": "67e15411bea3450c",
+      "label": "-->"
+    },
+    {
+      "id": "517ebc7cba144d91",
+      "fromNode": "e4d8c1bac88343de",
+      "toNode": "324900646fa84a8e",
+      "label": "-->"
+    }
+  ]
+}

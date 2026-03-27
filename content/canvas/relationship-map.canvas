@@ -1,0 +1,1175 @@
+{
+  "nodes": [
+    {
+      "id": "c1925caab6754fb0",
+      "type": "text",
+      "x": -200,
+      "y": -600,
+      "width": 500,
+      "height": 100,
+      "text": "# Mardov Relationship Map\n\nGreen = PC | Orange = Major NPC | Yellow = Minor NPC | Red = Antagonist | Purple = Deity/Cosmic"
+    },
+    {
+      "id": "b85fb9ccbe80455f",
+      "type": "file",
+      "x": 400,
+      "y": 0,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Bergs.md"
+    },
+    {
+      "id": "1d7930b739f14ef1",
+      "type": "file",
+      "x": 389,
+      "y": 92,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Bergs Fireforge.md"
+    },
+    {
+      "id": "6006761811c94305",
+      "type": "file",
+      "x": 357,
+      "y": 179,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Birt.md"
+    },
+    {
+      "id": "63503cc81a32459f",
+      "type": "file",
+      "x": 306,
+      "y": 257,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Brigit Wildfire.md"
+    },
+    {
+      "id": "cacdfab9a5e649bd",
+      "type": "file",
+      "x": 238,
+      "y": 320,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Casaval.md"
+    },
+    {
+      "id": "31c4f9781e554eb8",
+      "type": "file",
+      "x": 158,
+      "y": 367,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Clay Glennbrook.md"
+    },
+    {
+      "id": "0e286b8ac77a4153",
+      "type": "file",
+      "x": 69,
+      "y": 393,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Dallor.md"
+    },
+    {
+      "id": "45ff7e7271c74083",
+      "type": "file",
+      "x": -23,
+      "y": 399,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Daina Fireforge.md"
+    },
+    {
+      "id": "561f0f212a394603",
+      "type": "file",
+      "x": -114,
+      "y": 383,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Fen Darkeyes.md"
+    },
+    {
+      "id": "40d8929db1e34f56",
+      "type": "file",
+      "x": -199,
+      "y": 346,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Fovis Wesrun.md"
+    },
+    {
+      "id": "8b84b949e8114bb9",
+      "type": "file",
+      "x": -274,
+      "y": 290,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Frozen Song.md"
+    },
+    {
+      "id": "6b22fae9b53f426f",
+      "type": "file",
+      "x": -334,
+      "y": 219,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/HAL.md"
+    },
+    {
+      "id": "52c5ce6ab25d48fd",
+      "type": "file",
+      "x": -375,
+      "y": 136,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Irethia.md"
+    },
+    {
+      "id": "c92862e89d6847af",
+      "type": "file",
+      "x": -397,
+      "y": 46,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Kelemtor.md"
+    },
+    {
+      "id": "96e3f524f7654fcd",
+      "type": "file",
+      "x": -397,
+      "y": -46,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Knob and Scamp.md"
+    },
+    {
+      "id": "3229b76c9c4942a8",
+      "type": "file",
+      "x": -375,
+      "y": -136,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Lilliath Goodbarrel.md"
+    },
+    {
+      "id": "1e2b972d3c4b4e9e",
+      "type": "file",
+      "x": -334,
+      "y": -219,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Mirvess.md"
+    },
+    {
+      "id": "949d12e0ced54e76",
+      "type": "file",
+      "x": -274,
+      "y": -290,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Nocturnus Wayne.md"
+    },
+    {
+      "id": "df552efe51c54d3a",
+      "type": "file",
+      "x": -200,
+      "y": -346,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Nyx Khamestria.md"
+    },
+    {
+      "id": "907f98ad997c48ba",
+      "type": "file",
+      "x": -114,
+      "y": -383,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Randal.md"
+    },
+    {
+      "id": "62cf852545004190",
+      "type": "file",
+      "x": -23,
+      "y": -399,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Riven Fen.md"
+    },
+    {
+      "id": "92e477f02884483c",
+      "type": "file",
+      "x": 69,
+      "y": -393,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Sprocket Overspark.md"
+    },
+    {
+      "id": "72b1e63a763a42f5",
+      "type": "file",
+      "x": 158,
+      "y": -367,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Stalwart Little Goldentooth.md"
+    },
+    {
+      "id": "6004c928fc75487f",
+      "type": "file",
+      "x": 238,
+      "y": -320,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Tesca.md"
+    },
+    {
+      "id": "403cbfadca8d4918",
+      "type": "file",
+      "x": 306,
+      "y": -257,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Tiberius D Rex.md"
+    },
+    {
+      "id": "baaf6c0bf9cb4c7f",
+      "type": "file",
+      "x": 357,
+      "y": -179,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Torvald Greyspear.md"
+    },
+    {
+      "id": "43672e96237d432a",
+      "type": "file",
+      "x": 389,
+      "y": -92,
+      "width": 280,
+      "height": 60,
+      "color": "4",
+      "file": "characters/pcs/Varis Laindon.md"
+    },
+    {
+      "id": "467e15088dc94c78",
+      "type": "file",
+      "x": 900,
+      "y": 0,
+      "width": 260,
+      "height": 50,
+      "color": "2",
+      "file": "characters/npcs/organizations/Dragons.md"
+    },
+    {
+      "id": "52fd1fe857644d77",
+      "type": "file",
+      "x": 779,
+      "y": 449,
+      "width": 260,
+      "height": 50,
+      "color": "2",
+      "file": "characters/npcs/organizations/Fey Lords.md"
+    },
+    {
+      "id": "8fa46473eaf6425b",
+      "type": "file",
+      "x": 450,
+      "y": 779,
+      "width": 260,
+      "height": 50,
+      "color": "2",
+      "file": "characters/npcs/major/Kiera Duskhallow.md"
+    },
+    {
+      "id": "46177cac5cd1436b",
+      "type": "file",
+      "x": 0,
+      "y": 900,
+      "width": 260,
+      "height": 50,
+      "color": "2",
+      "file": "characters/npcs/organizations/Zodiacs.md"
+    },
+    {
+      "id": "9b2ac79e7a104d07",
+      "type": "file",
+      "x": -449,
+      "y": 779,
+      "width": 260,
+      "height": 50,
+      "color": "2",
+      "file": "characters/npcs/major/Ned'Zailok.md"
+    },
+    {
+      "id": "f4f5c1b470104018",
+      "type": "file",
+      "x": -779,
+      "y": 449,
+      "width": 260,
+      "height": 50,
+      "color": "2",
+      "file": "characters/npcs/major/Peraxis Phyrexia.md"
+    },
+    {
+      "id": "a0b4e079463446ac",
+      "type": "file",
+      "x": -900,
+      "y": 0,
+      "width": 260,
+      "height": 50,
+      "color": "2",
+      "file": "characters/npcs/organizations/Progenitors.md"
+    },
+    {
+      "id": "bb4d060f5a32407a",
+      "type": "file",
+      "x": -779,
+      "y": -449,
+      "width": 260,
+      "height": 50,
+      "color": "2",
+      "file": "characters/npcs/major/Reynaldine.md"
+    },
+    {
+      "id": "6e00e01b354e448c",
+      "type": "file",
+      "x": -450,
+      "y": -779,
+      "width": 260,
+      "height": 50,
+      "color": "2",
+      "file": "characters/npcs/major/Reynardine.md"
+    },
+    {
+      "id": "0255f05e4676465f",
+      "type": "file",
+      "x": 0,
+      "y": -900,
+      "width": 260,
+      "height": 50,
+      "color": "2",
+      "file": "characters/npcs/major/Sabine.md"
+    },
+    {
+      "id": "94c990439c0d48d0",
+      "type": "file",
+      "x": 450,
+      "y": -779,
+      "width": 260,
+      "height": 50,
+      "color": "2",
+      "file": "characters/npcs/major/Thorkon Fireforge.md"
+    },
+    {
+      "id": "7c69bc4a1a7e4bca",
+      "type": "file",
+      "x": 779,
+      "y": -450,
+      "width": 260,
+      "height": 50,
+      "color": "2",
+      "file": "characters/npcs/major/Tygras.md"
+    },
+    {
+      "id": "97181fc50b704ca0",
+      "type": "file",
+      "x": 1139,
+      "y": -152,
+      "width": 260,
+      "height": 50,
+      "color": "1",
+      "file": "characters/npcs/major/Finkle Hollingsworth.md"
+    },
+    {
+      "id": "4f60f9459c044b55",
+      "type": "file",
+      "x": 913,
+      "y": 698,
+      "width": 260,
+      "height": 50,
+      "color": "1",
+      "file": "characters/npcs/organizations/Gods and Cosmic Entities.md"
+    },
+    {
+      "id": "5342566c80e04e80",
+      "type": "file",
+      "x": 152,
+      "y": 1139,
+      "width": 260,
+      "height": 50,
+      "color": "1",
+      "file": "characters/npcs/major/Mordred.md"
+    },
+    {
+      "id": "8cd74a6d60834d42",
+      "type": "file",
+      "x": -698,
+      "y": 913,
+      "width": 260,
+      "height": 50,
+      "color": "1",
+      "file": "characters/npcs/major/Oblivion Wayne.md"
+    },
+    {
+      "id": "431df62f4bc94c5c",
+      "type": "file",
+      "x": -1139,
+      "y": 152,
+      "width": 260,
+      "height": 50,
+      "color": "1",
+      "file": "characters/npcs/major/Peraxis Geth.md"
+    },
+    {
+      "id": "d9567dd419c84d12",
+      "type": "file",
+      "x": -913,
+      "y": -698,
+      "width": 260,
+      "height": 50,
+      "color": "1",
+      "file": "characters/npcs/major/Vecna.md"
+    },
+    {
+      "id": "91e844384aea433c",
+      "type": "file",
+      "x": -152,
+      "y": -1139,
+      "width": 260,
+      "height": 50,
+      "color": "1",
+      "file": "characters/npcs/organizations/Vecna Sworn.md"
+    },
+    {
+      "id": "c02312cea1fc45a8",
+      "type": "file",
+      "x": 698,
+      "y": -913,
+      "width": 260,
+      "height": 50,
+      "color": "1",
+      "file": "characters/npcs/major/Xerxes.md"
+    },
+    {
+      "id": "3f64e934bb724f95",
+      "type": "file",
+      "x": 1350,
+      "y": -367,
+      "width": 260,
+      "height": 50,
+      "color": "6",
+      "file": "characters/npcs/major/Bahamut.md"
+    },
+    {
+      "id": "65e70ad64f5b4294",
+      "type": "file",
+      "x": 766,
+      "y": 1171,
+      "width": 260,
+      "height": 50,
+      "color": "6",
+      "file": "characters/npcs/minor/Bahamut s Silver Scales of the Just and Righteous.md"
+    },
+    {
+      "id": "5c696f54667b4185",
+      "type": "file",
+      "x": -877,
+      "y": 1091,
+      "width": 260,
+      "height": 50,
+      "color": "6",
+      "file": "characters/npcs/minor/Dieties.md"
+    },
+    {
+      "id": "d3006293a16649e1",
+      "type": "file",
+      "x": -1308,
+      "y": -496,
+      "width": 260,
+      "height": 50,
+      "color": "6",
+      "file": "characters/npcs/minor/Grovewardens of Avandra.md"
+    },
+    {
+      "id": "43c17f44cd3748e8",
+      "type": "file",
+      "x": 68,
+      "y": -1398,
+      "width": 260,
+      "height": 50,
+      "color": "6",
+      "file": "characters/npcs/major/Sabine Ra.md"
+    },
+    {
+      "id": "a06b2656965c4ca5",
+      "type": "file",
+      "x": 1520,
+      "y": -639,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Amethyst Cloaks.md"
+    },
+    {
+      "id": "ccb0bf0b22f14573",
+      "type": "file",
+      "x": 1616,
+      "y": -330,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Ash Cloaks.md"
+    },
+    {
+      "id": "2bfbb96e36ad4e6a",
+      "type": "file",
+      "x": 1649,
+      "y": -9,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Barden.md"
+    },
+    {
+      "id": "277aca46cd96423d",
+      "type": "file",
+      "x": 1620,
+      "y": 312,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Bat Zodiac.md"
+    },
+    {
+      "id": "c75fc2af92de46b5",
+      "type": "file",
+      "x": 1527,
+      "y": 622,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Doe Zodiac.md"
+    },
+    {
+      "id": "a5ee4757804a4769",
+      "type": "file",
+      "x": 1376,
+      "y": 909,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Draconic Sorcerers.md"
+    },
+    {
+      "id": "6bf0d059b02645b4",
+      "type": "file",
+      "x": 1173,
+      "y": 1160,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Emerald Cloaks.md"
+    },
+    {
+      "id": "f8842f507340442a",
+      "type": "file",
+      "x": 924,
+      "y": 1366,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Fox Zodiac.md"
+    },
+    {
+      "id": "5c607a0faf444df6",
+      "type": "file",
+      "x": 639,
+      "y": 1520,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Frostragan.md"
+    },
+    {
+      "id": "888058225fcd4bfc",
+      "type": "file",
+      "x": 330,
+      "y": 1616,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Jorgen.md"
+    },
+    {
+      "id": "37ebfb7c04574c59",
+      "type": "file",
+      "x": 9,
+      "y": 1649,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Kolymas Twelve.md"
+    },
+    {
+      "id": "ae4d1ad704a14f58",
+      "type": "file",
+      "x": -312,
+      "y": 1620,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Lapis Cloaks.md"
+    },
+    {
+      "id": "98ab523868c24068",
+      "type": "file",
+      "x": -622,
+      "y": 1527,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Maroon Cloaks.md"
+    },
+    {
+      "id": "bd6b64ed9cb34517",
+      "type": "file",
+      "x": -909,
+      "y": 1376,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Mia.md"
+    },
+    {
+      "id": "33f911b9392949e2",
+      "type": "file",
+      "x": -1160,
+      "y": 1173,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Mongoose Zodiac.md"
+    },
+    {
+      "id": "926909c7842f4e8a",
+      "type": "file",
+      "x": -1366,
+      "y": 924,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Mustard Cloaks.md"
+    },
+    {
+      "id": "f00713d8312f4a27",
+      "type": "file",
+      "x": -1520,
+      "y": 639,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Orchid Cloaks.md"
+    },
+    {
+      "id": "c39f5cbc8b274e5f",
+      "type": "file",
+      "x": -1616,
+      "y": 330,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Owl Zodiac.md"
+    },
+    {
+      "id": "601b5368a3044320",
+      "type": "file",
+      "x": -1649,
+      "y": 9,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Pangolin Zodiac.md"
+    },
+    {
+      "id": "09d82da51a6e4b43",
+      "type": "file",
+      "x": -1620,
+      "y": -312,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Rabbit Zodiac.md"
+    },
+    {
+      "id": "a966cf2fbbee4f7e",
+      "type": "file",
+      "x": -1527,
+      "y": -622,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Ruth.md"
+    },
+    {
+      "id": "0ec84b54f4974c86",
+      "type": "file",
+      "x": -1376,
+      "y": -909,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Scarlet Cloaks.md"
+    },
+    {
+      "id": "90796baf31c84d3b",
+      "type": "file",
+      "x": -1173,
+      "y": -1160,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Stag Zodiac.md"
+    },
+    {
+      "id": "2162d2773ab3499b",
+      "type": "file",
+      "x": -924,
+      "y": -1366,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/The Thirteen Damned.md"
+    },
+    {
+      "id": "ad424b0998764e52",
+      "type": "file",
+      "x": -639,
+      "y": -1520,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Thornberry Shade.md"
+    },
+    {
+      "id": "f3a47d286bcf4d9f",
+      "type": "file",
+      "x": -330,
+      "y": -1616,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Turtle Zodiac.md"
+    },
+    {
+      "id": "5088db29a7ed4fdf",
+      "type": "file",
+      "x": -9,
+      "y": -1649,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Underdark   War Zenith.md"
+    },
+    {
+      "id": "bdaee09d9040407c",
+      "type": "file",
+      "x": 312,
+      "y": -1620,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Underdark & War Zenith.md"
+    },
+    {
+      "id": "d5e970428d8e4a36",
+      "type": "file",
+      "x": 622,
+      "y": -1527,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Winter Court.md"
+    },
+    {
+      "id": "6cdd6fdda0ed4e3c",
+      "type": "file",
+      "x": 909,
+      "y": -1376,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Wolf Zodiac.md"
+    },
+    {
+      "id": "841f4015ef6b4a69",
+      "type": "file",
+      "x": 1160,
+      "y": -1173,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Wolverine Zodiac.md"
+    },
+    {
+      "id": "2f8a0194db6a43d6",
+      "type": "file",
+      "x": 1366,
+      "y": -924,
+      "width": 260,
+      "height": 50,
+      "color": "3",
+      "file": "characters/npcs/minor/Xyn.md"
+    }
+  ],
+  "edges": [
+    {
+      "id": "859a84eb7c9d468e",
+      "fromNode": "63503cc81a32459f",
+      "toNode": "45ff7e7271c74083",
+      "label": "Sisters in Arms"
+    },
+    {
+      "id": "e79729cfa39d4d98",
+      "fromNode": "63503cc81a32459f",
+      "toNode": "92e477f02884483c",
+      "label": "The Odd Couple"
+    },
+    {
+      "id": "288ff6a5e7f84e48",
+      "fromNode": "63503cc81a32459f",
+      "toNode": "df552efe51c54d3a",
+      "label": "Fire and Darkness"
+    },
+    {
+      "id": "2714fffade1b4904",
+      "fromNode": "63503cc81a32459f",
+      "toNode": "43672e96237d432a",
+      "label": "The Forest Bond"
+    },
+    {
+      "id": "0dcb94ff9b9e4a77",
+      "fromNode": "72b1e63a763a42f5",
+      "toNode": "0e286b8ac77a4153",
+      "label": "The Grudge"
+    },
+    {
+      "id": "c2e4d5681dee4cbf",
+      "fromNode": "72b1e63a763a42f5",
+      "toNode": "949d12e0ced54e76",
+      "label": "The Odd Couple of Darkness"
+    },
+    {
+      "id": "3ad96b1c2f534106",
+      "fromNode": "72b1e63a763a42f5",
+      "toNode": "63503cc81a32459f",
+      "label": "The Paladin and the Druid"
+    },
+    {
+      "id": "415d99f07a384353",
+      "fromNode": "45ff7e7271c74083",
+      "toNode": "1d7930b739f14ef1",
+      "label": "The Fireforge Connection"
+    },
+    {
+      "id": "5f0385cfdc59467e",
+      "fromNode": "df552efe51c54d3a",
+      "toNode": "6004c928fc75487f",
+      "label": "The Tiefling Sisters"
+    },
+    {
+      "id": "2b0fd8c8aa914504",
+      "fromNode": "92e477f02884483c",
+      "toNode": "1d7930b739f14ef1",
+      "label": "The Buddy Cop Duo"
+    },
+    {
+      "id": "0eb82a9042244f7d",
+      "fromNode": "403cbfadca8d4918",
+      "toNode": "72b1e63a763a42f5",
+      "label": "The Dragonborn Brotherhood"
+    },
+    {
+      "id": "ebb625fadf604d0f",
+      "fromNode": "45ff7e7271c74083",
+      "toNode": "949d12e0ced54e76",
+      "label": "Combat partners, mutual respect"
+    },
+    {
+      "id": "69d6390ca1ed4e69",
+      "fromNode": "45ff7e7271c74083",
+      "toNode": "0e286b8ac77a4153",
+      "label": "Daina's fist near Dallor's face, or Dallor flinching"
+    },
+    {
+      "id": "75364e92e5964e5c",
+      "fromNode": "63503cc81a32459f",
+      "toNode": "43672e96237d432a",
+      "label": "Forest Zenith"
+    },
+    {
+      "id": "53cab64532264673",
+      "fromNode": "63503cc81a32459f",
+      "toNode": "92e477f02884483c",
+      "label": "Forest Zenith"
+    },
+    {
+      "id": "fb9ce3e325e640fe",
+      "fromNode": "43672e96237d432a",
+      "toNode": "92e477f02884483c",
+      "label": "Forest Zenith"
+    },
+    {
+      "id": "15add6d053784ec1",
+      "fromNode": "45ff7e7271c74083",
+      "toNode": "949d12e0ced54e76",
+      "label": "Mountain Zenith"
+    },
+    {
+      "id": "077ba76ae08040af",
+      "fromNode": "45ff7e7271c74083",
+      "toNode": "1d7930b739f14ef1",
+      "label": "Mountain Zenith"
+    },
+    {
+      "id": "229941ff4b19415f",
+      "fromNode": "949d12e0ced54e76",
+      "toNode": "1d7930b739f14ef1",
+      "label": "Mountain Zenith"
+    },
+    {
+      "id": "180acf5a340d4d04",
+      "fromNode": "907f98ad997c48ba",
+      "toNode": "72b1e63a763a42f5",
+      "label": "Winter Zenith"
+    },
+    {
+      "id": "b15e673bdcab4be9",
+      "fromNode": "907f98ad997c48ba",
+      "toNode": "0e286b8ac77a4153",
+      "label": "Winter Zenith"
+    },
+    {
+      "id": "66359d652caf4062",
+      "fromNode": "72b1e63a763a42f5",
+      "toNode": "0e286b8ac77a4153",
+      "label": "Winter Zenith"
+    },
+    {
+      "id": "35d2ba0d9e224794",
+      "fromNode": "df552efe51c54d3a",
+      "toNode": "52c5ce6ab25d48fd",
+      "label": "Harvest Zenith"
+    },
+    {
+      "id": "5b23aaa42b824e5f",
+      "fromNode": "df552efe51c54d3a",
+      "toNode": "6004c928fc75487f",
+      "label": "Harvest Zenith"
+    },
+    {
+      "id": "0f6ea49ef6734ef1",
+      "fromNode": "52c5ce6ab25d48fd",
+      "toNode": "6004c928fc75487f",
+      "label": "Harvest Zenith"
+    },
+    {
+      "id": "46b0123ef2a8475f",
+      "fromNode": "b85fb9ccbe80455f",
+      "toNode": "92e477f02884483c"
+    },
+    {
+      "id": "e9b6ca63d95d4e62",
+      "fromNode": "b85fb9ccbe80455f",
+      "toNode": "c92862e89d6847af"
+    },
+    {
+      "id": "00de2c59f9104dbe",
+      "fromNode": "b85fb9ccbe80455f",
+      "toNode": "63503cc81a32459f"
+    },
+    {
+      "id": "6fe977bce14f430e",
+      "fromNode": "63503cc81a32459f",
+      "toNode": "90796baf31c84d3b"
+    },
+    {
+      "id": "7988babba64a432c",
+      "fromNode": "63503cc81a32459f",
+      "toNode": "c75fc2af92de46b5"
+    },
+    {
+      "id": "d758167c024548ae",
+      "fromNode": "63503cc81a32459f",
+      "toNode": "949d12e0ced54e76"
+    },
+    {
+      "id": "25957f27bbd04a19",
+      "fromNode": "45ff7e7271c74083",
+      "toNode": "72b1e63a763a42f5"
+    },
+    {
+      "id": "ba60e441213d4187",
+      "fromNode": "45ff7e7271c74083",
+      "toNode": "94c990439c0d48d0"
+    },
+    {
+      "id": "59c5cd9c143b4349",
+      "fromNode": "0e286b8ac77a4153",
+      "toNode": "949d12e0ced54e76"
+    },
+    {
+      "id": "14cc53a0608a4098",
+      "fromNode": "0e286b8ac77a4153",
+      "toNode": "d5e970428d8e4a36"
+    },
+    {
+      "id": "b16e99e2cea246e2",
+      "fromNode": "6b22fae9b53f426f",
+      "toNode": "907f98ad997c48ba"
+    },
+    {
+      "id": "b25dc17e1e484b41",
+      "fromNode": "52c5ce6ab25d48fd",
+      "toNode": "63503cc81a32459f"
+    },
+    {
+      "id": "45f40a695bea4d05",
+      "fromNode": "52c5ce6ab25d48fd",
+      "toNode": "43672e96237d432a"
+    },
+    {
+      "id": "6686fec4d4824e7a",
+      "fromNode": "52c5ce6ab25d48fd",
+      "toNode": "949d12e0ced54e76"
+    },
+    {
+      "id": "370bb52ec7dd4ebc",
+      "fromNode": "c92862e89d6847af",
+      "toNode": "1d7930b739f14ef1"
+    },
+    {
+      "id": "b718bb9119854d28",
+      "fromNode": "949d12e0ced54e76",
+      "toNode": "43672e96237d432a"
+    },
+    {
+      "id": "12b93847c06b4a8d",
+      "fromNode": "949d12e0ced54e76",
+      "toNode": "8cd74a6d60834d42"
+    },
+    {
+      "id": "44e4c2a0db0449ee",
+      "fromNode": "df552efe51c54d3a",
+      "toNode": "2f8a0194db6a43d6"
+    },
+    {
+      "id": "46b62a001bcd4e20",
+      "fromNode": "df552efe51c54d3a",
+      "toNode": "6e00e01b354e448c"
+    },
+    {
+      "id": "328c55328dbf433a",
+      "fromNode": "907f98ad997c48ba",
+      "toNode": "d5e970428d8e4a36"
+    },
+    {
+      "id": "1da70f67308147a5",
+      "fromNode": "907f98ad997c48ba",
+      "toNode": "63503cc81a32459f"
+    },
+    {
+      "id": "32f6b498806e418f",
+      "fromNode": "907f98ad997c48ba",
+      "toNode": "df552efe51c54d3a"
+    },
+    {
+      "id": "f69cc10db0d24af0",
+      "fromNode": "92e477f02884483c",
+      "toNode": "949d12e0ced54e76"
+    },
+    {
+      "id": "cf3a1d3d986049ee",
+      "fromNode": "92e477f02884483c",
+      "toNode": "43c17f44cd3748e8"
+    },
+    {
+      "id": "135032e70cc14d42",
+      "fromNode": "72b1e63a763a42f5",
+      "toNode": "3f64e934bb724f95"
+    },
+    {
+      "id": "301b6562625e4840",
+      "fromNode": "6004c928fc75487f",
+      "toNode": "907f98ad997c48ba"
+    },
+    {
+      "id": "42bfc71f7a914542",
+      "fromNode": "6004c928fc75487f",
+      "toNode": "6b22fae9b53f426f"
+    },
+    {
+      "id": "d6789a9728644eb6",
+      "fromNode": "6004c928fc75487f",
+      "toNode": "8fa46473eaf6425b"
+    },
+    {
+      "id": "a026a077f1ef4a6c",
+      "fromNode": "403cbfadca8d4918",
+      "toNode": "907f98ad997c48ba"
+    },
+    {
+      "id": "d60d52cb4c574a11",
+      "fromNode": "403cbfadca8d4918",
+      "toNode": "63503cc81a32459f"
+    },
+    {
+      "id": "a9f451062daf47da",
+      "fromNode": "403cbfadca8d4918",
+      "toNode": "3f64e934bb724f95"
+    },
+    {
+      "id": "ae8d3e32d5a64043",
+      "fromNode": "43672e96237d432a",
+      "toNode": "90796baf31c84d3b"
+    },
+    {
+      "id": "eeaedae256d6472c",
+      "fromNode": "43672e96237d432a",
+      "toNode": "c75fc2af92de46b5"
+    },
+    {
+      "id": "f62c1032cc984165",
+      "fromNode": "43672e96237d432a",
+      "toNode": "9b2ac79e7a104d07"
+    }
+  ]
+}

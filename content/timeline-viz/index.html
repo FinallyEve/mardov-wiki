@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mardov Campaign Timeline</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b22;
+    --border: #30363d;
+    --text: #c9d1d9;
+    --text-dim: #8b949e;
+    --accent: #58a6ff;
+    /* Character colors */
+    --brigit: #e06030;
+    --sprocket: #9b59b6;
+    --varis: #2ecc71;
+    --bergs: #e67e22;
+    --nocturnus: #607d8b;
+    --fen: #1abc9c;
+    --daina: #c0392b;
+    --josh: #f1c40f;
+    --tiberious: #3498db;
+    --stalwart: #e74c3c;
+    --randall: #e91e63;
+    --tesca: #9c27b0;
+    --nyx: #ff5722;
+    --irethia: #ffeb3b;
+    /* Faction colors */
+    --tieflings: #d4537a;
+    --dwarves: #b87333;
+    --all-party: #58a6ff;
+    --endgame: #c9a32e;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    overflow-x: hidden;
+  }
+
+  /* ---- HEADER ---- */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  header h1 {
+    font-size: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  header h1 span { color: var(--accent); }
+
+  .controls {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .filter-btn {
+    padding: 4px 12px;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-dim);
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.15s;
+    white-space: nowrap;
+  }
+
+  .filter-btn:hover { border-color: var(--text-dim); color: var(--text); }
+  .filter-btn.active { border-color: currentColor; color: var(--text); }
+  .filter-btn[data-type="character"].active { background: currentColor; color: var(--bg); font-weight: 600; }
+
+  .search-box {
+    padding: 4px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text);
+    font-size: 13px;
+    width: 200px;
+  }
+
+  .search-box::placeholder { color: var(--text-dim); }
+
+  /* ---- LAYOUT ---- */
+  .layout {
+    display: flex;
+    height: calc(100vh - 60px);
+  }
+
+  /* ---- SIDEBAR ---- */
+  .sidebar {
+    width: 240px;
+    min-width: 240px;
+    border-right: 1px solid var(--border);
+    background: var(--surface);
+    overflow-y: auto;
+    padding: 12px 0;
+  }
+
+  .sidebar h3 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-dim);
+    padding: 8px 16px 4px;
+  }
+
+  .char-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 16px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background 0.1s;
+    user-select: none;
+  }
+
+  .char-toggle:hover { background: rgba(255,255,255,0.04); }
+
+  .char-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .char-toggle.off { opacity: 0.35; }
+  .char-toggle.off .char-dot { background: var(--text-dim) !important; }
+
+  .char-status {
+    font-size: 10px;
+    color: var(--text-dim);
+    margin-left: auto;
+    white-space: nowrap;
+  }
+
+  /* ---- MAIN TIMELINE ---- */
+  .main {
+    flex: 1;
+    overflow-y: auto;
+    padding: 24px 32px;
+    scroll-behavior: smooth;
+  }
+
+  /* Act headers */
+  .act-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 12px 0 8px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid var(--border);
+    background: var(--bg);
+  }
+
+  .act-header h2 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .act-header .act-range {
+    font-size: 12px;
+    color: var(--text-dim);
+    margin-top: 2px;
+  }
+
+  /* Event row */
+  .event-row {
+    display: flex;
+    gap: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(48,54,61,0.5);
+    transition: opacity 0.2s, background 0.15s;
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 2px -8px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .event-row:hover { background: rgba(255,255,255,0.03); }
+  .event-row.dimmed { opacity: 0.15; }
+  .event-row.highlight { background: rgba(88,166,255,0.08); }
+
+  .event-chapter {
+    width: 56px;
+    min-width: 56px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-dim);
+    padding-top: 2px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .event-dots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16px;
+    min-width: 16px;
+    position: relative;
+  }
+
+  .event-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid var(--border);
+    background: var(--bg);
+    position: relative;
+    z-index: 2;
+    flex-shrink: 0;
+  }
+
+  .event-dot.major {
+    width: 16px;
+    height: 16px;
+    border-width: 3px;
+  }
+
+  .event-line {
+    width: 2px;
+    flex: 1;
+    background: var(--border);
+    margin: -2px 0;
+  }
+
+  .event-body { flex: 1; min-width: 0; }
+
+  .event-title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  .event-detail {
+    font-size: 12px;
+    color: var(--text-dim);
+    margin-top: 2px;
+    line-height: 1.4;
+    display: none;
+  }
+
+  .event-row.expanded .event-detail { display: block; }
+
+  .event-tags {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-top: 4px;
+  }
+
+  .event-tag {
+    font-size: 10px;
+    padding: 1px 6px;
+    border-radius: 8px;
+    border: 1px solid;
+    opacity: 0.8;
+  }
+
+  /* ---- DETAIL PANEL ---- */
+  .detail-panel {
+    width: 340px;
+    min-width: 340px;
+    border-left: 1px solid var(--border);
+    background: var(--surface);
+    overflow-y: auto;
+    padding: 20px;
+    display: none;
+  }
+
+  .detail-panel.open { display: block; }
+
+  .detail-panel h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .detail-panel .close-btn {
+    margin-left: auto;
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    font-size: 18px;
+    cursor: pointer;
+    padding: 2px 6px;
+  }
+
+  .detail-section {
+    margin-bottom: 16px;
+  }
+
+  .detail-section h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-dim);
+    margin-bottom: 6px;
+  }
+
+  .detail-section p, .detail-section li {
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--text);
+  }
+
+  .detail-section ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .detail-section li {
+    padding: 2px 0;
+    padding-left: 12px;
+    position: relative;
+  }
+
+  .detail-section li::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 8px;
+  }
+
+  .char-arc-bar {
+    height: 6px;
+    border-radius: 3px;
+    margin: 4px 0;
+    position: relative;
+  }
+
+  .char-arc-label {
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-dim);
+  }
+
+  /* ---- MINI MAP ---- */
+  .minimap {
+    position: fixed;
+    right: 8px;
+    top: 72px;
+    width: 6px;
+    height: calc(100vh - 80px);
+    background: rgba(48,54,61,0.5);
+    border-radius: 3px;
+    z-index: 50;
+  }
+
+  .minimap-thumb {
+    width: 6px;
+    height: 40px;
+    background: var(--accent);
+    border-radius: 3px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    transition: top 0.1s;
+  }
+
+  /* ---- RESPONSIVE ---- */
+  @media (max-width: 900px) {
+    .sidebar { display: none; }
+    .detail-panel { position: fixed; right: 0; top: 60px; height: calc(100vh - 60px); z-index: 90; box-shadow: -4px 0 20px rgba(0,0,0,0.5); }
+  }
+
+  /* ---- TOOLTIP ---- */
+  .tooltip {
+    position: fixed;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 12px;
+    max-width: 320px;
+    z-index: 200;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  }
+
+  .tooltip.show { opacity: 1; }
+
+  .tooltip-title { font-weight: 600; font-size: 13px; margin-bottom: 4px; }
+  .tooltip-chapter { color: var(--text-dim); font-size: 11px; }
+
+  /* Jump nav */
+  .jump-nav {
+    display: flex;
+    gap: 4px;
+    margin-left: auto;
+  }
+
+  .jump-btn {
+    padding: 4px 10px;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text-dim);
+    font-size: 11px;
+    cursor: pointer;
+  }
+
+  .jump-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* Legend */
+  .legend {
+    display: flex;
+    gap: 16px;
+    padding: 8px 16px;
+    border-bottom: 1px solid var(--border);
+    font-size: 11px;
+    color: var(--text-dim);
+    background: var(--surface);
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .legend-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+
+  .legend-line {
+    width: 20px;
+    height: 3px;
+    border-radius: 2px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1><span>Mardov</span> Campaign Timeline</h1>
+  <div class="controls">
+    <button class="filter-btn active" data-act="all">All Acts</button>
+    <button class="filter-btn" data-act="ancient">Ancient</button>
+    <button class="filter-btn" data-act="recent">Recent Past</button>
+    <button class="filter-btn" data-act="1">Act 1</button>
+    <button class="filter-btn" data-act="2">Act 2</button>
+    <button class="filter-btn" data-act="3">Act 3</button>
+    <button class="filter-btn" data-act="4">Act 4</button>
+    <input type="text" class="search-box" placeholder="Search events..." id="searchBox">
+  </div>
+  <div class="jump-nav">
+    <button class="jump-btn" data-jump="split">The Split</button>
+    <button class="jump-btn" data-jump="reunion">Reunion</button>
+    <button class="jump-btn" data-jump="stone-table">Stone Table</button>
+    <button class="jump-btn" data-jump="asmodeus">Asmodeus</button>
+  </div>
+</header>
+
+<div class="legend">
+  <span style="color:var(--text-dim)">Tracks:</span>
+  <span class="legend-item"><span class="legend-dot" style="background:var(--all-party)"></span> All Party</span>
+  <span class="legend-item"><span class="legend-dot" style="background:var(--tieflings)"></span> Tieflings</span>
+  <span class="legend-item"><span class="legend-dot" style="background:var(--dwarves)"></span> Dwarves</span>
+  <span class="legend-item"><span class="legend-dot" style="background:var(--endgame)"></span> Endgame</span>
+  <span style="margin-left:12px; color:var(--text-dim)">Dot size = significance</span>
+</div>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar"></aside>
+  <main class="main" id="timeline"></main>
+  <aside class="detail-panel" id="detailPanel">
+    <h3 id="detailTitle"><button class="close-btn" id="closeDetail">&times;</button></h3>
+    <div id="detailBody"></div>
+  </aside>
+</div>
+
+<div class="tooltip" id="tooltip">
+  <div class="tooltip-title" id="tooltipTitle"></div>
+  <div class="tooltip-chapter" id="tooltipChapter"></div>
+</div>
+
+<script>
+// ========== DATA ==========
+
+const CHARACTERS = {
+  brigit:     { name: "Brigit Wildfire",       color: "#e06030", player: "Liz",     cls: "Druid/Barbarian",   race: "Changeling",  status: "Alive, powers stripped",          track: "Tieflings" },
+  sprocket:   { name: "Sprocket Overspark",    color: "#9b59b6", player: "Unknown",  cls: "Wizard (Divination)", race: "Gnome",    status: "Alive, crystallizing",            track: "Tieflings" },
+  varis:      { name: "Varis Liadon",          color: "#2ecc71", player: "Unknown",  cls: "Ranger",            race: "Elf",         status: "Alive, Knight of Autumn",         track: "Tieflings" },
+  bergs:      { name: "Bergs Fireforge",       color: "#e67e22", player: "Evan",     cls: "Fighter/Warlock",   race: "Dwarf",       status: "Alive, God of the Feywilde",      track: "Dwarves" },
+  nocturnus:  { name: "Nocturnus Wayne",       color: "#607d8b", player: "Unknown",  cls: "Monk (Shadow)",     race: "Drow",        status: "Ascended, Underdark King",        track: "Dwarves" },
+  fen:        { name: "Fen Darkeyes",          color: "#1abc9c", player: "Unknown",  cls: "Ranger",            race: "Half-Elf",    status: "Alive, eyes restored",            track: "Tieflings" },
+  daina:      { name: "Daina Fireforge",       color: "#c0392b", player: "Unknown",  cls: "Barbarian/Warforged", race: "Dwarf (Duergar)", status: "Alive, Anchor of War",     track: "Dwarves" },
+  josh:       { name: "Josh Coolbreeze",       color: "#f1c40f", player: "Unknown",  cls: "Paladin",           race: "Unknown",     status: "Alive, Knight of Four Seasons",   track: "Late Join" },
+  tiberious:  { name: "Tiberious D. Rex",      color: "#3498db", player: "Kyle",     cls: "Cleric",            race: "Dragonborn",  status: "Alive, Hand of Kindness",         track: "Both" },
+  stalwart:   { name: "Stalwart Goldentooth",  color: "#e74c3c", player: "Unknown",  cls: "Paladin",           race: "Halfling",    status: "Alive, village leader",           track: "Tieflings" },
+  randall:    { name: "Randall Knight",        color: "#e91e63", player: "Unknown",  cls: "Bard",              race: "Unknown",     status: "Alive, has own plane",            track: "Tieflings" },
+  tesca:      { name: "Tesca Duskhallow",      color: "#9c27b0", player: "Unknown",  cls: "Sorcerer",          race: "Tiefling",    status: "Alive, magic lost",               track: "Tieflings" },
+  nyx:        { name: "Nyx Khamestria",        color: "#ff5722", player: "Unknown",  cls: "Warlock/Rogue",     race: "Tiefling",    status: "Alive, Diadem of Dawn",           track: "Independent" },
+};
+
+const EVENTS = [
+  // ===== ANCIENT HISTORY =====
+  { id: "anc-01", ch: "0*",  act: "ancient", title: "The Rose of Creation",              detail: "Solution to the conflict between Gods of Destruction and Creation. The Raven Queen makes a Pact with Vecna to twin their worlds.", characters: [], track: "all", major: true, tags: ["cosmic", "gods"] },
+  { id: "anc-02", ch: "0*",  act: "ancient", title: "The Death Pact -- Mardov and Vodram twinned", detail: "Shared domain of Death as cornerstone. 4 Zeniths created capable of wielding the power of the domain of Death.", characters: [], track: "all", major: true, tags: ["cosmic", "zeniths"] },
+  { id: "anc-03", ch: "0*",  act: "ancient", title: "Vecna and Sabine Ra -- twin souls, divine jealousy", detail: "Original twin souls. Divine jealousy begins the cycle of betrayal.", characters: [], track: "all", major: false, tags: ["gods"] },
+  { id: "anc-04", ch: "0*",  act: "ancient", title: "Sabine founds Circle of the Murder + Artificer's Guild", detail: "Ramses (Mordred) in the Circle; Xerxes in the Guild.", characters: [], track: "all", major: false, tags: ["factions"] },
+  { id: "anc-05", ch: "0*",  act: "ancient", title: "Mordred forces lichdom on Sabine -- she crystallizes as Demi-Lich", detail: "Sabine Ra trapped in a phylactery. This sets up the campaign's opening.", characters: [], track: "all", major: true, tags: ["mordred", "undead"] },
+  { id: "anc-06", ch: "0*",  act: "ancient", title: "Tygras's superweapon destroys Uma, creates the desert", detail: "Tygras sealed in Harvest's Zenith. Ranar Surefoot steals the Diadem of Dawn during the weapon's use.", characters: [], track: "all", major: true, tags: ["zeniths", "cosmic"] },
+  { id: "anc-07", ch: "0*",  act: "ancient", title: "Asmodeus sealed in thirteen amulets by Kolyma", detail: "First and Last Curator sacrifices himself to activate Zeniths against Oblivion. Asmodeus scattered to guardians.", characters: [], track: "all", major: true, tags: ["asmodeus", "zeniths"] },
+  { id: "anc-08", ch: "0*",  act: "ancient", title: "Covenants of Magic established; Mantles bestowed", detail: "Alabaster (Arcane), Ivy (Natural), Palladium (Divine), Crystalline (Mortal). No being except the Alabaster Seat may possess such power again.", characters: [], track: "all", major: false, tags: ["magic", "political"] },
+  { id: "anc-09", ch: "0*",  act: "ancient", title: "Forgesworn order established; Thorin builds Warforged army", detail: "Thorin Bronzebeard creates the original Warforged. Sets up Daina's heritage.", characters: ["daina"], track: "all", major: false, tags: ["forgesworn", "warforged"] },
+
+  // ===== RECENT PAST =====
+  { id: "rec-01", ch: "-26y", act: "recent", title: "Nyx born; parents deal with Reynardine for philosopher's stone", detail: "26 years before campaign. Deal with the arch-fey sets Nyx's destiny.", characters: ["nyx"], track: "all", major: false, tags: ["nyx", "reynardine"] },
+  { id: "rec-02", ch: "-8y",  act: "recent", title: "Nyx's dominant soul emerges; sister taken; parents reject Nyx", detail: "8 years before campaign. Nyx's family fractures.", characters: ["nyx"], track: "all", major: false, tags: ["nyx"] },
+  { id: "rec-03", ch: "-7y",  act: "recent", title: "Xyn born -- the 'perfect vessel' for the arch-fey's plan", detail: "7 years before campaign.", characters: [], track: "all", major: false, tags: ["xyn", "fey"] },
+  { id: "rec-04", ch: "-?",   act: "recent", title: "Mordred possesses Finkle Hollingsworth at Forest's Zenith", detail: "Finkle is a Gnome (NOT Goblin). Mordred begins his scheme.", characters: [], track: "all", major: true, tags: ["mordred", "zeniths"] },
+  { id: "rec-05", ch: "-?",   act: "recent", title: "Scarlet Tunic Brigade founded as soul-harvesting front", detail: "The party's initial faction is secretly harvesting souls.", characters: [], track: "all", major: false, tags: ["STB", "factions"] },
+  { id: "rec-06", ch: "-?",   act: "recent", title: "Thorkon betrayed; Hlin dies; Daina and brother born", detail: "Ghost-Eye Thorrin betrays Thorkon Fireforge. Hlin Blunderbeat dies in childbirth.", characters: ["daina", "bergs"], track: "all", major: true, tags: ["forgesworn", "fireforge"] },
+  { id: "rec-07", ch: "-?",   act: "recent", title: "Oblivion Wayne deposes her brother; unites Drow under vampire rule", detail: "Sets up Nocturnus's entire arc -- his aunt destroyed House Wayne.", characters: ["nocturnus"], track: "all", major: false, tags: ["drow", "vampire"] },
+  { id: "rec-08", ch: "-?",   act: "recent", title: "Ned'Zailok attacks Tower Bridge; Varis's father goes missing", detail: "Yeldan Liadon disappears. Scarlet Tunic Brigade covers the evacuation. Varis enlists.", characters: ["varis"], track: "all", major: true, tags: ["ned'zailok", "STB"] },
+  { id: "rec-09", ch: "-?",   act: "recent", title: "Peraxis Geth raised as Illithilich; corrupts Elder Brain", detail: "Vecna raises Peraxis. The mind flayer conspiracy begins.", characters: [], track: "all", major: false, tags: ["peraxis", "illithid"] },
+
+  // ===== ACT 1 (Ch 0-13) =====
+  { id: "a1-00", ch: "0",  act: "1", title: "Party recruited into Scarlet Tunic Brigade", detail: "Jorgen arrives pursued by kobolds. The party descends into the sewers. Everyone is together.", characters: ["brigit","sprocket","varis","bergs","nocturnus","fen","daina","stalwart","randall","tesca"], track: "all", major: true, tags: ["STB", "origin"], jump: null },
+  { id: "a1-01", ch: "1",  act: "1", title: "Dallor pickpockets proof of setup from Jorgen", detail: "Note proves the party was set up. First hint of conspiracy.", characters: [], track: "all", major: false, tags: ["dallor", "conspiracy"] },
+  { id: "a1-02", ch: "2",  act: "1", title: "Finkle revealed as Mordred -- '2,000 souls'", detail: "Jorgen killed, becomes revenant. Sabine Ra freed from phylactery, sacrifices herself. Crystalline hearts deposited in party. Campaign's death/rebirth theme established.", characters: ["brigit","sprocket","varis","bergs","nocturnus","fen","daina","stalwart","randall","tesca"], track: "all", major: true, tags: ["mordred", "sabine", "hearts"] },
+  { id: "a1-03", ch: "3-5", act: "1", title: "Artificer's Guild rescue; Xerxes exposition; Soul tether", detail: "The party learns about the crystalline hearts and the soul tether binding them to Mordred's plan.", characters: [], track: "all", major: false, tags: ["artificers", "xerxes"] },
+  { id: "a1-04", ch: "5-7", act: "1", title: "Hall of the Raven; early adventures", detail: "Party cohesion building. Establishing group dynamics.", characters: ["brigit","sprocket","varis","bergs","nocturnus","fen","daina","stalwart","randall","tesca"], track: "all", major: false, tags: ["exploration"] },
+  { id: "a1-05", ch: "6",  act: "1", title: "Doppelgangers; V-Mardov rift opens", detail: "Varris arrives from alternate reality. The mirror world of V-Mardov (Vodram) is introduced.", characters: ["varis"], track: "all", major: true, tags: ["v-mardov", "planar"] },
+  { id: "a1-06", ch: "9",  act: "1", title: "First Prophecy (Ruth)", detail: "Ruth delivers the first of three prophecies guiding the party's destiny.", characters: [], track: "all", major: false, tags: ["prophecy", "ruth"] },
+  { id: "a1-07", ch: "11", act: "1", title: "Golden Reach demons exposed at Festival of Light", detail: "Danelle/Markus exposed. Stalwart's divine sense reveals fiends.", characters: ["stalwart"], track: "all", major: false, tags: ["demons", "golden reach"] },
+  { id: "a1-08", ch: "12", act: "1", title: "Second Prophecy (Hags) -- Pestilence brewed from children's souls", detail: "Horrifying discovery about the nature of the Pestilence plague.", characters: [], track: "all", major: true, tags: ["prophecy", "pestilence"] },
+  { id: "a1-09", ch: "13", act: "1", title: "Third Prophecy (Mia) -- party's memories were wiped", detail: "Mia reveals she wiped the party's memories. Liberation of Argos.", characters: ["brigit"], track: "all", major: true, tags: ["prophecy", "mia", "memory"] },
+
+  // ===== ACT 2 (Ch 14-40) =====
+  { id: "a2-01", ch: "17", act: "2", title: "Nathan Yanagan (spy for Jafar) aboard Thornberry Shade", detail: "Tiefling prejudice arc begins aboard the ship.", characters: [], track: "all", major: false, tags: ["jafar", "tieflings"] },
+  { id: "a2-02", ch: "19", act: "2", title: "Soul glamours for Nyx and Tesca", detail: "Magical disguises to hide tiefling heritage.", characters: ["nyx","tesca"], track: "all", major: false, tags: ["tieflings", "glamour"] },
+  { id: "a2-03", ch: "23", act: "2", title: "Zodiac spirits revealed -- they bet immortality on the champions", detail: "The cosmic stakes become clear. Zodiac spirits wagered everything.", characters: [], track: "all", major: true, tags: ["zodiac", "cosmic"] },
+  { id: "a2-04", ch: "24-25", act: "2", title: "Tomb of the Last Curator -- Four Zenith hieroglyphics", detail: "Kolyma's tomb reveals the Zenith system in full.", characters: [], track: "all", major: false, tags: ["curator", "zeniths"] },
+  { id: "a2-05", ch: "26", act: "2", title: "Kelik Waystar revealed as air genasi prince", detail: "Hidden royalty among the party's allies.", characters: [], track: "all", major: false, tags: ["kelik", "genasi"] },
+  { id: "a2-06", ch: "30-31", act: "2", title: "Peraxis Phyrexia revealed; Reynardine's network exposed", detail: "Major villain and major manipulator both unmasked. Xyn used as messenger.", characters: [], track: "all", major: true, tags: ["peraxis", "reynardine"] },
+  { id: "a2-07", ch: "30-37", act: "2", title: "Underdark descent", detail: "Full party faces darkness together. Extended dungeon arc.", characters: ["brigit","sprocket","varis","bergs","nocturnus","fen","daina"], track: "all", major: false, tags: ["underdark"] },
+  { id: "a2-08", ch: "34", act: "2", title: "Thorkon's letter found in Daina's axe; Forgesworn lore revealed", detail: "Nocturnus kills cousin Dusken, becomes Drider King.", characters: ["daina","nocturnus"], track: "all", major: true, tags: ["forgesworn", "nocturnus"] },
+  { id: "a2-09", ch: "36", act: "2", title: "Fen/Devin Darkeyes found enslaved by the Aboleth", detail: "The Aboleth/Sleepless -- Fen's nemesis -- introduced.", characters: ["fen"], track: "all", major: false, tags: ["aboleth", "fen"] },
+  { id: "a2-10", ch: "37-38", act: "2", title: "Dvinter Castle / Phoenix arc; Forgesworn connections", detail: "The Forgesworn legacy deepens.", characters: ["daina","bergs"], track: "all", major: false, tags: ["forgesworn", "phoenix"] },
+
+  // ===== ACT 3: THE SPLIT (Ch 42-87) =====
+  { id: "a3-00", ch: "42", act: "3", title: "THE SPLIT -- Campaign divides into parallel tracks", detail: "Dwarves: Bergs, Daina, Nocturnus. Tieflings: Brigit, Sprocket, Varis, Fen, Randall, Stalwart, Tesca, Nyx. Campaign's most ambitious structural move.", characters: ["brigit","sprocket","varis","bergs","nocturnus","fen","daina","stalwart","randall","tesca","nyx"], track: "all", major: true, tags: ["split", "structural"], jump: "split" },
+
+  // Tieflings track
+  { id: "a3-t01", ch: "49T", act: "3", title: "Cloud City heist", detail: "Brigit summons 8 boars to rescue Randall from casino. Fen charmed by Minnie (succubus) -- given false Gar'daemon memory, trigger phrase 'when the jack falls, you charge'. Stalwart receives Splinter from Thestrus.", characters: ["brigit","sprocket","varis","fen","stalwart","randall"], track: "tieflings", major: true, tags: ["cloud city", "heist"] },
+  { id: "a3-t02", ch: "64T", act: "3", title: "Harvest Festival preparations -- brewing begins", detail: "Harvest Day IPA + Return of Summer Marigold Wine. Brigit discovers drab with sun tattoo. Fen researches at Storm Peaks library. Randall performs 'The 2 Doctors' (NAT 20).", characters: ["brigit","sprocket","varis","fen","randall"], track: "tieflings", major: false, tags: ["distillery", "festival"] },
+
+  // Dwarves track
+  { id: "a3-d01", ch: "42-66", act: "3", title: "Dwarves track: Vag'Mahar politics", detail: "Three Thane sectors secretly run by the same mind flayer. Extended political and combat arc through dwarven territory.", characters: ["bergs","daina","nocturnus"], track: "dwarves", major: false, tags: ["dwarves", "politics", "mind flayer"] },
+  { id: "a3-d02", ch: "46", act: "3", title: "Daina's Forgesworn heritage session", detail: "Deep dive into Daina's connection to Thorkon Fireforge and the Warforged.", characters: ["daina"], track: "dwarves", major: false, tags: ["forgesworn", "daina"] },
+
+  // Convergence
+  { id: "a3-c01", ch: "66", act: "3", title: "Convergence: Thraalm (Peraxis's Homunculus) killed", detail: "Both tracks touch briefly. Alien One-Shot (Spelljammer), White Hills of St. Brutus.", characters: ["bergs","daina","nocturnus","brigit","sprocket","varis","fen"], track: "all", major: true, tags: ["peraxis", "convergence"] },
+
+  // Tieflings continued
+  { id: "a3-t03", ch: "69T", act: "3", title: "Battle of the Scarecrow Farm vs Ned'Zailok", detail: "Fen kills the 6-Fingered Necromancer (arrow through hand + chest). Brigit dies, revived by Varis's Healing Spirit. Varis nearly dies (2x Finger of Death). Sprocket disintegrates Volstead with portent. Randall: 'The Finger of Life' counters Finger of Death. Zodiac spirits partially saved.", characters: ["brigit","sprocket","varis","fen","randall"], track: "tieflings", major: true, tags: ["ned'zailok", "battle", "death"] },
+  { id: "a3-t04", ch: "69T", act: "3", title: "Brigit dies and is revived; whisked to Eden", detail: "First real death (not counting Ch 2). Revived by Varis's lingering Healing Spirit. First contact with progenitor realm.", characters: ["brigit"], track: "tieflings", major: true, tags: ["death", "eden", "progenitor"] },
+  { id: "a3-t05", ch: "72-76T", act: "3", title: "Alabaster Seat Tournament -- Sprocket framed as necromancer", detail: "Mordred's spellbook curses Sprocket. Leon frames him. Randall Knight, Ace Attorney defends in Zone of Truth trial. Leon exposed, spellbook revealed as Mordred's artifact.", characters: ["sprocket","randall","brigit","varis","fen"], track: "tieflings", major: true, tags: ["alabaster", "trial", "mordred"] },
+  { id: "a3-t06", ch: "77T", act: "3", title: "Leon killed by Fen's Lightning Arrow", detail: "Leon summons 12 Morkoths in courtroom. Fen delivers killing blow: 'blinding white light covers the room, Leon standing there charred.'", characters: ["fen","sprocket"], track: "tieflings", major: false, tags: ["leon", "trial"] },
+  { id: "a3-t07", ch: "78T", act: "3", title: "Beholder trials", detail: "Sprocket: Disintegrate+Portent then Phantasmal Killer. Varis's bow destroyed by Death Ray. Fen coordinates.", characters: ["sprocket","varis","fen"], track: "tieflings", major: false, tags: ["beholder", "combat"] },
+  { id: "a3-t08", ch: "79T", act: "3", title: "Feywilde: blood voting, Summer Court tea party", detail: "Sprocket revealed as winter emissary. Varis as autumn emissary. Nyx steals the Diadem of Dawn. Tesca: 'nyx betrayed my trust.' Tesca turns from scarlet to pale purple.", characters: ["sprocket","varis","fen","nyx","tesca"], track: "tieflings", major: true, tags: ["feywilde", "diadem", "betrayal"] },
+  { id: "a3-t09", ch: "82T", act: "3", title: "CLIMACTIC CONVERGENCE: Multiple transformations", detail: "Brigit becomes Progenitor in Eden. Fen loses Mahen (psychic bond broken by The Sleepless). Anemone becomes Alabaster Seat (Sprocket selflessly yields). Nyx at Summer Court with Diadem. Harvest Zenith opens.", characters: ["brigit","sprocket","fen","nyx"], track: "tieflings", major: true, tags: ["progenitor", "mahen", "alabaster", "zenith"] },
+  { id: "a3-t10", ch: "82T", act: "3", title: "Brigit confronts Finkle at Eavallan Forest", detail: "Finkle has Heart of the Wilde in his eye. Chase through tree stride to Temple of Life and Death.", characters: ["brigit"], track: "tieflings", major: false, tags: ["finkle", "mordred"] },
+  { id: "a3-t11", ch: "83-84T", act: "3", title: "Regrouping: rescues, reconnaissance, sailing", detail: "Brigit rescues 4 more Children of the Forest (8/12). Sprocket discovers tower infiltration. Stalwart's Goldentooth Village established. Randall sails on Emerald Veil to find Evan.", characters: ["brigit","sprocket","stalwart","randall","varis"], track: "tieflings", major: false, tags: ["children", "recon"] },
+  { id: "a3-t12", ch: "85T", act: "3", title: "Battle of the Distillery begins", detail: "Fen defends solo: swims zombie-infested bay, summons Sidereal Vizier (resets zombie clock). Sprocket controls weather + Earthquake scroll. Brigit turns into dragon. Randall encounters Leviathan at sea.", characters: ["brigit","sprocket","varis","fen","randall"], track: "tieflings", major: true, tags: ["distillery", "battle"] },
+  { id: "a3-t13", ch: "86", act: "3", title: "REUNION: Battle of the Distillery finale", detail: "ALL TOGETHER. Dallor defeated (Sprig shatters crystalline heart). Randall arrives on Emerald Veil ('appeared as a god with his own plane'). Bergs NAT 20 Eldritch Blast from beard. Daina discovers HAL. Memorial built.", characters: ["brigit","sprocket","varis","bergs","nocturnus","fen","daina","stalwart","randall"], track: "all", major: true, tags: ["reunion", "distillery", "dallor"], jump: "reunion" },
+
+  // ===== ACT 4: THE ENDGAME =====
+  { id: "a4-01", ch: "87T", act: "4", title: "Ritual of Reincarnation -- Daina becomes Duergar", detail: "Daina receives Heart of the Mountain. Brigit performs ritual for Freld and 6 others. Randall philosophizes: 'How do you kill a god? You defy the god in every way.'", characters: ["daina","brigit","randall","bergs"], track: "all", major: true, tags: ["reincarnation", "daina"] },
+  { id: "a4-02", ch: "88-89", act: "4", title: "Rebuilding and settling", detail: "Brigit mourns (wolf form, barbarian camp, regrows forest). Sprocket investigates teleportation circle. Varis rebuilds keep, mentors Iris. Bergs pushes Birtcoin. Fen grows disillusioned: 'tired of being a pawn.'", characters: ["brigit","sprocket","varis","bergs","fen"], track: "all", major: false, tags: ["rebuilding", "settlement"] },
+  { id: "a4-03", ch: "88-89", act: "4", title: "Nyx brokers fey court peace with the Diadem", detail: "Uses Anchor of Pestilence to protect Harvest Zenith and unite spring/autumn/summer courts. Against all odds, diplomacy works.", characters: ["nyx"], track: "all", major: true, tags: ["nyx", "diadem", "fey", "diplomacy"] },
+  { id: "a4-04", ch: "90", act: "4", title: "Sprocket's prophetic dream: Valley of Anchors destruction", detail: "Vision via Mlemph (Kuo-Toa): beam of blood-red light, 6-fingered hooded figure, Gar'daemon. Brigit explores Temple of Life and Death.", characters: ["sprocket","brigit"], track: "all", major: false, tags: ["prophecy", "gar'daemon"] },
+  { id: "a4-05", ch: "91T", act: "4", title: "Fen enters Yuri's portal to Uvan -- gets eyes back", detail: "Told to find someone with a mask who needs a silver blade. Returns at same moment he left (time displacement). Daina finds ritual chamber with 'Pursuit/Protect' warforged.", characters: ["fen","daina"], track: "all", major: true, tags: ["fen", "uvan", "warforged"] },
+  { id: "a4-06", ch: "100", act: "4", title: "Shadowfell journey -- Tesca sacrificed", detail: "Time dilation confusion. Tesca is sacrificed at the Shadowfell.", characters: ["brigit","sprocket","tesca"], track: "all", major: true, tags: ["shadowfell", "tesca", "sacrifice"] },
+  { id: "a4-07", ch: "103", act: "4", title: "THIRD REUNION -- TPK and myconid revival", detail: "Full party together again. TPK followed by revival via myconid network. Bergs carrying Kelemtor.", characters: ["brigit","sprocket","varis","bergs","nocturnus","fen","daina"], track: "all", major: true, tags: ["reunion", "tpk", "myconid"] },
+  { id: "a4-08", ch: "104-105", act: "4", title: "Anchor of War -- Daina ascends", detail: "Reginald Providence killed (kenku in disguise). Anchor of War silenced. Therzadun thwarted. Silence/Timothy unmasked as Therzadun's vessel. Fen delivers Heart of Faith. 'Out of the frying pan, into the forge.' Dwarf Shotgun tactics.", characters: ["daina","fen"], track: "all", major: true, tags: ["anchor", "war", "daina"] },
+  { id: "a4-09", ch: "106", act: "4", title: "DECLARATION OF WAR ON THE GODS", detail: "Daina declares war on the gods themselves. Peraxis reveals complex motivations -- he wanted to save the party all along.", characters: ["daina"], track: "all", major: true, tags: ["war", "gods", "peraxis"] },
+  { id: "a4-10", ch: "107", act: "4", title: "RAGNAROK -- Warforged awakening, mountain moved", detail: "Daina literally moves a mountain. Sprocket becomes Alabaster Seat officially. Irethia revealed as aasimar created in image of Ashara Everstar.", characters: ["daina","sprocket"], track: "all", major: true, tags: ["ragnarok", "warforged", "alabaster"] },
+  { id: "a4-11", ch: "108", act: "4", title: "Weaver of Lies -- Lolth's 'Two Truths and a Lie'", detail: "Three races of elves' gods revealed. Casaval reveals Irethia (prototype), Fen (warden), Nocturnus (bane). Lolth-Raven Queen deal revealed.", characters: ["fen","nocturnus"], track: "all", major: true, tags: ["lolth", "elves", "raven queen"] },
+  { id: "a4-12", ch: "109", act: "4", title: "Josh cures Nocturnus of vampirism", detail: "Act of pure kindness. Ghost-Eye Thorrin disappears. Nocturnus receives Bane sword.", characters: ["josh","nocturnus"], track: "all", major: true, tags: ["vampirism", "kindness", "josh"] },
+  { id: "a4-13", ch: "112", act: "4", title: "Crystallization worsening; 'Rube GoldBERGS'", detail: "Sprocket's crystallization accelerating. Portal experiments. Bergs's creative engineering.", characters: ["sprocket","bergs"], track: "all", major: false, tags: ["crystallization", "portals"] },
+  { id: "a4-14", ch: "113", act: "4", title: "Sacrifices / Matter of Life and Death", detail: "Brigit framed for Pestilence 'oil spill.' Rimefang's last ride. Major moral choices.", characters: ["brigit"], track: "all", major: true, tags: ["sacrifice", "pestilence"] },
+  { id: "a4-15", ch: "115-116", act: "4", title: "Darkest Night / Convergence and Betrayal", detail: "Fen confronts the Aboleth/Sleepless. Nocturnus's prophecy articulated. All planes converging into the Feywild.", characters: ["fen","nocturnus"], track: "all", major: true, tags: ["convergence", "betrayal", "darkest night"] },
+  { id: "a4-16", ch: "119", act: "4", title: "Time paradox -- Bergs finds own dead body", detail: "Bergs finds his own corpse from 2 weeks ago, kickstarts his own heart. Temporal mechanics.", characters: ["bergs"], track: "all", major: true, tags: ["time", "paradox", "bergs"] },
+  { id: "a4-17", ch: "121", act: "4", title: "Duels and ascensions", detail: "Stalwart corruption/redemption duels. Brigit ascends the locket (Anchor of Death). Bergs wins duel with Tumnus, named All-Saint.", characters: ["stalwart","brigit","bergs"], track: "all", major: true, tags: ["anchor", "death", "all-saint"] },
+  { id: "a4-18", ch: "125", act: "4", title: "Final Asmodeus seal retrieved; Tiberious de-aged", detail: "Varis retrieves the final seal. Tiberious de-aged by Bahamut, becomes Hand of Kindness. Tesca found frozen, wishes to save Dawnpass. Sprocket becomes Knight of Spring.", characters: ["varis","tiberious","tesca","sprocket"], track: "all", major: true, tags: ["asmodeus", "seal", "bahamut"] },
+  { id: "a4-19", ch: "127-128", act: "4", title: "BATTLE OF CONQUIS ABBEY", detail: "Tiberious discovers temple was Oblivion's, not Bahamut's: 'He was never here.' Brigit's rage speech: 'Do you have any idea how many voices exist in my head?' Sprocket maintains anti-magic field, nearly dies, Raven Queen saves him personally. 'The Gnome Yoinks' -- rips wings off Octavious. Narcissa killed by Bergs (NAT 20). Josh goes insane from Oblivion contact: 'This is not my end.' Varis channels Horn + Curator's Plea.", characters: ["brigit","sprocket","varis","bergs","josh","tiberious"], track: "all", major: true, tags: ["conquis", "battle", "oblivion"] },
+  { id: "a4-20", ch: "130-131", act: "4", title: "CLOUD CITY RETURN -- heist, railgun, Tiamat", detail: "Heist: rescue Lapis, steal golden egg, free 10th Wind. Honor sword: Bergs to Keelick to Nocturnus. Nocturnus: 'Toss me' -- rides sword throw at Tiamat. Varis shoots Gabriel with Nautilus railgun (200+ HP). Brigit: 'Choose to survive.' Bergs has last seal heading down.", characters: ["brigit","sprocket","varis","bergs","nocturnus","josh","tiberious"], track: "all", major: true, tags: ["cloud city", "tiamat", "heist"] },
+  { id: "a4-21", ch: "132", act: "4", title: "BATTLE OF THE STONE TABLE -- Bergs becomes God", detail: "Reynardine's plan revealed: bring all forces together. Bergs faces Grat'z alone, dies to Goristro, refuses to give fake seal. GRAPPLES GRAT'Z ONTO TABLE. Contested wisdom roll: DM 8, Bergs 16. BERGS BECOMES GOD OF THE FEYWILDE. Grat'z dies. 12 seals fall. Knights dissolved. Summer/Winter/Autumn/Spring braziers activate.", characters: ["bergs","sprocket","varis","josh"], track: "all", major: true, tags: ["stone table", "god", "feywilde", "bergs"], jump: "stone-table" },
+  { id: "a4-22", ch: "133", act: "4", title: "Harvest Zenith -- Bergs appoints knights", detail: "Bergs appoints Varis, Josh, Reynardine as knights. Creates Reynardine as knight of all seasons. Heart of Progenitors recovered. Reynardine's true plan: orchestrated everything to ascend and save Gabriel. Hearthstone exposed as triple agent.", characters: ["bergs","varis","josh","brigit"], track: "all", major: true, tags: ["harvest", "zenith", "knights", "reynardine"] },
+  { id: "a4-23", ch: "135", act: "4", title: "BATTLE OF DIVINITY -- Asmodeus and Tiamat", detail: "Book of Shadows opens Harvest and Winter Zenith. Tiamat at Harvest Zenith. Nocturnus killed by all 5 heads (split in half), revivified by Varis -- fulfills Shattar Kai destiny. JOSH KILLS ASMODEUS: 'Blinding white light burns up.' Three spectres leave: one into Nocturnus (levels 2x), one up, one stays. Sprocket counterspells Tiamat's meteor storm. Varis 200+ damage crits. Bergs NAT 20 persuades white dragon to quit. Brigit scries Forest Zenith: demi-lich phylactery + zombie Finkle.", characters: ["brigit","sprocket","varis","bergs","nocturnus","josh"], track: "all", major: true, tags: ["asmodeus", "tiamat", "divinity", "death"], jump: "asmodeus" },
+  { id: "a4-24", ch: "136", act: "4", title: "BATTLEFIELD -- Tiamat's heads separated", detail: "Heads resemble Ashara/Irethia/Rimefang. Josh kills blue dragon (stabs both eyes). Nocturnus kills red (fire wall). Bergs kills black (maul to forehead -- 'Zethtalus'). White feigns death via Bergs/Kelemtor. Brigit speaks with dead: Vecna is on Mardov, wants Death Zenith.", characters: ["brigit","sprocket","varis","bergs","nocturnus","josh"], track: "all", major: true, tags: ["tiamat", "battlefield", "dragons"] },
+  { id: "a4-25", ch: "136", act: "4", title: "Darkest Night Prophecy fulfilled -- Promise emerges", detail: "Nocturnus's sword Fate unravels. Promise emerges from pool of red liquid: 'My liege, I swear to you.' Nocturnus must return to Underdark to rule. Tiamat consumed by astral dreadnought (Hearthstone opens floor). Both kings of the Underdark have now traveled with the party.", characters: ["nocturnus"], track: "all", major: true, tags: ["prophecy", "promise", "nocturnus", "underdark"] },
+  { id: "a4-26", ch: "136", act: "4", title: "Bergs: 'I may be the newest god of the block...'", detail: "Full title speech. Josh swears oath: 'I swear to follow you in all righteous and just paths.' Brigit's locket pulsating acrid green (usually emerald). Elemental powers gone -- voices silent, alone in her head for the first time.", characters: ["bergs","josh","brigit"], track: "all", major: true, tags: ["oath", "god", "endgame"] },
+
+  // ===== PROPHESIED =====
+  { id: "pro-01", ch: "???", act: "4", title: "GAR'DAEMON -- The Final Configuration", detail: "All four Zeniths held simultaneously. V-MORDRED's invasion repelled. Controllers, Champions, and Anchor Wielders activate. Vecna on Mardov, wants Death Zenith. Forest Zenith held by zombie Finkle + demi-lich. This is what remains.", characters: ["brigit","sprocket","varis","bergs","nocturnus","fen","daina","josh","tiberious"], track: "all", major: true, tags: ["gar'daemon", "zeniths", "endgame", "vecna"] },
+];
+
+// ========== STATE ==========
+const state = {
+  activeCharacters: new Set(Object.keys(CHARACTERS)),
+  activeAct: "all",
+  searchQuery: "",
+  selectedEvent: null,
+  expandedEvents: new Set(),
+};
+
+// ========== RENDER SIDEBAR ==========
+function renderSidebar() {
+  const sb = document.getElementById("sidebar");
+  let html = '<h3>Player Characters</h3>';
+
+  for (const [id, c] of Object.entries(CHARACTERS)) {
+    const on = state.activeCharacters.has(id);
+    html += `<div class="char-toggle ${on ? '' : 'off'}" data-char="${id}">
+      <span class="char-dot" style="background:${c.color}"></span>
+      <span>${c.name.split(' ')[0]}</span>
+      <span class="char-status">${c.track}</span>
+    </div>`;
+  }
+
+  html += '<h3 style="margin-top:16px">Quick Filters</h3>';
+  html += `<div class="char-toggle" data-filter="all"><span class="char-dot" style="background:var(--accent)"></span><span>All On</span></div>`;
+  html += `<div class="char-toggle" data-filter="none"><span class="char-dot" style="background:var(--text-dim)"></span><span>All Off</span></div>`;
+  html += `<div class="char-toggle" data-filter="tieflings"><span class="char-dot" style="background:var(--tieflings)"></span><span>Tieflings Track</span></div>`;
+  html += `<div class="char-toggle" data-filter="dwarves"><span class="char-dot" style="background:var(--dwarves)"></span><span>Dwarves Track</span></div>`;
+
+  sb.innerHTML = html;
+
+  sb.querySelectorAll('[data-char]').forEach(el => {
+    el.addEventListener('click', () => {
+      const id = el.dataset.char;
+      if (state.activeCharacters.has(id)) state.activeCharacters.delete(id);
+      else state.activeCharacters.add(id);
+      renderSidebar();
+      renderTimeline();
+    });
+  });
+
+  sb.querySelectorAll('[data-filter]').forEach(el => {
+    el.addEventListener('click', () => {
+      const f = el.dataset.filter;
+      if (f === "all") state.activeCharacters = new Set(Object.keys(CHARACTERS));
+      else if (f === "none") state.activeCharacters = new Set();
+      else if (f === "tieflings") {
+        state.activeCharacters = new Set(["brigit","sprocket","varis","fen","stalwart","randall","tesca","nyx"]);
+      } else if (f === "dwarves") {
+        state.activeCharacters = new Set(["bergs","daina","nocturnus"]);
+      }
+      renderSidebar();
+      renderTimeline();
+    });
+  });
+}
+
+// ========== RENDER TIMELINE ==========
+function getTrackColor(track) {
+  switch(track) {
+    case "tieflings": return "var(--tieflings)";
+    case "dwarves":   return "var(--dwarves)";
+    case "all":       return "var(--all-party)";
+    default:          return "var(--text-dim)";
+  }
+}
+
+function eventMatchesFilters(ev) {
+  // Act filter
+  if (state.activeAct !== "all" && ev.act !== state.activeAct) return false;
+
+  // Search filter
+  if (state.searchQuery) {
+    const q = state.searchQuery.toLowerCase();
+    const searchable = (ev.title + " " + ev.detail + " " + ev.tags.join(" ")).toLowerCase();
+    if (!searchable.includes(q)) return false;
+  }
+
+  return true;
+}
+
+function eventHasActiveChar(ev) {
+  if (ev.characters.length === 0) return true; // world events always show
+  return ev.characters.some(c => state.activeCharacters.has(c));
+}
+
+function renderTimeline() {
+  const main = document.getElementById("timeline");
+  let html = '';
+  let lastAct = null;
+
+  const actNames = {
+    ancient: ["Ancient History", "Before the campaign"],
+    recent:  ["Recent Past",    "Decades before the campaign"],
+    "1":     ["Act 1: The Awakening",   "Chapters 0-13"],
+    "2":     ["Act 2: The Voyage",      "Chapters 14-40"],
+    "3":     ["Act 3: The Split",       "Chapters 42-87"],
+    "4":     ["Act 4: The Endgame",     "Chapters 87-136+"],
+  };
+
+  for (const ev of EVENTS) {
+    if (!eventMatchesFilters(ev)) continue;
+
+    const hasChar = eventHasActiveChar(ev);
+    const dimmed = !hasChar;
+
+    // Act header
+    if (ev.act !== lastAct) {
+      const [name, range] = actNames[ev.act] || [ev.act, ""];
+      html += `<div class="act-header" id="act-${ev.act}">
+        <h2>${name}</h2>
+        <div class="act-range">${range}</div>
+      </div>`;
+      lastAct = ev.act;
+    }
+
+    const dotColor = getTrackColor(ev.track);
+    const expanded = state.expandedEvents.has(ev.id);
+
+    html += `<div class="event-row ${dimmed ? 'dimmed' : ''} ${expanded ? 'expanded' : ''} ${state.selectedEvent === ev.id ? 'highlight' : ''}"
+                  data-id="${ev.id}" ${ev.jump ? `id="jump-${ev.jump}"` : ''}>
+      <div class="event-chapter">${ev.ch}</div>
+      <div class="event-dots">
+        <div class="event-dot ${ev.major ? 'major' : ''}" style="border-color:${dotColor}; ${ev.major ? `background:${dotColor}` : ''}"></div>
+        <div class="event-line"></div>
+      </div>
+      <div class="event-body">
+        <div class="event-title">${ev.title}</div>
+        <div class="event-detail">${ev.detail}</div>
+        <div class="event-tags">
+          ${ev.characters.filter(c => state.activeCharacters.has(c)).map(c =>
+            `<span class="event-tag" style="color:${CHARACTERS[c].color}; border-color:${CHARACTERS[c].color}">${CHARACTERS[c].name.split(' ')[0]}</span>`
+          ).join('')}
+          ${ev.track !== 'all' ? `<span class="event-tag" style="color:${getTrackColor(ev.track)}; border-color:${getTrackColor(ev.track)}">${ev.track}</span>` : ''}
+        </div>
+      </div>
+    </div>`;
+  }
+
+  main.innerHTML = html;
+
+  // Event click handlers
+  main.querySelectorAll('.event-row').forEach(row => {
+    row.addEventListener('click', () => {
+      const id = row.dataset.id;
+      if (state.expandedEvents.has(id)) {
+        state.expandedEvents.delete(id);
+      } else {
+        state.expandedEvents.add(id);
+      }
+      state.selectedEvent = id;
+      renderTimeline();
+      showDetail(id);
+    });
+  });
+}
+
+// ========== DETAIL PANEL ==========
+function showDetail(eventId) {
+  const ev = EVENTS.find(e => e.id === eventId);
+  if (!ev) return;
+
+  const panel = document.getElementById("detailPanel");
+  const title = document.getElementById("detailTitle");
+  const body  = document.getElementById("detailBody");
+
+  panel.classList.add("open");
+
+  title.innerHTML = `<span style="color:${getTrackColor(ev.track)}">Ch ${ev.ch}</span> ${ev.title}
+    <button class="close-btn" id="closeDetail">&times;</button>`;
+
+  let html = '';
+
+  // Description
+  html += `<div class="detail-section">
+    <h4>Details</h4>
+    <p>${ev.detail}</p>
+  </div>`;
+
+  // Characters involved
+  if (ev.characters.length > 0) {
+    html += `<div class="detail-section"><h4>Characters Present</h4><ul>`;
+    for (const cid of ev.characters) {
+      const c = CHARACTERS[cid];
+      if (!c) continue;
+      html += `<li style="color:${c.color}"><span style="position:absolute;left:0;top:8px;width:6px;height:6px;border-radius:50%;background:${c.color}"></span> <strong>${c.name}</strong> -- ${c.cls} (${c.race})</li>`;
+    }
+    html += `</ul></div>`;
+  }
+
+  // Tags
+  html += `<div class="detail-section"><h4>Tags</h4><p>${ev.tags.map(t => `<span class="event-tag" style="color:var(--accent);border-color:var(--accent)">${t}</span>`).join(' ')}</p></div>`;
+
+  // Track
+  html += `<div class="detail-section"><h4>Track</h4><p style="color:${getTrackColor(ev.track)}">${ev.track === 'all' ? 'Full Party' : ev.track.charAt(0).toUpperCase() + ev.track.slice(1) + ' Track'}</p></div>`;
+
+  body.innerHTML = html;
+
+  document.getElementById("closeDetail").addEventListener("click", () => {
+    panel.classList.remove("open");
+    state.selectedEvent = null;
+    renderTimeline();
+  });
+}
+
+// ========== CONTROLS ==========
+
+// Act filter buttons
+document.querySelectorAll('.filter-btn[data-act]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn[data-act]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    state.activeAct = btn.dataset.act;
+    renderTimeline();
+  });
+});
+
+// Jump buttons
+document.querySelectorAll('.jump-btn[data-jump]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    // Reset act filter to all first
+    document.querySelectorAll('.filter-btn[data-act]').forEach(b => b.classList.remove('active'));
+    document.querySelector('.filter-btn[data-act="all"]').classList.add('active');
+    state.activeAct = "all";
+    renderTimeline();
+    setTimeout(() => {
+      const target = document.getElementById(`jump-${btn.dataset.jump}`);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        target.classList.add('highlight');
+        setTimeout(() => target.classList.remove('highlight'), 2000);
+      }
+    }, 50);
+  });
+});
+
+// Search
+document.getElementById("searchBox").addEventListener("input", (e) => {
+  state.searchQuery = e.target.value;
+  renderTimeline();
+});
+
+// Keyboard shortcuts
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    document.getElementById("detailPanel").classList.remove("open");
+    state.selectedEvent = null;
+    state.searchQuery = "";
+    document.getElementById("searchBox").value = "";
+    renderTimeline();
+  }
+  if (e.key === '/' && e.target.tagName !== 'INPUT') {
+    e.preventDefault();
+    document.getElementById("searchBox").focus();
+  }
+});
+
+// ========== INIT ==========
+renderSidebar();
+renderTimeline();
+
+</script>
+</body>
+</html>

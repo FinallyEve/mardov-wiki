@@ -1,0 +1,23 @@
+---
+type: dm-note
+title: "conflicts"
+source: ["NFS/Notes/conflicts.txt"]
+category: ""
+tags: []
+---
+
+Global Conflicts and thier origins:
+
+	conflict    |				Location					   | 						Manner of reveal					 |							Reason
+--------------------+------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------
+1) Orc && Human War | DAWNHAVEN (DAWNPASS/WINDHAVEN/EANVALLAN VS STRA'FRANAR/FAE'ISH/TYGRAS LOGAR) | At the magister's circle the party will find an envoy from DawnPass (a company of many different    | The Orc Chieftan and former Gladiator Pit Champion from before the fall of TYGRAS's empire has made a deal with the same FAE demon as the former seat of his house causing intense bloodlust and utter madness.
+		    |										   | races and ages/sexes however none of them are Orc or Half-Orc, note there have been 0 Half-Orcs in  | This makes him a target for MORDRED and he has used this new influence to create pressure on the peaceful DAWNPASS in an effort to cut off food previously from the fertile Harvestlands north of WINDHAVEN.
+		    | 										   | the game so far), the party will be requesting aid against a army of sorcerers wielding similar     | This is the location of the anchor of FAMINE, which is tied to the HARVEST's ZENITH, The party then learns that the resurgance of these ORC sorcerers matches to the day with the last time it rained
+		    |										   | draconic-blood fueled destruction as the Tiefling army that destroyed UMA and created the desert to | From this the party with learn from the Qual'Xahar that the matrim pact was one between the human salors of old UMA, the gnomes of the town that used to be FAE'ISH, and the Qual'Xar Half-elves (at the time), they promised sanctuary to eachother atop the MATURIN TURLE. 
+		    |										   | the south east. They will be racist towards any Orcs in the MAGISTER's CRICLE and will call for a   | A sanctuary within the HARVEST'S ZENITH?!? 
+		    |										   | similar ban on Orcs as there are to Tieflings.							 | Legend tells of a great tsunami in the wake of the explosion which sealed TYGRAS and created the crater in the middle of what used to be the capital, the pilgrims from the destroyed island took refuge on a giant turtle who they sailed with and created a new capital. one that is hidden from super weapons and which represents the union of the MATRIUM PACT
+		    |										   |													 | The city is actually a buried pyramid, the great zygurat in the middle housing the HARVEST'S ZENITH, inside the zenith they will come across TYGRAS himself, or the arcane being he has become after his ascention cerimony which destroyed his empire, inside the zenith he has bid his time feeding off the internal energies within the zenith. By destroying the echo they will rip a hole in the fae and meet the fae demon who gave NYX her powers. 
+		    |										   |												 	 | The demon was the same who made the pact with TYGRAS and NYX was actually his heir. By destroying that last echo of TYGRAS, that the existance of future tiefling children can be avoided. He will offer NYX the choice, either way she will inherit mark of TYGRAS which is actually SABLE's BECON, an ancient fae marking to serve as a becon for all wandering fae. In exchange she can, rid the world of "demon children" or rebuild the lost empire here by adding their name to the MATRIUM PACT and reviving the guardian.
+		    |										   |													 | To revive the guardian the party must 1) remove the ANCHOR of FAMINE from the top of the zenith, guarded by the HARVEST EFFIGY. 2) They must return the HEART OF THE PROGENITORS to the crevase in the MIDDLE of TYGRAS LOGATH. 3) say the following words: "ON HIS BACK ALL VOWS ARE MADE, A HAVEN FOR THE CONTINENT OF DAWN PAID.", upon finishing the pact, the turtle skelton below the bay will be revived. A massive turtle will appear carring an Atlantian-esque city, it will also serve as THE landing place between this world and the fae, the very thing that TYGRAS saught to avoid as it meant he was cut off from any additional fae powers. 
+--------------------+------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------
+
