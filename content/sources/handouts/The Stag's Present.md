@@ -45,13 +45,13 @@ Why its quite simple darling, yes, you see Dawnhaven has forever been a thorn in
 if I am ever to find that blasted diadem. Yes if you would be so kind as to well, help me locate it, I do believe my work would go so much faster. 
 Also, if you can convince PERAXIS to release the Earth Prince so that I may borrow something from him, well I think I might find myself more,
 amicable towards my colleges. Why I would never, intentionally be an inconveience to you, LORD OF THE GRAVE. 
-NO, no no, but to one who has not paid the toll, well theres no telling what could happen to those shipments of pestillence to RIMEFANG's lair.
+NO, no no, but to one who has not paid the toll, well theres no telling what could happen to those shipments of pestilence to RIMEFANG's lair.
 Sorry to bring you into this darling, but well, when one needs the intervention of the boss, one must pick on the bosses pet.
 
 REYNALDINE, YOUR INSOLENCE WILL BE ANSWERED. PERAXIS, release the earth genasi prince, REYALDINE's deal requires it. BUT. 
 DONT THINK FOR A MOMENT, THAT I DONT UNDERSTAND WHAT YOU HOPE TO GAIN. DELAY MY PLANS AGAIN AND YOU FIND YOUR PRECOUS FEYWILD CRAWLING WITH CORPSES.
 NO CITY IN THE SKY CAN SAVE YOU FROM THE GRAVE, REMEMBER, I OWN YOU.
-RIMEFANG, YOUR PESTILLENCE WILL BE DELIVERED SHORTLY. THE SERPENT IS RISING, AND HER ZELOTS WILL CREATE THE KEY. 
+RIMEFANG, YOUR PESTILENCE WILL BE DELIVERED SHORTLY. THE SERPENT IS RISING, AND HER ZELOTS WILL CREATE THE KEY. 
 OPEN THE WINTERS ZENITH AND FINISH THE SPELLPLAGUE, MY CONQUEST WILL BE SILENT AND UNCONTESTED.
 
 *the memory fades as the faint sound of the stag can be heard whispering BRIGITTE... use the horns, find the locket*

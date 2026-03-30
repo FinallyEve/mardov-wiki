@@ -1,15 +1,22 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Casaval"
 aliases: []
 race: "Humanoid"
 class: "Unknown"
+status: alive
+zenith_role: none
+zenith: none
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: [4, 5]
 affiliation: "[[Scarlet Tunic Brigade]]"
 location: "Mardov (traveling)"
-status: alive
 first_appearance: "Late campaign"
 source: ["Player Notes (Ch. 108+)", "Audrey Commission Notes"]
+tags:
+  - pc
+  - act-5
 ---
 
 ## Description

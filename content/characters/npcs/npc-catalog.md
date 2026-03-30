@@ -46,7 +46,7 @@ Complete inventory of all NPCs from the Mardov campaign archive.
 ## FeyLords
 
 - **[[Autumn Court]]** — 2 images
-- **[[Evylanndrin of the Spring Court]]** — 1 images
+- **[[Evelyandrin of the Spring Court]]** — 1 images
 - **[[Four Seasons]]** — 2 images
 - **[[Juliannia of the Summer Court]]** — 1 images
 - **[[Queen of Thorns]]** — 1 images

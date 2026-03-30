@@ -1,16 +1,27 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Nyx Khamestria"
 aliases: ["Knight of the Flower Field", "The Shadow", "The Wildcard"]
 race: "Tiefling"
 class: "Warlock"
+subclass: "Archfey (Reynardine)"
+player: "Lillian"
+zodiac: "Owl"
+status: alive
+zenith_role: champion
+zenith: harvest
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: [1, 2, 3, 4, 5]
 affiliation: "[[Scarlet Tunic Brigade]]"
 location: "Mardov (traveling)"
-status: alive
 first_appearance: "Chapter 0"
 source: ["Player Notes (Ch. 0-136)", "Nyx's Backstory", "Summary 46"]
 art: ["assets/pc-art-source/Nyx/Nyx Khamestria.jpg", "assets/pc-art-source/Nyx/Nyx Khamestria, Knight of the Flower Field.png"]
+tags:
+  - pc
+  - act-5
+  - harvest-zenith
 ---
 
 ## Description

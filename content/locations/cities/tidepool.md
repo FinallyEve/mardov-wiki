@@ -3,6 +3,8 @@ type: location
 category: city
 name: The Tidepool
 parent: "[[The Islands]]"
+status: neutral
+zenith: none
 aliases:
   - Tidepool
   - Water Genasi City
@@ -13,6 +15,7 @@ chapters: []
 source: Places/Islands/The Tidepool/
 maps: []
 tags:
+  - location
   - city
   - tidepool
   - islands

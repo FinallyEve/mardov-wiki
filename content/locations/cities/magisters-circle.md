@@ -3,6 +3,8 @@ type: location
 category: city
 name: "Magister's Circle"
 parent: "[[vartos]]"
+status: allied
+zenith: none
 aliases:
   - The Circle
   - Magisters Circle
@@ -16,6 +18,7 @@ chapters:
 source: "Places/Vartos/Magister's Cricle/"
 maps: []
 tags:
+  - location
   - city
   - magisters-circle
   - vartos

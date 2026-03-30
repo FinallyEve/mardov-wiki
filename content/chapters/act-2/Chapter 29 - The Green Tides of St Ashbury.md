@@ -40,8 +40,8 @@ The village appears damaged, with mushroom structures having burst up through fo
 
 ## Slideshow
 
-![[assets/chapters-source/Act 1&2/Chapter 29/Slideshow/Sporkeeper Dale Deepwind -- Sporekeeper of St Ashbury.jpg]]
-![[assets/chapters-source/Act 1&2/Chapter 29/Slideshow/Grenda Far'Tul -- Last Hobgoblin of the Red Hand Clan, fouder of the Betrayed.jpg]]
+![[assets/chapters-source/Act 1&2/Chapter 29/Slideshow/Sporekeeper Dale Deepwind -- Sporekeeper of St Ashbury.jpg]]
+![[assets/chapters-source/Act 1&2/Chapter 29/Slideshow/Grenda Far'Tul -- Last Hobgoblin of the Red Hand Clan, founder of the Betrayed.jpg]]
 ![[assets/chapters-source/Act 1&2/Chapter 29/Slideshow/Dr. Grakels Magical Goods.jpg]]
 ![[assets/chapters-source/Act 1&2/Chapter 29/Slideshow/Floating Cask - Inn.jpg]]
 ![[assets/chapters-source/Act 1&2/Chapter 29/Slideshow/Aunty Wayne -- Drow Vampire.jpg]]

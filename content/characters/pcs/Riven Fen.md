@@ -1,16 +1,24 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Riven Fen"
 aliases: ["Seeker of the Wind's Secrets", "Property of the Kingmaker"]
 race: "Half-Elf"
-class: "Warlock (The Kingmaker)"
+class: "Warlock"
+subclass: "Pact of the Blade"
+status: alive
+zenith_role: none
+zenith: none
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: [4, 5]
 affiliation: "[[Scarlet Tunic Brigade]]"
 location: "Mardov (traveling)"
-status: alive
 first_appearance: "Late campaign"
 source: ["Riven Fen's Backstory"]
 art: []
+tags:
+  - pc
+  - act-5
 ---
 
 ## Description

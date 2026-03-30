@@ -1,16 +1,27 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Brigit Wildfire"
 aliases: ["Wild Spirit of Fire", "The Heart"]
-race: "Changeling/Shapeshifter"
-class: "Druid (Circle of Wildfire) / Barbarian multiclass"
+race: "Human"
+class: "Druid/Barbarian"
+subclass: "Circle of the Moon"
+player: "Liz"
+zodiac: "Stag"
+status: alive
+zenith_role: champion
+zenith: forest
+faction: ["[[Scarlet Tunic Brigade]]", "[[The Distillery]]", "[[Good Guys Guild]]"]
+acts_present: [1, 2, 3, 4, 5]
 affiliation: "[[Scarlet Tunic Brigade]], [[The Distillery]], [[Good Guys Guild]]"
 location: "Mardov (traveling)"
-status: alive
 first_appearance: "Chapter 0"
 source: ["Player Notes (Liz, Ch. 0-136)", "Backstories"]
 art: ["assets/pc-art-source/Brigit/Brigite Wildfire.jpg", "assets/pc-art-source/Brigit/Brigit's Progenitor Form.jpg"]
+tags:
+  - pc
+  - act-5
+  - forest-zenith
 ---
 
 ## Description
@@ -20,7 +31,7 @@ Brigit Wildfire is the emotional center of the [[Scarlet Tunic Brigade]] and the
 ## Appearance & Costume
 
 ### Normal Form
-A young woman with vibrant red hair, partially shaved on one side, swept back and falling in loose waves. She has bright green eyes, fair skin dusted with freckles across her cheeks and nose, and slightly pointed ears hinting at her changeling nature. Her expression in repose is watchful and intelligent, lips slightly parted as though mid-thought.
+A young woman with vibrant red hair, partially shaved on one side, swept back and falling in loose waves. She has bright green eyes, fair skin dusted with freckles across her cheeks and nose, and slightly pointed ears. Her expression in repose is watchful and intelligent, lips slightly parted as though mid-thought.
 
 She wears a **green bodice** with decorative stitching along the neckline, laced up the front with brown leather cord over a darker undershirt. A **dark cloak** drapes over one shoulder, clasped at the throat with a simple metal pin. Her forearms are wrapped in **tan leather bracers** with visible stitching. A sturdy **leather belt** with a metal buckle sits at her waist. Her overall palette is forest greens, warm browns, and dark earth tones -- the colors of someone who lives closer to the woods than to any city.
 
@@ -62,7 +73,7 @@ Brigit was an orphaned druid from the wilds outside [[windhaven]]. Her parents w
 | 86 | The Reunion | Becomes a battlefield commander coordinating scattered party members across a continent |
 | 100 | Shadowfell | Grapples with versions of herself that died or never existed |
 | 119-125 | Time fractures | Confronts the revelation that she IS a Progenitor -- not just channeling one |
-| 130 | Progenitor ritual in Eden with the [[Children of the Forest]] | Ascends the locket, gains custody of the [[Anchor of Death]] |
+| 82T | Progenitor ritual in Eden with the [[Children of the Forest]] | Ascends the locket, gains custody of the [[Anchor of Death]] |
 | 136 | Final battle | Loses her elemental powers during the Harvest Zenith battle; must find her way forward |
 
 ## Relationships
@@ -76,7 +87,7 @@ Brigit was an orphaned druid from the wilds outside [[windhaven]]. Her parents w
 
 ## Fighting Style
 
-**Class**: Druid (Circle of Wildfire), high level with access to 7th+ level spells.
+**Class**: Druid (Circle of the Moon) / Barbarian multiclass, high level with access to 7th+ level spells.
 
 **Primary weapon**: Magic itself -- she rarely swings a physical weapon.
 

@@ -3,6 +3,8 @@ type: location
 category: city
 name: "Qual'Xar"
 parent: "[[The Islands]]"
+status: allied
+zenith: none
 aliases:
   - Qual Xar
   - The Seafaring Nation
@@ -17,6 +19,7 @@ chapters:
 source: "Places/Islands/Qual' Xar/"
 maps: []
 tags:
+  - location
   - city
   - qual-xar
   - islands

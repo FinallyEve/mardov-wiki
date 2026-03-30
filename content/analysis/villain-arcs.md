@@ -110,7 +110,7 @@ A comprehensive trace of every villain's arc across the 136-chapter campaign, or
 ## Graz'zt (Demon Prince of Pleasure)
 
 - **First Appearance**: Referenced; active in late campaign through proxies
-- **Faction/Affiliation**: Independent demon lord; connected to Famine Zenith
+- **Faction/Affiliation**: Formerly independent demon lord, now under [[Vecna]]'s command; connected to Famine Zenith. Also the "fae demon" referenced in Tygras and Logath's pacts.
 - **Motivation**: Apotheosis by proxy -- attempting to ascend to godhood. "Basically all of our problems" (Ch. 133). Needed the 13th seal of Asmodeus.
 - **Key Events**:
   - Held the Heart of the Progenitors (Ruby)
@@ -398,9 +398,9 @@ A comprehensive trace of every villain's arc across the 136-chapter campaign, or
 
 - **First Appearance**: Referenced in Act 3 Orc-Human War
 - **Faction/Affiliation**: Vecna Sworn (Famine Zenith); Orc Emperor
-- **Motivation**: "Violence is Victory." Former gladiator pit champion who made a deal with the same fae demon as Tygras, causing intense bloodlust and madness among orcs.
+- **Motivation**: "Violence is Victory." Former gladiator pit champion who made a deal with [[Graz'zt]] (the fae demon, same entity as Tygras's patron), causing intense bloodlust and madness among orcs.
 - **Key Events**:
-  - Made pact with fae demon, gaining power but corrupting his people
+  - Made pact with [[Graz'zt]] (the fae demon), gaining power but corrupting his people
   - Manufactured the Orc-Human War alongside Reynaldine and Mordred
   - Cut off food from the fertile Harvestlands north of Windhaven, pressuring DawnPass
   - His orc sorcerers wield draconic-blood destruction similar to the tiefling army that destroyed Uma (historical echo)
@@ -408,12 +408,12 @@ A comprehensive trace of every villain's arc across the 136-chapter campaign, or
 - **Relationships**:
   - Co-conspirators: Reynaldine, Mordred
   - Agents: Gordan BlackHand (Orc Sorcerer, Vecna agent), Grim'Nak the Terrible, Sledge
-  - Historical echo: Tygras (made same fae demon deal)
+  - Historical echo: Tygras (made same [[Graz'zt]] pact)
   - Thematic foil: Randal
 - **Current Status**: Alive -- unresolved
 - **Threads**:
   - The Orc-Human War resolution
-  - His fae demon pact -- same entity that empowered Tygras
+  - His [[Graz'zt]] pact -- same entity that empowered Tygras
   - Connection to the Harvest Zenith endgame
 
 ---
@@ -422,24 +422,24 @@ A comprehensive trace of every villain's arc across the 136-chapter campaign, or
 
 - **First Appearance**: Referenced in lore; sealed within Harvest's Zenith
 - **Faction/Affiliation**: Ancient evil; sealed in Harvest's Zenith
-- **Motivation**: Originally sought ascension through a fae demon pact; his superweapon destroyed Uma, creating the desert. Now sealed inside the Zenith, feeding off its energy.
+- **Motivation**: Originally sought ascension through a pact with [[Graz'zt]] (the fae demon, formerly independent, now under [[Vecna]]'s command); his superweapon destroyed Uma, creating the desert. Now sealed inside the Zenith, feeding off its energy.
 - **Key Events**:
-  - Ancient history: Made a pact with a fae demon (the same one Reynardine dealt with 2,000 years ago -- Reynardine shared the secret of channeling pure arcana in exchange for a portal between worlds)
+  - Ancient history: Made a pact with [[Graz'zt]] (the same entity Reynardine dealt with 2,000 years ago -- Reynardine shared the secret of channeling pure arcana in exchange for a portal between worlds)
   - His superweapon destroyed Uma, creating the desert wasteland
   - Sealed inside the Harvest's Zenith but it was "never fully sealed" -- the fourth opened, never closed
   - All tieflings descend from his fae corruption
   - His echo must be destroyed to free the Zenith
-  - Destroying his echo rips a hole in the Fae and reveals the fae demon who gave Nyx her powers
+  - Destroying his echo rips a hole in the Fae and reveals [[Graz'zt]], the fae demon who gave Nyx her powers
   - Tomb hieroglyphics depict: "a classic red tiefling shaking the hand of a man in a hat and cane -- the cane touches the ground but his feet do not"
 - **Relationships**:
-  - Connected to: Reynardine (shared the channeling secret), Logath HellEye (same fae demon pact)
+  - Connected to: Reynardine (shared the channeling secret), Logath HellEye (same [[Graz'zt]] pact)
   - Legacy: All tieflings, including Nyx Khamestria
   - Opposed by: Nyx, Tesca (must wield Anchor of Famine at Harvest Zenith)
 - **Current Status**: Sealed (alive?) -- feeding on Zenith energy, echo must be destroyed
 - **Threads**:
   - Nyx's choice: destroy the echo to prevent future tiefling children, or rebuild the lost empire
   - The Harvest Zenith must be opened and Tygras's echo destroyed
-  - Connection to the fae demon that is central to multiple villain schemes
+  - Connection to [[Graz'zt]] (the fae demon, formerly independent, now under [[Vecna]]'s command) that is central to multiple villain schemes
 
 ---
 

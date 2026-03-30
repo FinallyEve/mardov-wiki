@@ -226,7 +226,7 @@ Islands/
 
 ```
 Monethern/
-├── Conquis Abby/
+├── Conquis Abbey/
 │   ├── Archive of Ioun
 │   ├── Court of the Creators
 │   ├── Gardens of Avandra

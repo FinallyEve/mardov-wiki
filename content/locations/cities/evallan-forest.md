@@ -1,8 +1,10 @@
 ---
 type: location
-category: city
+category: region
 name: Evallan Forest
 parent: "[[DawnHaven]]"
+status: allied
+zenith: forest
 aliases:
   - Eavallan Forest
   - Eavallan
@@ -18,10 +20,12 @@ source: Places/DawnHaven/Evallan Forest/
 maps: []
 tags:
   - location
+  - region
   - evallan
   - dawnhaven
   - druid
   - feywild
+  - forest-zenith
 ---
 
 # Evallan Forest
@@ -87,4 +91,4 @@ Evallan Forest is the spiritual cradle of the campaign's druidic power. [[Brigit
 ![[assets/maps-source/DawnHaven/Evallan Forest/Redwood Sanctuary.jpg]]
 ![[assets/maps-source/DawnHaven/Evallan Forest/World Tree.jpg]]
 ![[assets/maps-source/DawnHaven/Evallan Forest/Evallan Waystone -- Portal to the Feywilde.jpg]]
-![[assets/maps-source/DawnHaven/Evallan Forest/Grove of the Ancients/DoeFall Glade/DoeFall Glade -- Eavallan Forrest.jpg]]
+![[assets/maps-source/DawnHaven/Evallan Forest/Grove of the Ancients/DoeFall Glade/DoeFall Glade -- Eavallan Forest.jpg]]

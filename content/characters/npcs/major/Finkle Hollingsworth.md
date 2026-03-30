@@ -23,7 +23,7 @@ In the ritual chamber, [[Mordred]] revealed that "Finkle" was his disguise all a
 
 ## Role in the Campaign
 
-Finkle represents institutional betrayal -- the first authority figure the party encountered was already compromised. His note listing the precise arrival times and classes of every recruit (stolen by [[Dallor]]) was the first hint that the brigade's recruitment was a trap.
+Finkle represents institutional betrayal -- the first authority figure the party encountered was already compromised. His note listing the precise arrival times and classes of every recruit (pickpocketed from [[Jorgen]] by [[Dallor]]) was the first hint that the brigade's recruitment was a trap.
 
 ## Faction
 

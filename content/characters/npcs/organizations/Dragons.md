@@ -21,22 +21,22 @@ The dragons of Mardov are not simple monsters -- they are ancient powers with na
 
 | Dragon | Notes | Art |
 |--------|-------|-----|
-| Annyrth the Frost | Blue dragon | ![[assets/npc-art-source/Dragons/Annyrth the Frost.png]] |
+| Annyrth the Frost | Blue dragon | ![[assets/npc-art-source/Dragons/Annyrth the Frost.jpeg]] |
 | Byki the Judge | | ![[assets/npc-art-source/Dragons/Byki the Judge.png]] |
 | Emni the Undimmed | Bonded to [[Irethia|Irethia Goldbloom]] | ![[assets/npc-art-source/Dragons/Emni the Undimmed.png]] |
-| Evenfrost, the Blizzard's Wrath | | ![[assets/npc-art-source/Dragons/Evenfrost, the Blizzard's Wrath.png]] |
-| Kindred the Life Blessed | Bonded to Harriet Yeshthum | ![[assets/npc-art-source/Dragons/Kindred the Life Blessed.png]] |
-| Redvassyl the Ashen Guard | Bonded to Kasta Caden | ![[assets/npc-art-source/Dragons/Redvassyl the Ashen Guard.png]] |
+| Evenfrost, the Blizzard's Wrath | | ![[assets/npc-art-source/Dragons/Evenfrost, the Blizzard's Wrath.jpg]] |
+| Kindred the Life Blessed | Bonded to Harriet Yeshthum | ![[assets/npc-art-source/Dragons/Kindred the Life Blessed.jpg]] |
+| Redvassyl the Ashen Guard | Bonded to Kasta Caden | ![[assets/npc-art-source/Dragons/Redvassyl The Ashen Guard.jpg]] |
 | Rimefang the Frozen Death | Raised by [[Vecna]]/Peraxis. Tasked with spreading pestilence. Ordered to open the Winter's Zenith. | |
 | Seoryss the Mirrorscale | Bonded to Leviakilia Veomathai | ![[assets/npc-art-source/Dragons/Seoryss the Mirrorscale.png]] |
-| Sylvash the Gardener | Bonded to Variamathias the Hunter | ![[assets/npc-art-source/Dragons/Sylvash the Gardener.png]] |
-| Vendnash the Verdant Hunter | | ![[assets/npc-art-source/Dragons/Vendnash the Verdant Hunter.png]] |
+| Sylvash the Gardener | Bonded to Variamathias the Hunter | ![[assets/npc-art-source/Dragons/Sylvash the Gardener.jpg]] |
+| Vendnash the Verdant Hunter | | ![[assets/npc-art-source/Dragons/Vendnash the Verdant Hunter.jpg]] |
 | Vierielll the Silent Dream | | ![[assets/npc-art-source/Dragons/Vierielll the Silent Dream.png]] |
 | Volcanis the Scorched Tyrant | | ![[assets/npc-art-source/Dragons/Volcanis the Scorched Tyrant.png]] |
 | Xax'thalis the Midnight Terror | Has human form | |
-| Xythassyl the Mire | | ![[assets/npc-art-source/Dragons/Xythassyl the Mire.png]] |
-| Zepheeron the Thunderfury | | ![[assets/npc-art-source/Dragons/Zepheeron the Thunderfury.png]] |
-| Zephnarril the Stormtamer | Bonded to Zamir Geoke | ![[assets/npc-art-source/Dragons/Zephnarril the Stormtamer.png]] |
+| Xythassyl the Mire | | ![[assets/npc-art-source/Dragons/Xythassyl the Mire.jpeg]] |
+| Zepheeron the Thunderfury | | ![[assets/npc-art-source/Dragons/Zepheeron the Thunderfury.jpeg]] |
+| Zephnarril the Stormtamer | Bonded to Zamir Geoke | ![[assets/npc-art-source/Dragons/Zephnarril the Stormtamer.jpeg]] |
 
 ## Draconic Sorcerers (Dragon Passengers)
 

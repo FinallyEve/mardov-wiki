@@ -140,7 +140,7 @@ role: pc
 name: "Brigit Wildfire"
 aliases: ["Chosen of the Stag"]
 race: "Half-Elf (or Human)"
-class: "Druid (Circle of Wildfire)"
+class: "Druid (Circle of the Moon)"
 player: ""
 status: active
 ---

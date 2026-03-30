@@ -3,6 +3,8 @@ type: location
 category: city
 name: Tower Bridge
 parent: "[[DawnHaven]]"
+status: destroyed
+zenith: none
 aliases:
   - The Ruined Fort
 notable_npcs:
@@ -16,6 +18,7 @@ chapters:
 source: Places/DawnHaven/Tower Bridge/
 maps: []
 tags:
+  - location
   - city
   - tower-bridge
   - dawnhaven

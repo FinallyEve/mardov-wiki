@@ -15,6 +15,9 @@ art: []
 
 ## Description
 
+![[assets/npc-art-source/Reynardine/reynardine-ref-autumn-portrait.png]]
+
+
 Reynardine, the Madness Bringer, is the archfey patron of [[Nyx Khamestria]]. Two thousand years ago, he made a deal with [[Tygras]] -- sharing the secret of channeling pure arcana in exchange for a portal between worlds. Twenty-six years before the campaign, he made a deal with Nyx's parents for a twin-soul vessel, leading to the birth of Nyx and [[Xyn]].
 
 > **CRITICAL DISTINCTION**: Reynardine (Nyx's patron, the Madness Bringer) is NOT the same entity as [[Reynaldine]] (the Fall Feylord serving [[Vecna]]).

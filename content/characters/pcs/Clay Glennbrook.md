@@ -1,16 +1,22 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Clay Glennbrook"
 aliases: ["The Innkeeper"]
 race: "Human"
 class: "Fighter (Crossbow Expert)"
+status: alive
+zenith_role: none
+zenith: none
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: [2, 3]
 affiliation: "[[Scarlet Tunic Brigade]]"
 location: "[[Molly's Revenge]] (inn)"
-status: alive
 first_appearance: "Mid-campaign"
 source: ["Player Notes", "Character Sheet"]
 art: []
+tags:
+  - pc
 ---
 
 ## Description

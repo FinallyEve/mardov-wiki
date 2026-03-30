@@ -15,7 +15,10 @@ art: ["assets/npc-art-source/Vecna Sworn/Underdark/Oblivion Wayne"]
 
 ## Description
 
-Oblivion Wayne is [[Nocturnus Wayne]]'s aunt, the leader of the Drow, and an alpha vampire queen. She married [[Ebon Wayne]] and used the [[Bat Zodiac]] to create alpha vampires, building an army of turned drow with innate loyalty. She is obsessed with the ancient Warforged army, believing warforged are key to dominating the Illithid. She is Nocturnus's prophesied target.
+![[assets/npc-art-source/Organizations/Party Members Extended Family/Nocturnus Drow Family Line/Oblivion Wayne -- Aunt of Nocturnus.jpg]]
+
+
+Oblivion Wayne is [[Nocturnus Wayne]]'s aunt, the leader of the Drow, and an alpha vampire queen. She married [[Ebon Wayne]], who captured the [[Bat Zodiac]] and used it to create alpha vampires, building an army of turned drow with innate loyalty. She is obsessed with the ancient Warforged army, believing warforged are key to dominating the Illithid. She is Nocturnus's prophesied target.
 
 ## Role in the Campaign
 

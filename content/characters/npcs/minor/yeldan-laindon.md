@@ -1,9 +1,9 @@
 ---
 type: character
-name: "Yeldan Liadon"
+name: "Yeldan Laindon"
 status: stub
 ---
 
-# Yeldan Liadon
+# Yeldan Laindon
 
 *Stub page -- referenced in [[timeline]]. Needs content.*

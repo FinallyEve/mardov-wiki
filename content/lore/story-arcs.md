@@ -30,7 +30,7 @@ The party is recruited into the [[Scarlet Tunic Brigade]]. They encounter [[Mord
 
 **Key beats:**
 - Party death and resurrection by [[Sabine Ra]] (Chapter 2)
-- [[V-Mardov]] rift opens; [[Varis Liadon|Varris]] arrives from the alternate reality (Chapter 6)
+- [[V-Mardov]] rift opens; [[Varis Laindon|Varris]] arrives from the alternate reality (Chapter 6)
 - First, Second, and Third Prophecies received (Chapters 9, 12, 13)
 - [[Mia]] reveals she wiped the party's memories
 
@@ -60,7 +60,7 @@ The party arrives in [[windhaven]] via a portal from the [[Kraken of the Sand Se
 1. **[[Tiberius D. Rex]]** receives a premonition of the party's arrival
 2. **Research at the Windmill Willow**: [[Brigit Wildfire|Brigitte]] researches the zodiacs (astral chart showing the 12 animals, one per month); [[Tesca Duskhallow|Tesca]] researches the [[Diadem of Dawn]]; [[Randal]] researches the gods
 3. **[[Leonidas of Summer's Last Light]]** puts the party on trial in his sphinx demi-plane:
-   - [[Varis Liadon|Varys]] requests help against [[Vecna]], is granted a vision of [[Daina Fireforge|Daina]] grabbing the [[Heart of the Forge]] and jumping into lava
+   - [[Varis Laindon|Varys]] requests help against [[Vecna]], is granted a vision of [[Daina Fireforge|Daina]] grabbing the [[Heart of the Forge]] and jumping into lava
    - [[Nyx Khamestria|Nyx]] requests help to save [[Xyn]], meets [[Juliannia of the Summer Court]] -- her real patron
    - [[Fen Darkeyes|Fen]] wishes he and his brother never fell under the Aboleth's influence; wish granted
    - [[Sprocket Overspark|Sprocket]] alone is deemed unworthy (meaning unknown)

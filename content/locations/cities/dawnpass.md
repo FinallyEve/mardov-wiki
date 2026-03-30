@@ -3,6 +3,9 @@ type: location
 category: city
 name: Dawnpass
 parent: "[[DawnHaven]]"
+status: contested
+current_ruler: "[[Matilda Godhart]]"
+zenith: none
 aliases:
   - Dawn Pass
   - The Capital
@@ -16,6 +19,7 @@ chapters:
 source: Places/DawnHaven/Dawnpass/
 maps: []
 tags:
+  - location
   - city
   - dawnpass
   - dawnhaven
@@ -98,6 +102,6 @@ The Regal Tour (Dawnpass Royal Vessel) and the visit of "Mr. Happy" to the city 
 
 ![[assets/maps-source/DawnHaven/Dawnpass/The Burning of Dawnpass.jpg]]
 ![[assets/maps-source/DawnHaven/Dawnpass/East Gate/Dawnhaven.jpg]]
-![[assets/maps-source/DawnHaven/Dawnpass/Monastery of the Dawn/The Monstary of The Dawn.jpg]]
+![[assets/maps-source/DawnHaven/Dawnpass/Monastery of the Dawn/The Monastery of The Dawn.jpg]]
 ![[assets/maps-source/DawnHaven/Dawnpass/Northpass/Everstar Palace/Everstar Gardens.jpg]]
 ![[assets/maps-source/DawnHaven/Dawnpass/Bridgetown/Tower Bridge Refugees/Umbratown/Drab Pits/The Drab Pit.jpg]]

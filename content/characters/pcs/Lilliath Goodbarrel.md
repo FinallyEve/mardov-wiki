@@ -1,16 +1,22 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Lilliath Goodbarrel"
 aliases: ["Lilly"]
 race: "Halfling"
 class: "Unknown"
+status: unknown
+zenith_role: none
+zenith: none
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: []
 affiliation: "[[Scarlet Tunic Brigade]]"
 location: "Unknown"
-status: unknown
 first_appearance: "Unknown"
 source: []
 art: []
+tags:
+  - pc
 ---
 
 ## Description

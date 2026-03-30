@@ -1,16 +1,27 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Barnabus 'Bergs' Fireforge"
 aliases: ["Bergs", "Barnabus Blunderbeat", "The Newest God"]
 race: "Hill Dwarf"
-class: "Fighter / Myconid Sovereign / God"
+class: "Fighter/Warlock"
+subclass: "Champion/Feywilde Pact"
+player: "Evan"
+zodiac: "Wolf"
+status: ascended
+zenith_role: champion
+zenith: mountain
+faction: ["[[Scarlet Tunic Brigade]]", "[[Artificer's Guild]]", "[[Magna Har]]"]
+acts_present: [1, 2, 3, 4, 5]
 affiliation: "[[Scarlet Tunic Brigade]], [[Artificer's Guild]], [[Magna Har]]"
 location: "[[feywilde]] (Sovereign)"
-status: alive (ascended)
 first_appearance: "Chapter 0"
 source: ["Player Notes (Ch. 0-136)", "Summary 36"]
 art: ["assets/pc-art-source/Bergs/Barnabus \"Bergs\" Fireforge.jpg"]
+tags:
+  - pc
+  - act-5
+  - mountain-zenith
 ---
 
 ## Description
@@ -41,7 +52,7 @@ After ascension, the visual shifts subtly: a faint warmth enters rooms with him,
 
 Bergs was planted by the [[Artificer's Guild]] among the [[Scarlet Tunic Brigade]] as a covert agent. His true heritage as a Fireforge was unknown even to himself. Abandoned by his parents and raised by wolves, he was "roped into this strange Maghar Dwarven mumbo-jumbo" as the campaign revealed his connection to the [[Magna Har]] and the [[First Forge]].
 
-Through the campaign, he died and was resurrected by the myconid network, becoming something more than dwarf -- a living node in a fungal consciousness. He carried [[Kelemtor]] (a talking skull) as a partner. He discovered his twin-soul connection with [[Daina Fireforge]], learned he was heir to the First Forge, and ultimately sacrificed himself on the Stone Table to become sovereign of the Feywilde.
+Through the campaign, he died and was resurrected by the myconid network, becoming something more than dwarf -- a living node in a fungal consciousness. He carried [[Kelemtor]] (a talking skull) as a partner. He discovered his sibling connection with [[Daina Fireforge]], learned he was heir to the First Forge, and ultimately sacrificed himself on the Stone Table to become sovereign of the Feywilde.
 
 ## Key Moments
 
@@ -57,7 +68,7 @@ Through the campaign, he died and was resurrected by the myconid network, becomi
 
 ## Relationships
 
-- **[[Daina Fireforge]]** -- Twin-soul connection. Both Fireforges, both apprentice [[Magna Har]] (Daina the axe, Bergs the hammer). The slow-burn revelation of their shared heritage.
+- **[[Daina Fireforge]]** -- Sister. Both Fireforges (siblings), both apprentice [[Magna Har]] (Daina the axe, Bergs the hammer). The slow-burn revelation of their shared heritage.
 - **[[Sprocket Overspark]]** -- The Buddy Cop Duo. "Not looking too good is Sprocket, who got fwoooph'd by a spider. Someone ought to heal that guy so I don't have to find someone else to go on buddy cop adventures with."
 - **[[Kelemtor]]** -- A talking skull carried on his belt. They are a buddy comedy about death and connection. The skull narrates everything and judges lovingly.
 - **[[Brigit Wildfire]]** -- She is the heart, he is the anchor. Both protect, but through different elements.

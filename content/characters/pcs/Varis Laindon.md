@@ -1,16 +1,26 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Varis Laindon"
-aliases: ["Varis Liadon", "Knight of the Dusken Wood", "The Eyes"]
+aliases: ["Knight of the Dusken Wood", "The Eyes"]
 race: "Half-Elf"
 class: "Ranger"
+subclass: "Hunter"
+player: "Scott"
+status: alive
+zenith_role: controller
+zenith: forest
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: [1, 2, 3, 4, 5]
 affiliation: "[[Scarlet Tunic Brigade]]"
 location: "Mardov (traveling)"
-status: alive
 first_appearance: "Chapter 6"
 source: ["Player Notes (Ch. 6-136)", "Varis's Backstory", "Summary 28"]
 art: ["assets/pc-art-source/Varis/Varis Laindon.jpg", "assets/pc-art-source/Varis/Varis Laindon -- Knight of the Dusken Wood.jpg"]
+tags:
+  - pc
+  - act-5
+  - forest-zenith
 ---
 
 ## Description

@@ -1,8 +1,8 @@
 ---
 type: roll20-character
-title: "Varis Liadon"
+title: "Varis Laindon"
 source: ["Roll20 Export"]
 ---
 
-# Varis Liadon (Roll20)
+# Varis Laindon (Roll20)
 

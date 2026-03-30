@@ -29,7 +29,7 @@ These Roll20 character sheets map directly to vault PC pages. They contain stats
 | [[sources/roll20/r20-char-Randal]] | [[characters/pcs/Randal]] | Also has [[lore/Randall]] (World Anvil) |
 | [[sources/roll20/r20-char-Scamp]] | [[characters/pcs/Knob and Scamp]] | Scamp half of the duo |
 | [[sources/roll20/r20-char-Sprocket Overspark]] | [[characters/pcs/Sprocket Overspark]] | Gnome diviner |
-| [[sources/roll20/r20-char-Varis Liadon]] | [[characters/pcs/Varis Laindon]] | Spelling variant: Liadon vs Laindon |
+| [[sources/roll20/r20-char-Varis Laindon]] | [[characters/pcs/Varis Laindon]] | Spelling variant: Laindon vs Laindon |
 
 ## NPCs and Allies
 
@@ -91,6 +91,6 @@ The Roll20 export reveals several spelling variants worth noting for search:
 |------------|-----------|-------|
 | Bergs Barnabus Blunderbeat | Bergs / Barnabus Fireforge | Blunderbeat may be original surname |
 | Fen BrightHallow | Fen Darkeyes | BrightHallow is family name; Darkeyes is adventuring alias |
-| Varis Liadon | Varis Laindon | Spelling variant across sources |
+| Varis Laindon | Varis Laindon | Spelling variant across sources |
 | Daina Diesa Fireforge | Daina Fireforge | Diesa is middle/clan name |
 | Ursala Volantis | Ursala Vorantis | Spelling variant in factions-and-orgs |

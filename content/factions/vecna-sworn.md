@@ -92,7 +92,7 @@ source: ["intrigue-web.md", "factions-and-orgs.md"]
   - Invoked the Ritual of the Stone Table through Umbara Skuttle
 - **Allied Agent:** [[Logath HellEye]] (Emperor of [[Tygras Logath]])
   - Former gladiator pit champion
-  - Made deal with same Fae demon as [[Tygras]]
+  - Made deal with [[Graz'zt]] (the fae demon, now under [[Vecna]]'s command) -- same entity as [[Tygras]]'s patron
   - Causes bloodlust and madness among orcs
 - **The Orc-Human War** — manufactured by [[Reynaldine]]/[[Logath HellEye|Logath]]/[[Mordred]]
   - [[Gordan BlackHand]] (Orc Sorcerer, Vecna agent)

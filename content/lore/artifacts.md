@@ -23,7 +23,7 @@ title: "Artifacts & Magic Items"
 ### Anchor of Pestilence (Pan Flute / Horn of Winter)
 - **Location:** [[Winter's Zenith]], [[bynar]]
 - **Wielder (Prophesied):** [[Randal]]
-- **Description:** The [[Maturin Turtle|turtle]]'s skeleton, activated by the panflute. By resurrecting [[Mia]] with the panflute, her skeleton is given flesh.
+- **Description:** The pan flute itself -- which resurrects the Maturin Turtle Mia when the Terrapin Song is played. The pan flute IS the anchor, not the turtle skeleton.
 - **Spells:** Anti-inspiration (halve positive inspiration to subtract from enemy rolls), Group inspiration (grants inspiration to whole party). Originates from the [[Sunless Citadel]] (a Yuan-Ti fortress in the Shifting Sands).
 
 ### Anchor of Famine (Diadem of Dawn)
@@ -182,7 +182,7 @@ All of the above actions are deemed, heroic and worthy of praise by the Gloves. 
 
 *Source: NFS/Magic Items/Fate -- Nightmare Reforged.docx*
 
-The voice within Nightmare has now been replaced with Dusken Wayne, the nephew of Nocturnus and son of Oblivion. Upon being fused with the Raven Queen's blessed blade, his trapped spirit was first to volunteer to help Nocturnus on his quest.
+The voice within Nightmare has now been replaced with Dusken Wayne, the cousin of Nocturnus and son of Oblivion. Upon being fused with the Raven Queen's blessed blade, his trapped spirit was first to volunteer to help Nocturnus on his quest.
 
 +2 to hit / +1 to damage longsword,
 

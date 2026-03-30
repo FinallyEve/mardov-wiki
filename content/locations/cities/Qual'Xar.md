@@ -1,12 +1,5 @@
 ---
-type: location
-category: city
-name: "Qual'Xar"
-source: ["stub — auto-generated from wikilink references"]
+type: redirect
 ---
 
-# Qual'Xar
-
-Location
-
-> This is a stub page created from wikilink references. Needs enrichment from source material.
+See [[qual-xar]]

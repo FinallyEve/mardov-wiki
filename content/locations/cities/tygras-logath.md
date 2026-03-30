@@ -3,6 +3,9 @@ type: location
 category: city
 name: Tygras Logath
 parent: "[[DawnHaven]]"
+status: contested
+current_ruler: "[[Logath HellEye]]"
+zenith: harvest
 aliases:
   - The Sealed Crater
 notable_npcs:
@@ -14,6 +17,7 @@ chapters:
 source: Places/DawnHaven/Tygras Logath/
 maps: []
 tags:
+  - location
   - city
   - tygras-logath
   - dawnhaven
@@ -54,5 +58,5 @@ To revive the Maturin guardian and resolve the Harvest crisis:
 
 ![[assets/maps-source/DawnHaven/Tygras Logath/Scar of Tygras.jpg]]
 ![[assets/maps-source/DawnHaven/Tygras Logath/Blood of Ancients Flowers and Statue of old Defender of Uma.jpg]]
-![[assets/maps-source/DawnHaven/Tygras Logath/Cornorstone -- Tygras' exile resting place.jpg]]
+![[assets/maps-source/DawnHaven/Tygras Logath/Cornerstone -- Tygras' exile resting place.jpg]]
 ![[assets/maps-source/DawnHaven/Tygras Logath/Logath HellEye - Emperor of Tygras Logath.jpg]]

@@ -61,7 +61,7 @@ The Brigade has harvested approximately **2,000 adventurer souls** by luring rec
 
 - Founded by [[Mordred]] as a front for soul harvesting
 - Provided legitimate military service (e.g., covering [[Tower Bridge]] evacuation against [[Ned'Zailok]])
-- [[Varis Liadon|Varis]] enlisted after the Ned'Zailok campaign
+- [[Varis Laindon|Varis]] enlisted after the Ned'Zailok campaign
 - Chapter 0-2: Party recruited, sewer descent, [[Mordred]] revealed, Brigade exposed
 - Post-reveal: [[Finkle Hollingsworth]] freed from possession, eventually becomes an ally
 

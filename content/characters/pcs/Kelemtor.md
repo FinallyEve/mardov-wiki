@@ -1,16 +1,22 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Kelemtor"
 aliases: ["The Recordkeeper of Last Words"]
 race: "Undead (Skull)"
 class: "N/A"
+status: undead
+zenith_role: none
+zenith: none
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: [2, 3, 4, 5]
 affiliation: "[[Bergs]], [[Scarlet Tunic Brigade]]"
 location: "With [[Bergs]]"
-status: undead
 first_appearance: "Mid-campaign"
 source: ["Player Notes"]
 art: ["assets/pc-art-source/Kelemtor/Kelemtor.jpg", "assets/pc-art-source/Kelemtor/Kelemtor portrait.jpg"]
+tags:
+  - pc
 ---
 
 ## Description

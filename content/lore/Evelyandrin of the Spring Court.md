@@ -1,11 +1,11 @@
 ---
 type: lore
-title: "Evelyandrin of the Spring Court"
+title: "Evelynnandrin of the Spring Court"
 source: ["World Anvil"]
 world_anvil_category: ""
 ---
 
-# Evelyandrin of the Spring Court
+# Evelynnandrin of the Spring Court
 
 Children
 Ruled Locations

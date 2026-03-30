@@ -46,5 +46,5 @@ Four side rooms reveal hieroglyphic murals representing each of the four Zeniths
 ![[assets/chapters-source/Act 1&2/Chapter 24/Slideshow/Lever Room]]
 ![[assets/chapters-source/Act 1&2/Chapter 24/Slideshow/Forrest's Zenith && Anchor of Death && Heart of the Wilde]]
 ![[assets/chapters-source/Act 1&2/Chapter 24/Slideshow/Mountain's Zenith && Anchor of War && Heart of the Forge]]
-![[assets/chapters-source/Act 1&2/Chapter 24/Slideshow/Winter's Zenith && Anchor of Pestillence && Heart of the Faith]]
+![[assets/chapters-source/Act 1&2/Chapter 24/Slideshow/Winter's Zenith && Anchor of Pestilence && Heart of the Faith]]
 ![[assets/chapters-source/Act 1&2/Chapter 24/Slideshow/Harvest's Zenith && Anchor of Famine && Heart of the Progenitor]]

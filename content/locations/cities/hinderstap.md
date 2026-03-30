@@ -3,6 +3,8 @@ type: location
 category: city
 name: Hinderstap
 parent: "[[monethern]]"
+status: neutral
+zenith: none
 aliases:
   - The Cursed Village
 notable_npcs:
@@ -11,6 +13,7 @@ chapters: []
 source: Places/Monethern/Hinderstap/
 maps: []
 tags:
+  - location
   - city
   - hinderstap
   - monethern

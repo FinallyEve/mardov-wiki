@@ -37,7 +37,7 @@ The possibilites are endless, you will be the first and that Winter Dragon Guard
 I will continue to search for the STAG in the meantime, but have sent for a portion of my research team. 
 Upon their arival, I will need to continue to make preparations to crush the dwarven city and their mechanical abominations.
 
-Have no worries, your intelligence shall improve with your new body, and my notes on the spell plague and pestillence shall be all yours.
+Have no worries, your intelligence shall improve with your new body, and my notes on the spell plague and pestilence shall be all yours.
 They have served their purposes to me now that the elder brain has been infected. 
 May they serve you well in your efforts to destabilize humanity. 
 

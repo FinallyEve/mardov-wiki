@@ -6,14 +6,17 @@ aliases: ["Tor Ironforge", "Daina's Father"]
 race: "Hill Dwarf"
 class: "Weaponsmith (Maghar of the Axe)"
 affiliation: "[[Magna Har]], [[bronzebeard]] dynasty"
-location: "Deceased (formerly [[Frozen Forest]])"
-status: dead (murdered)
+location: "Unknown (formerly [[Frozen Forest]])"
+status: "unknown -- possibly alive in Peraxis's captivity"
 first_appearance: "Referenced in [[Daina Fireforge]]'s backstory"
 source: ["Daina's Backstory", "NPC Catalog"]
 art: []
 ---
 
 ## Description
+
+![[assets/npc-art-source/Mentioned/Thorkon Fireforge -- Maghar Of the Axe.jpg]]
+
 
 Thorkon Fireforge was [[Daina Fireforge]]'s father -- a Maghar of the Axe, royal weaponsmith of amazing renown, and a Forgesworn who served the [[bronzebeard]] dynasty. He was framed for attempted assassination of a Bronzebeard, forced to flee to the [[Frozen Forest]] where his wife Hlin died after giving birth to Daina, and was ultimately murdered by a mysterious "black-eyed, red-bearded stranger" who poisoned him.
 

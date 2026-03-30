@@ -33,8 +33,8 @@ title: "Master Timeline"
 - [[Ebon Wayne]] captures [[Zodiac|Bat Zodiac]], discovers [[Spell Plague]]
 - [[Vecna]] raises [[Peraxis Phyrexia|Peraxis Geth]] as Illithilich
 - [[Peraxis Phyrexia]] corrupts the Elder Brain
-- [[Ned'Zailok]] attacks [[Tower Bridge]]; [[Varis Liadon|Varis]]'s father [[Yeldan Liadon|Yeldan]] goes missing
-- [[Scarlet Tunic Brigade]] covers the evacuation; [[Varis Liadon|Varis]] enlists
+- [[Ned'Zailok]] attacks [[Tower Bridge]]; [[Varis Laindon|Varis]]'s father [[Yeldan Laindon|Yeldan]] goes missing
+- [[Scarlet Tunic Brigade]] covers the evacuation; [[Varis Laindon|Varis]] enlists
 - [[Ned'Zailok]] defeated after 18 months of fighting
 
 ## Campaign Era (136 Chapters)
@@ -47,7 +47,7 @@ title: "Master Timeline"
 | 1 | [[Dallor Dallorbill|Dallor]] pickpockets note from [[Jorgen]] — proof of setup. |
 | 2 | [[Finkle Hollingsworth|Finkle]] revealed as [[Mordred]]. "2,000 souls." [[Jorgen]] killed, becomes revenant. [[Sabine Ra]] freed from phylactery, sacrifices herself. Crystalline hearts deposited in party. |
 | 3-5 | [[Artificer's Guild]] rescue. [[Xerxes]] exposition. Soul tether. |
-| 6 | Dopplegangers. [[V-Mardov]] rift opens. [[Varis Liadon|Varris]] arrives from alternate reality. |
+| 6 | Dopplegangers. [[V-Mardov]] rift opens. [[Varis Laindon|Varris]] arrives from alternate reality. |
 | 7-8 | [[Jorgen]] revenant pursues [[Finkle Hollingsworth|Finkle]]. [[Thornberry Shade]] ship. [[jafar]]/Sally intrigue. |
 | 9 | First Prophecy ([[Ruth]]). |
 | 11 | [[Golden Reach]] demons (Danelle/Markus) exposed at Festival of Light. [[Stalwart Little Goldentooth|Stalwart]]'s divine sense. |

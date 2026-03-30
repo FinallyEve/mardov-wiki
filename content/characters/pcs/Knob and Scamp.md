@@ -1,16 +1,23 @@
 ---
 type: character
-role: pc
-name: "Knob & Scamp"
-aliases: ["The Inventor and the Fox"]
-race: "Gnome (Knob) / Clockwork Construct (Scamp)"
-class: "Artificer / Ranger"
+category: pc
+name: "Knob"
+aliases: ["The Inventor and the Fox", "Knob & Scamp"]
+race: "Gnome"
+class: "Artificer"
+status: alive
+zenith_role: none
+zenith: none
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: [2, 3, 4, 5]
 affiliation: "[[Scarlet Tunic Brigade]]"
 location: "Mardov (traveling)"
-status: alive
 first_appearance: "Mid-campaign"
 source: ["Player Notes"]
 art: ["assets/pc-art-source/Knob && Scamp/Knob.jfif", "assets/pc-art-source/Knob && Scamp/Scamp.png"]
+tags:
+  - pc
+  - act-5
 ---
 
 ## Description

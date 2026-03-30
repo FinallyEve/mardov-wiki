@@ -3,6 +3,8 @@ type: location
 category: city
 name: The Distillery
 parent: "[[vartos]]"
+status: allied
+zenith: none
 aliases:
   - Group B's Stronghold
 notable_npcs:
@@ -15,6 +17,7 @@ chapters:
 source: Places/Vartos/The Distillery/
 maps: []
 tags:
+  - location
   - city
   - distillery
   - vartos

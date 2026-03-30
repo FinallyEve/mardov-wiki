@@ -68,7 +68,7 @@ Review and fix manually in your vault.
 - `[[Claudere Keep]]` (in locations/cities/the-distillery.md) -- **claudere-keep** (92%)
 - `[[Cliff Temple]]` (in locations/cities/cloud-city.md) -- **cliff-temple** (92%)
 - `[[Conquis Abbey]]` (in MOC.md) -- **conquis-abbey** (92%)
-- `[[Conquis Abby]]` (in locations/location-catalog.md) -- **conquis-abbey** (88%)
+- `[[Conquis Abbey]]` (in locations/location-catalog.md) -- **conquis-abbey** (92%)
 - `[[Coralinus Tovensmore]]` (in locations/cities/monethern-city.md) -- **coralinus-tovensmore** (95%)
 - `[[corrupt winters cultists]]` (in characters/npcs/npc-catalog.md) -- **corrupt-winters-cultists** (92%)
 - `[[Costa Una]]` (in factions/scarlet-tunic-brigade.md) -- **costa-una** (89%)

@@ -3,6 +3,9 @@ type: location
 category: city
 name: WindHaven
 parent: "[[DawnHaven]]"
+status: allied
+current_ruler: "[[Leonidas]]"
+zenith: none
 aliases:
   - Windhaven
 notable_npcs:
@@ -18,6 +21,7 @@ source: Places/DawnHaven/WindHaven/
 maps:
   - "[[WindHaven.jpg]]"
 tags:
+  - location
   - city
   - windhaven
   - dawnhaven

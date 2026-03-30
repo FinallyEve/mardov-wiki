@@ -14,7 +14,7 @@ Sources: Roll20 character exports, player chapter notes (Chapters 49-136), PC pr
 ## Table of Contents
 
 1. [Brigit Wildfire](#brigit)
-2. [Varis Liadon](#varis)
+2. [Varis Laindon](#varis)
 3. [Sprocket Overspark](#sprocket)
 4. [Daina "Diesa" Fireforge](#daina)
 5. [Bergs "Barnabus" Blunderbeat](#bergs)
@@ -35,7 +35,7 @@ Sources: Roll20 character exports, player chapter notes (Chapters 49-136), PC pr
 
 ## Brigit Wildfire
 
-**Class**: Druid (Circle of Wildfire) -- high level (access to 7th+ level spells: Reverse Gravity, Transport via Plants, Polymorph into Air Elemental)
+**Class**: Druid (Circle of the Moon) -- high level (access to 7th+ level spells: Reverse Gravity, Transport via Plants, Polymorph into Air Elemental)
 **Primary Stats**: WIS > CON > DEX (based on spellcasting focus, d8 hit die from Roll20, and survival in frontline chaos)
 
 ### Weapons & Equipment
@@ -82,7 +82,7 @@ Brigit fights like a conductor, not a soldier. She stands back (or overhead, or 
 
 <a name="varis"></a>
 
-## Varis Liadon
+## Varis Laindon
 
 **Class**: Ranger (likely Hunter or Gloom Stalker) -- Roll20 shows Ranger 1 base, but in-play he has access to Guardian of Nature (4th level, Ranger 13+), Silence, Wind Wall, Haste (via items/allies), Healing Spirit, and multi-attack. Likely level 15-17+.
 **Primary Stats**: DEX > WIS > CON (archer ranger, proficiency in STR and DEX saves from Roll20)

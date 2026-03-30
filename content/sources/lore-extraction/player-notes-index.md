@@ -210,7 +210,7 @@ source: ["NFS/lore-extraction/player-notes-index.md"]
 | 161 | Summary | 24 | Tiberious | Summary 24 - Tiberious_Tyler.docx | 1,981 |
 | 162 | Summary | 26 | Tezka | Summary 26 - Tezka.docx | 1,722 |
 | 163 | Summary | 28 | Daina | Summary 28 - Daina_s account.docx | 1,726 |
-| 164 | Summary | 28 | Varis | Summary 28 - fragment from _The Travelogue of Varis Liadon_. | 1,382 |
+| 164 | Summary | 28 | Varis | Summary 28 - fragment from _The Travelogue of Varis Laindon_. | 1,382 |
 | 165 | Summary | 29 | Brigit | Summary 29 - Brigit_s Adventure Log Chapter 29.docx | 2,218 |
 | 166 | Summary | 30 | Randall | Summary 30 - Randall_s Log - Two Holes, One Goal.docx | 1,478 |
 | 167 | Summary | 31 | Stalwart | Summary 31 - Stalwart_s State of Mind.docx | 473 |

@@ -14,7 +14,7 @@ Twelve cosmic animal spirits who serve the [[Raven Queen]]. Each is tied to a pl
 | Zodiac | Status | Champion | Location | Role |
 |--------|--------|----------|----------|------|
 | Stag | Dead | [[Brigit Wildfire]] | Locket | Represents the magic of nature. Ties to [[Eavallan]]. [[Brigit Wildfire|Brigitte]] can collect all 12 zodiac forms and attune to the [[Zodiac Locket]], granting unlimited shapeshifts, +2 wisdom, and psychic connection to each zodiac. |
-| Doe | Alive | [[Varis Liadon]] | Fae Moon | Represents the darkest timeline. Tied to the [[Forest's Zenith]] by the lich [[Ned'Zailok]]. When the zenith boss falls, the [[Heart of the Wilde]] transports the party to [[V-Mardov]] inside the Death's Zenith. |
+| Doe | Alive | [[Varis Laindon]] | Fae Moon | Represents the darkest timeline. Tied to the [[Forest's Zenith]] by the lich [[Ned'Zailok]]. When the zenith boss falls, the [[Heart of the Wilde]] transports the party to [[V-Mardov]] inside the Death's Zenith. |
 | Rabbit | Alive | [[Sprocket Overspark]] | [[hinderstap]] | Represents the College of Mages. Closest representative of the [[Raven Queen]]. Death will bring about [[Sabine Ra]]'s return as goddess of fate. Will serve as vessel by which [[Sabine Ra]] the demi-lich will rise, granting him the [[Raven Queen's Cloak]] (Luck feat, 3 die rolls per long rest, channel necromancy, wield the [[Anchor of Death]]). |
 
 ### Mountain's Zenith -- Anchor of War -- Heart of the Forge
@@ -57,7 +57,7 @@ From the DM's zodiac musings:
 | # | Zodiac | Status | Chosen By | Last Known Location |
 |---|--------|--------|-----------|-------------------|
 | 1 | Stag | Dead | [[Brigit Wildfire]] | Locket |
-| 2 | Doe | Alive | [[Varis Liadon]] | Fae Moon |
+| 2 | Doe | Alive | [[Varis Laindon]] | Fae Moon |
 | 3 | Serpent | Dead | [[Fen Darkeyes]] | [[Sunless Citadel]] |
 | 4 | Rabbit | Alive | [[Sprocket Overspark]] | [[hinderstap]] |
 | 5 | Wolf | Dead | [[Bergs Fireforge]] | [[Frozen Forest]] |
@@ -118,6 +118,6 @@ The final battle requires all twelve zodiac champions in position:
 
 | Role | Forest (Death) | Mountain (War) | Winter (Pestilence) | Harvest (Famine) |
 |------|---------------|----------------|--------------------|--------------------|
-| **Controller** | [[Varis Liadon|Varris]] | [[Nocturnus Wayne]] | [[Dallor Dallorbill|Dallor]] | [[Irethia]] |
+| **Controller** | [[Varis Laindon|Varris]] | [[Nocturnus Wayne]] | [[Dallor Dallorbill|Dallor]] | [[Irethia]] |
 | **Champion** | [[Brigit Wildfire|Brigitte]] | [[Bergs Fireforge|Bergs]] | [[Stalwart Little Goldentooth|Stalwart]] | [[Nyx Khamestria|Nyx]] |
 | **Anchor Wielder** | [[Sprocket Overspark|Sprocket]] | [[Daina Fireforge|Daina]] | [[Randal]] | [[Tesca Duskhallow|Tesca]] |

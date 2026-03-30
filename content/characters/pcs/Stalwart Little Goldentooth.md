@@ -1,16 +1,26 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Stalwart Little Goldentooth"
 aliases: ["Stalwart", "Lit of the Summerborn", "The Anchor", "The Shield"]
 race: "Gold Dragonborn"
 class: "Paladin"
+subclass: "Oath of Vengeance"
+zodiac: "Mongoose"
+status: alive
+zenith_role: champion
+zenith: winter
+faction: ["[[Scarlet Tunic Brigade]]", "[[Bahamut]]"]
+acts_present: [1, 2, 3, 4, 5]
 affiliation: "[[Scarlet Tunic Brigade]], [[Bahamut]]"
 location: "Mardov (traveling)"
-status: alive
 first_appearance: "Chapter 0"
 source: ["Player Notes (Ch. 0-136)", "DM Notes"]
 art: ["assets/pc-art-source/Stalwart/Stalwart Little.png", "assets/pc-art-source/Stalwart/Stalwart Little Goldentooth -- Lit of the Summerborn.png"]
+tags:
+  - pc
+  - act-5
+  - winter-zenith
 ---
 
 ## Description
@@ -21,7 +31,7 @@ Stalwart Little Goldentooth is the self-appointed leader of the [[Scarlet Tunic 
 
 A **gold-scaled dragonborn** of imposing stature, standing well above most humanoids. His scales are a warm, burnished gold that catch and reflect light, giving him a naturally regal presence. His head features a rounded snout with small facial horns, and his eyes are a piercing yellow-amber. His clawed gold feet and thick tail complete the draconic silhouette.
 
-He wears **gleaming silver plate armor** with ornate gold filigree -- swirling decorative patterns etched into the pauldrons, breastplate, greaves, and gauntlets. The armor is pristine and well-maintained (he polishes it obsessively). A **crimson cloth tabard or sash** is draped around his neck and across one shoulder, providing a bold warm accent against the silver steel. His belt is dark leather with a purple-toned buckle.
+He wears **gleaming silver plate armor** with ornate gold filigree -- swirling decorative patterns etched into the pauldrons, breastplate, greaves, and gauntlets. The armor is pristine and well-maintained (he polishes it obsessively). A **blue cloth tabard or sash** is draped around his neck and across one shoulder, providing a bold warm accent against the silver steel. His belt is dark leather with a purple-toned buckle.
 
 In his right hand he wields a **longsword** with a gold crossguard and red inlaid detail, its blade long and polished. In his left he carries a large **kite shield** -- silver-grey steel decorated with elegant gold filigree scrollwork. The shield is as much a character as a weapon; it faces threats before Stalwart consciously does.
 

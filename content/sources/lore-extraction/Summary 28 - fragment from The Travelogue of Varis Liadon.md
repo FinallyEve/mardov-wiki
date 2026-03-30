@@ -1,10 +1,10 @@
 ---
 type: lore-extraction
-title: "Summary 28 - fragment from The Travelogue of Varis Liadon"
-source: ["NFS/lore-extraction/Summary_28_-_fragment_from__The_Travelogue_of_Varis_Liadon_.txt"]
+title: "Summary 28 - fragment from The Travelogue of Varis Laindon"
+source: ["NFS/lore-extraction/Summary_28_-_fragment_from__The_Travelogue_of_Varis_Laindon_.txt"]
 ---
 
-Summary 28: fragment of 'The Travelogue of Varis Liadon'
+Summary 28: fragment of 'The Travelogue of Varis Laindon'
 
 Ziggy, I found my way home, at least for a little while. I'm starting to get a handle on this plane shifting, I think. I'm even learning to use it, which sometimes scares me a bit. But with the rapid decline in our world, I'll grab any tool to help.
 

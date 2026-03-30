@@ -1,9 +1,18 @@
 ---
 type: character
 name: "Haster Vun"
-status: stub
+role: npc-minor
+faction: "Blackbeard"
+location: "[[Vag'Mahar]]"
+status: active
 ---
 
 # Haster Vun
 
-*Stub page -- referenced in [[vag-mahar]]. Needs content.*
+Guard Captain of the **Blackbeard Sector** in [[Vag'Mahar]]. The Blackbeards serve as the police force of the dwarven fortress-city. Haster Vun commands the **Iron Fist**, the Blackbeard sector's enforcement arm.
+
+## Role
+
+- Blackbeard Guard Captain
+- Commands the Iron Fist (Blackbeard police)
+- The Blackbeards = the police force of [[Vag'Mahar]]

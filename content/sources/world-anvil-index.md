@@ -54,7 +54,7 @@ These WA articles describe named NPCs. They should be cross-linked from their re
 | [[lore/Terrell Temptus, The Storm King]] | Storm Giant/Genasi | [[locations/cities/cloud-city]], [[characters/npcs/organizations/Gods and Cosmic Entities]] |
 | [[lore/Thestra, Wife of the Storm]] | Storm Giant | [[lore/Terrell Temptus, The Storm King]], [[locations/cities/cloud-city]] |
 | [[lore/Thestrus]] | Storm Giant Blacksmith | [[lore/Jack the Beanstalk]], [[locations/cities/cloud-city]] |
-| [[lore/Varis Liadon]] | PC variant article | [[characters/pcs/Varis Laindon]] |
+| [[lore/Varis Laindon]] | PC variant article | [[characters/pcs/Varis Laindon]] |
 
 ## Locations
 

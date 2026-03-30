@@ -6,4 +6,7 @@ status: stub
 
 # Quinn Magnacog
 
+![[assets/npc-art-source/Mentioned/Quinn Magnacog -- Trixie's older sister.jpg]]
+
+
 *Stub page -- referenced in [[npc-catalog]]. Needs content.*

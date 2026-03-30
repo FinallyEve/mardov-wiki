@@ -1,16 +1,22 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Mirvess"
 aliases: ["The Enchantress"]
 race: "Human"
 class: "Unknown (Enchantment-focused)"
+status: unknown
+zenith_role: none
+zenith: none
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: []
 affiliation: "[[Scarlet Tunic Brigade]]"
 location: "Unknown"
-status: unknown
 first_appearance: "Mid-campaign"
 source: ["Player Notes"]
 art: ["assets/pc-art-source/Mirvess/Mirvess.png"]
+tags:
+  - pc
 ---
 
 ## Description

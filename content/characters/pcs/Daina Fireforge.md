@@ -1,21 +1,32 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Diesa 'Daina' Fireforge"
 aliases: ["Daina", "Daina Reborn", "The Forge", "The Force"]
-race: "Hill Dwarf"
+race: "Duergar"
 class: "Barbarian"
+subclass: "Berserker/Ancestral Guardian"
+player: "Jasmine"
+zodiac: "Wolverine"
+status: alive
+zenith_role: wielder
+zenith: mountain
+faction: ["[[Scarlet Tunic Brigade]]", "[[Magna Har]]"]
+acts_present: [1, 2, 3, 4, 5]
 affiliation: "[[Scarlet Tunic Brigade]], [[Magna Har]]"
 location: "Mardov (traveling)"
-status: alive
 first_appearance: "Chapter 0"
 source: ["Player Notes (Ch. 0-136)", "Daina's Backstory"]
 art: ["assets/pc-art-source/Diesa \"Daina\" Fireforge/Daina Reborn.jpg"]
+tags:
+  - pc
+  - act-5
+  - mountain-zenith
 ---
 
 ## Description
 
-Diesa "Daina" Fireforge is the party's unstoppable force -- a hill dwarf barbarian forged in exile and hardened by loss, who carries a lineage she does not understand and a rage she channels into protecting everyone she could not protect before. She is heir to the [[First Forge]] and the [[bronzebeard]] dynasty, twin-soul of [[Bergs]], and the woman whose heartbeat commands warforged.
+Diesa "Daina" Fireforge is the party's unstoppable force -- a hill dwarf barbarian forged in exile and hardened by loss, who carries a lineage she does not understand and a rage she channels into protecting everyone she could not protect before. She is heir to the [[First Forge]] and the [[bronzebeard]] dynasty, sister of [[Bergs]], and the woman whose heartbeat commands warforged.
 
 ## Appearance & Costume
 
@@ -65,7 +76,7 @@ On his deathbed, poisoned by a mysterious visitor -- a red-bearded stranger with
 ## Relationships
 
 - **[[Brigit Wildfire]]** -- Battle sisters. Brigit plans, Daina executes. The campaign's bedrock relationship.
-- **[[Bergs]]** -- Twin-soul connection. Both Fireforges, both apprentice [[Magna Har]]. Their parallel arcs toward discovering their heritage is a major slow-burn revelation.
+- **[[Bergs]]** -- Brother. Both Fireforges (siblings), both apprentice [[Magna Har]] (Daina the axe, Bergs the hammer). Their parallel arcs toward discovering their shared heritage is a major slow-burn revelation.
 - **[[Nocturnus Wayne]]** -- Combat partners. Mutual respect expressed through violence. She grabs him, screams "slow fall!" and rides him down cliffs.
 - **[[Stalwart Little Goldentooth]]** -- He casts Shield of Faith on her instinctively. She hits things that get near him.
 - **[[Dallor]]** -- Daina hits Dallor. Repeatedly. This is not a relationship; it is a running gag with a body count.

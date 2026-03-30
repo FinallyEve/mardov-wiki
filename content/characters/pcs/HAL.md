@@ -1,15 +1,23 @@
 ---
 type: character
-role: pc
+category: pc
 name: "HAL"
 aliases: ["The Raccoon", "The Terminator"]
 race: "Warforged"
 class: "Fighter"
+player: "Zach"
+status: alive
+zenith_role: none
+zenith: none
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: [3, 4, 5]
 affiliation: "[[Scarlet Tunic Brigade]]"
 location: "Mardov (traveling)"
-status: alive
 first_appearance: "Late campaign"
 source: ["Audrey Commission Notes"]
+tags:
+  - pc
+  - act-5
 ---
 
 ## Description

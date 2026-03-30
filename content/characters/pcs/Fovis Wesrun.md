@@ -1,16 +1,22 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Fovis Wesrun"
 aliases: ["The Quiet Bard"]
 race: "Human"
 class: "Bard"
+status: dead
+zenith_role: none
+zenith: none
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: [3, 4]
 affiliation: "[[Scarlet Tunic Brigade]]"
 location: "Unknown"
-status: unknown (sacrificed in Ch. 117)
 first_appearance: "Mid-campaign"
 source: ["Player Notes"]
 art: ["assets/pc-art-source/Fovis Wesrun/Fovis Wesrun.png"]
+tags:
+  - pc
 ---
 
 ## Description

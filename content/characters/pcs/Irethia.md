@@ -1,16 +1,26 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Irethia"
 aliases: ["Irethia Goldbloom", "Baby Irethia", "The Enigma"]
 race: "Human (Fey-touched)"
-class: "Draconic Sorcerer"
+class: "Sorcerer"
+subclass: "Draconic Bloodline"
+zodiac: "Fox"
+status: alive
+zenith_role: controller
+zenith: harvest
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: [1, 2, 3, 4, 5]
 affiliation: "[[Scarlet Tunic Brigade]]"
 location: "Mardov (traveling)"
-status: alive
 first_appearance: "Chapter 16"
 source: ["Player Notes (Ch. 16-136)", "Summary 20"]
 art: ["assets/pc-art-source/Irethia/Baby Irethia.jpg"]
+tags:
+  - pc
+  - act-5
+  - harvest-zenith
 ---
 
 ## Description

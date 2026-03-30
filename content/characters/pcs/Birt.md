@@ -1,16 +1,23 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Birt"
 aliases: ["True Birt"]
 race: "Aarakocra"
 class: "Wizard"
+status: alive
+zenith_role: none
+zenith: none
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: [2, 3, 4, 5]
 affiliation: "[[Scarlet Tunic Brigade]]"
 location: "Mardov (traveling)"
-status: alive
 first_appearance: "Mid-campaign"
 source: ["Player Notes (Ch. 49-136)"]
 art: ["assets/pc-art-source/Birt/Birt.png"]
+tags:
+  - pc
+  - act-5
 ---
 
 ## Description

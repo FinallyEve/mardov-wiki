@@ -1,16 +1,27 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Nocturnus Wayne"
 aliases: ["The Loner", "The Exile", "Darkest Knight"]
 race: "Drow"
-class: "Monk / Vampire"
+class: "Monk"
+subclass: "Way of Shadow"
+player: "Ben"
+zodiac: "Bat"
+status: alive
+zenith_role: controller
+zenith: mountain
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: [1, 2, 3, 4, 5]
 affiliation: "[[Scarlet Tunic Brigade]]"
 location: "Mardov (traveling)"
-status: alive (undead)
 first_appearance: "Chapter 0"
 source: ["Player Notes (Ch. 0-136)", "Summary 23"]
 art: ["assets/pc-art-source/Nocturnus/Nocturnus Wayne -- Post Vampire.jpg"]
+tags:
+  - pc
+  - act-5
+  - mountain-zenith
 ---
 
 ## Description
@@ -23,7 +34,7 @@ A **tall, lean male** with **deathly pale grey-white skin** that reads as corpse
 
 He wears **black spiked armor** covered in organic, thorn-like blade protrusions -- the armor looks less forged and more grown, as though darkness itself crystallized into protective plate. Dark leather and metal layers are secured with multiple **buckles and straps**, creating a silhouette of controlled menace. Behind his shoulders, **wing-like blade protrusions** extend upward -- not wings he can fly with, but decorative barbs of dark metal that echo a bat's wingspan.
 
-In his right hand he grips a **greatsword** -- his companion weapon, Bane -- with casual, intimate familiarity. His left hand drips with **fresh blood**, the only warm color in his entire palette. The blood catches light that his skin does not.
+In his right hand he grips a **greatsword** -- his companion weapon, Nightmare -- with casual, intimate familiarity. His left hand drips with **fresh blood**, the only warm color in his entire palette. The blood catches light that his skin does not.
 
 The color palette is intentional: cool blue-grey, black armor, white hair, and the singular shock of red blood. Every element reads gothic, vampiric, and dangerous. He is the visual embodiment of the party's darkest capabilities.
 
@@ -33,7 +44,7 @@ The color palette is intentional: cool blue-grey, black armor, white hair, and t
 
 **Motivations**: Fulfill the prophecy -- kill the gods that need killing. Master the vampire within. Secretly, he wants to be human again. Not the power, not the immortality -- just the warmth.
 
-**Under pressure**: Becomes the thing that monsters are afraid of. His pale skin goes translucent, his movements blur, his blade drinks blood in a "dusty, molasses pull." He fights with Bane in a partnership more intimate than any living relationship. Uses Empty Body to become untouchable.
+**Under pressure**: Becomes the thing that monsters are afraid of. His pale skin goes translucent, his movements blur, his blade drinks blood in a "dusty, molasses pull." He fights with Nightmare in a partnership more intimate than any living relationship. Uses Empty Body to become untouchable.
 
 **Moral compass**: Follows a code that exists entirely in his own head. Chose not to win when winning would cost more than losing. Will never turn another person. Will never feed on the unwilling.
 
@@ -64,14 +75,14 @@ Nocturnus was turned against his will. He carries the vampirism as both curse an
 - **[[Varis Laindon]]** -- Unspoken bond. Varis brought Nocturnus back from death with a diamond. They do not discuss it. They do not need to.
 - **[[Daina Fireforge]]** -- Combat partners. She grabs him and screams "slow fall!" and rides him down cliffs.
 - **[[Brigit Wildfire]]** -- She fights for his soul. Greater Restoration daily. Tried to polymorph him into a bunny. This is love expressed as persistent magical intervention.
-- **Bane** -- His sentient greatsword. Animate the sword as a partner, not a tool. Blood flows UP the blade. When he talks to Bane, his hand relaxes on the hilt like holding hands.
+- **Nightmare** -- His sentient greatsword. Animate the sword as a partner, not a tool. Blood flows UP the blade. When he talks to Nightmare, his hand relaxes on the hilt like holding hands.
 - **[[Oblivion Wayne]]** -- His aunt. Drow vampire queen. His prophesied target.
 
 ## Fighting Style
 
 **Class**: Monk (Way of Shadow) / Vampire abilities.
 
-**Weapons**: Greatsword (Bane); unarmed strikes; the darkness itself.
+**Weapons**: Greatsword (Nightmare); unarmed strikes; the darkness itself.
 
 **Signature abilities**:
 - **Empty Body**: Becomes translucent, untouchable. In this form he looks young -- like the man he was before the turning.
@@ -80,7 +91,7 @@ Nocturnus was turned against his will. He carries the vampirism as both curse an
 - **Shadow Step**: He does not walk into rooms. He is already there when you notice him.
 - **Pocket Sand**: A legitimate tactical option he uses to sneak into people's rooms and throw at them.
 
-**Combat philosophy**: Inhuman fluidity. He does not walk, he glides. He does not turn, he pivots. His hair moves half a second behind his head, like underwater. His blade is an extension of his arm. He fights with Bane as a partner -- the most dangerous two-person unit in the party, except one of them is a sword.
+**Combat philosophy**: Inhuman fluidity. He does not walk, he glides. He does not turn, he pivots. His hair moves half a second behind his head, like underwater. His blade is an extension of his arm. He fights with Nightmare as a partner -- the most dangerous two-person unit in the party, except one of them is a sword.
 
 ## Visual Description (Session 100 Commission)
 

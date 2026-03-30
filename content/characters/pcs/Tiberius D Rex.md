@@ -1,16 +1,25 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Tiberius D Rex"
 aliases: ["Old Tiberius", "Young Tiberius", "The Bronze Curator"]
-race: "Dragonborn (Bronze)"
-class: "Cleric (Bahamut)"
+race: "Bronze Dragonborn"
+class: "Cleric"
+subclass: "War Domain"
+player: "Kyle"
+status: alive
+zenith_role: none
+zenith: none
+faction: ["[[Bronze Curators]]", "[[Bahamut]]"]
+acts_present: [1, 2, 3, 4, 5]
 affiliation: "[[Bronze Curators]], [[Bahamut]]"
 location: "Mardov (traveling)"
-status: alive
 first_appearance: "Chapter 8"
 source: ["Player Notes (Ch. 8-136)", "Tiberius Backstory", "Character Sheet"]
 art: ["assets/pc-art-source/Tiberious/tiberius.jpg", "assets/pc-art-source/Tiberious/Young Tiberious.png"]
+tags:
+  - pc
+  - act-5
 ---
 
 ## Description

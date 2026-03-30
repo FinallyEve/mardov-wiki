@@ -9,7 +9,7 @@ title: "Prophecies & Zodiac Symbolism"
 
 ### First Prophecy — Ruth (Argos, Chapter 9)
 
-> *"THE ANCHORS FALL, THE REALM ASUNDER*
+> *"THE ANCHORS FALL, THE REALMS ASUNDER*
 > *HEARTS OF STONE GATHERED FROM PLUNDER*
 > *DEATH INCARNATE KNOCKS AT THE DOOR*
 > *BELOW THE BLOOD STAR BEGINS THE FINAL WAR!"*
@@ -229,8 +229,8 @@ Twelve cosmic animal spirits who serve the [[Raven Queen]]. Each is tied to a pl
 | Zodiac | Spirit Name | Champion |
 |--------|------------|----------|
 | Rabbit | Nivens / Inaba | [[Sprocket Overspark]] |
-| Giant Elk | Shi-Shi-Gami / Scythia | [[Brigit Wildfire]] |
-| Doe | Lilly | [[Varis Liadon]] |
+| Stag | Shi-Shi-Gami / Scythia | [[Brigit Wildfire]] |
+| Doe | Lilly | [[Varis Laindon]] |
 
 **Key Events:**
 - The Stag (Shi-Shi-Gami) was **captured** by [[Peraxis Phyrexia]]'s Illithid
@@ -292,6 +292,6 @@ The final battle requires:
 
 | Role | Forest (Death) | Mountain (War) | Winter (Pestilence) | Harvest (Famine) |
 |------|---------------|----------------|--------------------|--------------------|
-| **Controller** | [[Varis Liadon|Varris]] | [[Nocturnus Wayne]] | [[Dallor Dallorbill|Dallor]] | [[Irethia]] |
+| **Controller** | [[Varis Laindon|Varris]] | [[Nocturnus Wayne]] | [[Dallor Dallorbill|Dallor]] | [[Irethia]] |
 | **Champion** | [[Brigit Wildfire|Brigitte]] | [[Bergs Fireforge|Bergs]] | [[Stalwart Little Goldentooth|Stalwart]] | [[Nyx Khamestria|Nyx]] |
 | **Anchor Wielder** | [[Sprocket Overspark|Sprocket]] | [[Daina Fireforge|Daina]] | [[Randal]] | [[Tesca Duskhallow|Tesca]] |

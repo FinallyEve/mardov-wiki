@@ -1,9 +1,7 @@
 ---
-type: character
-name: "Josh Coolbreeze"
-status: stub
+type: redirect
 ---
 
-# Josh Coolbreeze
+![[assets/npc-art-source/FeyLords/Autumn Court/Josh Coolbreeze -- Champion of the Dusk.jpg]]
 
-*Stub page -- referenced in [[fey-courts]]. Needs content.*
+See [[Josh Coolbreeze]]

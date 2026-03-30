@@ -88,7 +88,7 @@
 ### Brigit Wildfire -- The Heart
 
 - **Player**: Liz
-- **Class/Race**: Druid (Circle of Wildfire) / Barbarian multiclass, Changeling/Shapeshifter
+- **Class/Race**: Druid (Circle of the Moon) / Barbarian multiclass, Changeling/Shapeshifter
 - **Zodiac**: Stag (Giant Elk)
 - **Arc Summary**: Brigit enters the split as the party's chronicler and emotional anchor. Across 45+ chapters of Distillery play, she transforms from an uncertain young druid into a Progenitor -- literally connected to the land of Mardov itself. She brews beer, rescues Children of the Forest, turns into dragons, and writes everything down. Her arc is one of identity: learning that the many voices in her head are not a curse but the essence of what she is. When her elemental powers are stripped at the Harvest Zenith (Ch 135-136), the silence is more terrifying than any enemy.
 - **Key Moments**:

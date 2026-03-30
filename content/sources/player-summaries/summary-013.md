@@ -79,7 +79,7 @@ the anchor of famine shall be lifted, the echo of TYGRAS stilled
 
 As the snow drifts over the ruined tribe, and serpent plagues the sea
 
-the anchor of pestillence shall awake, to answer the curators plea
+the anchor of pestilence shall awake, to answer the curators plea
 
 As the fire bellows on the forgotten forge, and the blood star is found
 

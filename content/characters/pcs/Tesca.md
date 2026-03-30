@@ -1,16 +1,26 @@
 ---
 type: character
-role: pc
-name: "Tezka Duskhallow"
-aliases: ["Tesca", "The Scrapper"]
+category: pc
+name: "Tesca Duskhallow"
+aliases: ["Tesca", "Tezka", "The Scrapper"]
 race: "Tiefling"
 class: "Monk"
+subclass: "Open Hand/Shadow"
+zodiac: "Mouse"
+status: alive
+zenith_role: wielder
+zenith: harvest
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: [1, 2, 3, 4, 5]
 affiliation: "[[Scarlet Tunic Brigade]]"
 location: "Mardov (traveling)"
-status: alive
 first_appearance: "Chapter 10"
 source: ["Player Notes (Ch. 10-136)", "Tesca's Backstory"]
 art: ["assets/pc-art-source/Tesca/Tesca at Twilight.png"]
+tags:
+  - pc
+  - act-5
+  - harvest-zenith
 ---
 
 ## Description

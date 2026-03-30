@@ -34,7 +34,7 @@ Keystones:
 "  DOUBLE BUBBLE TOIL AND TROUBLE,
    GARD'DAEMON IS NEIGH, THE FIRST ZENITH IS RUBBLE,  //first zenith has already been plundered by MORDRED, he already had the heart of the wild and used it, what did he use it for? awakened the forest guardian, this is going to be the big boss in the zenith
 
-   PREPARE THE PESTILLENCE WITH CHILDRENS SOULS,      //the pestillence being comprised of souls points to a crisis of faith
+   PREPARE THE PESTILENCE WITH CHILDRENS SOULS,      //the pestilence being comprised of souls points to a crisis of faith
    THE HUSKS REMAIN UNTIL THEIR TOLD,
 
    DOUBLE BUBBLE TOIL AND TROUBLE,
@@ -46,7 +46,7 @@ Keystones:
   the anchor of famine shall be lifted, the echo of TYGRAS stilled              // echo of TYGRAS is the fae-fiend who has LOGATH under compullsion, hes creating a second army of sorcerers, the anchor of famine is the DAWN DAIDEM, lifted means to raise it and free XYN whos under its spell to bring about the next age of TYGRAS
 
   as the snow drifts over the ruined tribe, and serpent plagues the sea         // the ruined tribe is EVAN's curators, the serpent that plagues the sea is the the fae eel, he swallowed the heart of the faith, must be recovered to restore order to conquis abbey
-  the anchor of pestillence shall awake, to answer the curators plea            // the anchor of pestillence is the turtle's husk at the bottom of the ocean, the curator's plea is 
+  the anchor of pestilence shall awake, to answer the curators plea            // the anchor of pestilence is the turtle's husk at the bottom of the ocean, the curator's plea is 
 
   as the fire bellows on the forgotten forge, and the blood star is found	// forgotten forge is the FIRST FORGE where the ancient FORGELORD THORIN BRONZEBEARD built his army of WARFORGED, great mechanical behemoths all powered by tiny exploading mephits, the blood star is a meteor that struck and killed the KING THORSON BRONZEBEARD II last trueborn hear of the VAG' MAHAR
   the anchor of war shall be silenced, as the new paragon is crowned		// the THANES of the 3 DISTRICTS squabble and civil war is brewing, it is fueled by the invovlement of the 3 secret police forces, the BLACKGUARD, the TRUTH'S LIGHT, and SILENT FLAME all of which are actually run by the same mind flayer seeking to assult the mountains zenith in order to use the anchor of war (a hammer capable of creating a quake strong enough to sink VAG'MAHAR) in order to breed better duer'gar, the paragon is the bastard DORRIN (this is BERGS/DAINA) who is the only one who can build warforged/control warforged, his is a golem named ROC

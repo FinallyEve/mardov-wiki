@@ -3,6 +3,9 @@ type: location
 category: city
 name: Argos
 parent: "[[DawnHaven]]"
+status: destroyed
+current_ruler: "[[Morticia Sunwatcher]]"
+zenith: none
 aliases:
   - The Ruined City
 notable_npcs:
@@ -14,6 +17,7 @@ source: Places/DawnHaven/Argos/
 maps:
   - "[[Argos Isometric map.png]]"
 tags:
+  - location
   - city
   - argos
   - dawnhaven
@@ -54,4 +58,4 @@ Delivered by Ruth in Argos:
 ![[assets/maps-source/DawnHaven/Argos/Ruins of the Scarlet Citadel.jpg]]
 ![[assets/maps-source/DawnHaven/Argos/scarlet keep map.jpg]]
 ![[assets/maps-source/DawnHaven/Argos/city by the sea.jpg]]
-![[assets/maps-source/DawnHaven/Argos/Teleportaion Room.jpg]]
+![[assets/maps-source/DawnHaven/Argos/Teleportation Room.jpg]]

@@ -1,16 +1,27 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Randal"
 aliases: ["The Diplomatic Bard", "The Mediator"]
 race: "Half-Elf"
-class: "Bard / Warlock"
+class: "Bard/Warlock"
+subclass: "College of Lore"
+player: "Zach"
+zodiac: "Turtle"
+status: ascended
+zenith_role: wielder
+zenith: winter
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: [1, 2, 3, 4, 5]
 affiliation: "[[Scarlet Tunic Brigade]]"
 location: "Mardov (traveling)"
-status: alive (dying)
 first_appearance: "Chapter 10"
 source: ["Player Notes (Ch. 10-136)", "Summary 21"]
 art: ["assets/pc-art-source/Randal/Randal.jpg"]
+tags:
+  - pc
+  - act-5
+  - winter-zenith
 ---
 
 ## Description

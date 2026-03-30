@@ -23,7 +23,7 @@ The Fey Lords govern the four seasonal courts of the [[feywilde]]. They are anci
 
 | Name | Court | Significance |
 |------|-------|-------------|
-| **Evylanndrin** | Spring Court | |
+| **Evelyandrin** | Spring Court | |
 | **[[juliannia]]** | Summer Court | Connected to [[Nyx Khamestria]]'s patron chain |
 | **Queen of Thorns** | Unknown | |
 | **[[Reynaldine]]** | Autumn Court | Fey Lord serving [[Vecna]]. Causes Orc/Human wars in [[DawnHaven]]. Seeks the [[Diadem of Dawn]]. Threatens [[rimefang]]'s pestilence supply. Vecna warns her against delays. |

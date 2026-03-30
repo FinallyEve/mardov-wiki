@@ -227,7 +227,7 @@ Minimal intentional humor. Daina's comedy is in her blunt physicality. She grabs
 
 ---
 
-## Varis (Liadon)
+## Varis (Laindon)
 
 ### Speech Pattern
 Varis writes in a literary, epistolary style -- addressing his ancestor "Ziggy" in journal entries. He uses complete sentences, proper grammar, and a ranger's understated precision. He speaks of violence matter-of-factly and moral decisions with genuine weight. He is the most introspective character, frequently questioning whether the party's methods make them better than their enemies. He uses ellipses to trail off thoughtfully. His combat voice is terse and tactical; his philosophical voice is expansive and troubled.

@@ -796,7 +796,7 @@ But perhaps greatest of all was the deal offered in exchange for her life, one d
 
 GARD'DAEMON IS NEIGH, THE FIRST ZENITH IS RUBBLE,
 
-PREPARE THE PESTILLENCE WITH CHILDRENS SOULS,
+PREPARE THE PESTILENCE WITH CHILDRENS SOULS,
 
 THE HUSKS REMAIN UNTIL THEIR TOLD,
 
@@ -915,7 +915,7 @@ the anchor of famine shall be lifted, the echo of TYGRAS stilled
 
 As the snow drifts over the ruined tribe, and serpent plagues the sea
 
-the anchor of pestillence shall awake, to answer the curators plea
+the anchor of pestilence shall awake, to answer the curators plea
 
 As the fire bellows on the forgotten forge, and the blood star is found
 
@@ -1952,10 +1952,10 @@ Boris collects himself and magically heals his dislocated ankles and hits the cr
 
 ---
 
-## Summary 28 - fragment from _The Travelogue of Varis Liadon_
+## Summary 28 - fragment from _The Travelogue of Varis Laindon_
 **Perspective: Varis**
 
-Summary 28: fragment of 'The Travelogue of Varis Liadon'
+Summary 28: fragment of 'The Travelogue of Varis Laindon'
 
 Ziggy, I found my way home, at least for a little while. I'm starting to get a handle on this plane shifting, I think. I'm even learning to use it, which sometimes scares me a bit. But with the rapid decline in our world, I'll grab any tool to help.
 

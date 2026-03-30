@@ -37,7 +37,7 @@ The Scarlet Tunic Brigade / The Awakened -- 13+ PCs rotating in and out across 1
 | Core | Randal | Bard/Warlock | The Mediator, the scholar | Ch. 10+ |
 | Core | Tezka (Tesca) Duskhallow | Tiefling Monk | The Scrapper, the survivor | Ch. 10+ |
 | Major | Bergs (Barnabus) Fireforge | Hill Dwarf Fighter | The Wild Man, the comedic tank | All |
-| Major | Varis Liadon | Half-Elf Ranger | The Outsider (literally from another plane) | Intermittent |
+| Major | Varis Laindon | Half-Elf Ranger | The Outsider (literally from another plane) | Intermittent |
 | Major | Tiberius D. Rex | Dragonborn Cleric | The Pious Comic Relief | Ch. 8-32 |
 | Major | Irethia | Draconic Sorcerer | The Enigma, the secret-keeper | Ch. 16+ |
 | Minor | Dallor Dallorbill | Human Rogue | The Turncoat, the greedy survivor | Ch. 0-25 |

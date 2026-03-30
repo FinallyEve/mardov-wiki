@@ -178,7 +178,7 @@ An anagram for **Armageddon**. The prophesied apocalyptic event heralded by a [[
 
 ### The Final Configuration
 All four Zeniths held simultaneously:
-- **Four Controllers**: [[Varis Liadon|Varris]], [[Nocturnus Wayne]], [[Dallor Dallorbill|Dallor]], [[Irethia]]
+- **Four Controllers**: [[Varis Laindon|Varris]], [[Nocturnus Wayne]], [[Dallor Dallorbill|Dallor]], [[Irethia]]
 - **Four Champions**: [[Brigit Wildfire|Brigitte]], [[Bergs Fireforge|Bergs]], [[Stalwart Little Goldentooth|Stalwart]], [[Nyx Khamestria|Nyx]]
 - **Four Anchor Wielders**: [[Sprocket Overspark|Sprocket]], [[Daina Fireforge|Daina]], [[Randal]], [[Tesca Duskhallow|Tesca]]
 - [[Bergs Fireforge|Bergs]] as Warforged power conduit (Voltron convergence)

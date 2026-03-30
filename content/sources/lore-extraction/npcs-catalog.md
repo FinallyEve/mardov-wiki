@@ -104,7 +104,7 @@ Total entries: ~781 files across 14 categories.
 
 | Name | Notes |
 |------|-------|
-| Evylanndrin of the Spring Court | Image only. |
+| Evelyandrin of the Spring Court | Image only. |
 | Juliannia of the Summer Court | Image only (also in Summer Court subdir). |
 | Queen of Thorns | Image only. |
 | Reynaldine of the Autumn Court | Fey Lord serving Vecna. Causes Orc/Human wars in Dawnhaven. Seeks the Diadem of Dawn. Threatens Rimefang's pestilence supply lines as leverage. Vecna warns her against delays. |

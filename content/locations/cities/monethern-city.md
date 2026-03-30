@@ -3,6 +3,8 @@ type: location
 category: city
 name: Monethern City
 parent: "[[monethern]]"
+status: allied
+zenith: none
 aliases:
   - The Port City
 notable_npcs:
@@ -15,6 +17,7 @@ chapters:
 source: Places/Monethern/Monethern City/
 maps: []
 tags:
+  - location
   - city
   - monethern-city
   - monethern

@@ -5,11 +5,47 @@ title: "Mardov Campaign — Map of Content"
 
 # Mardov Campaign Wiki
 
-> The world of Mardov -- a 136-chapter D&D campaign spanning 5 acts, 24 player characters, hundreds of NPCs, and a continent's worth of locations. 665 vault pages and growing.
+> The world of Mardov -- a 137-chapter D&D campaign spanning 5 acts, 25 player characters, hundreds of NPCs, and a continent's worth of locations. 665+ vault pages and growing.
+
+![[assets/inspiration/better world map.jpg]]
 
 ---
 
-## Chapters (141 pages)
+## Campaign Dashboard
+
+> [!info] Current State (Ch 137: "Immune System")
+> **Two gods dead** (Asmodeus, Tiamat). **One god ascended** (Bergs). **Vecna on Mardov** -- personally occupying the Forest Zenith beneath [[machu|Machu]]. Ash falling on the world. The gargoyles have awakened.
+
+### Active PCs by Zenith Role
+
+```dataview
+TABLE race, class, zenith_role AS "Role", zenith AS "Zenith", status
+FROM "characters/pcs"
+WHERE type = "character" AND category = "pc"
+SORT zenith ASC, zenith_role ASC
+```
+
+### Occupied & Contested Locations
+
+```dataview
+TABLE current_ruler AS "Ruler", status, zenith AS "Zenith"
+FROM "locations"
+WHERE status = "occupied" OR status = "contested"
+SORT name ASC
+```
+
+### Recent Chapters
+
+```dataview
+TABLE summary, pcs_present AS "PCs"
+FROM "chapters"
+SORT file.name DESC
+LIMIT 10
+```
+
+---
+
+## Chapters (141+ pages)
 
 The campaign is structured in 5 acts with parallel party tracks starting in Act 3.
 
@@ -49,7 +85,7 @@ Key chapters:
 - [[Chapter 100 - The Centennial]] -- Centennial chapter
 - [[Chapter 101 - The Good Guys Guild]] -- Guild formed
 
-### [[chapters/act-5/index|Act 5 — The Ascension]] (Chapters 104-136)
+### [[chapters/act-5/index|Act 5 — The Ascension]] (Chapters 104-137)
 The endgame: Anchor ascensions, divine conflicts, the final battle for Mardov.
 
 Key chapters:
@@ -58,7 +94,8 @@ Key chapters:
 - [[chapter-116|Chapter 116]] -- Convergence and Betrayal
 - [[chapter-120|Chapter 120]] -- Winter's Chill, Zodiac souls unite
 - [[chapter-132|Chapter 132]] -- Penultimate, the Stone Table
-- [[chapter-136|Chapter 136]] -- The Final Battle
+- [[chapter-136|Chapter 136]] -- Josh kills Asmodeus, Bergs ascends, Tiamat dies
+- [[chapter-137|Chapter 137]] -- Immune System: Vecna enters Mardov, gargoyles awaken
 
 ---
 
@@ -78,6 +115,7 @@ Key chapters:
 | [[Fovis Wesrun]] | [[characters/pcs/Fovis Wesrun]] | |
 | [[Frozen Song]] | [[characters/pcs/Frozen Song]] | |
 | [[Irethia]] | [[characters/pcs/Irethia]] | Bonded to Emni the Undimmed |
+| [[Josh Coolbreeze]] | [[characters/pcs/Josh Coolbreeze]] | Half-elf paladin, Godslayer, Knight of Four Seasons |
 | [[Kelemtor]] | [[characters/pcs/Kelemtor]] | |
 | [[Knob and Scamp]] | [[characters/pcs/Knob and Scamp]] | |
 | [[Lilliath Goodbarrel]] | [[characters/pcs/Lilliath Goodbarrel]] | |
@@ -198,7 +236,7 @@ These are canonical world-building articles extracted from World Anvil. Many des
 [[lore/Volcanis the Scorched Tyrant]] | [[lore/Zepheeron The Thunderfury]]
 
 **NPCs:**
-[[lore/Aaura the Bard]] | [[lore/Balazar Keerin]] | [[lore/Birt]] | [[lore/Captain Liza]] | [[lore/Euclid]] | [[lore/Evelyandrin of the Spring Court]] | [[lore/Firekeeper Morn Loregramar]] | [[lore/Helm Goldentooth]] | [[lore/Hydillia]] | [[lore/Leonidas of Summer's Last Light]] | [[lore/Mehen]] | [[lore/Randall]] | [[lore/Sargent Professor Edwin Forebeak]] | [[lore/The Amazing Dr. Grackel]] | [[lore/Terrell Temptus, The Storm King]] | [[lore/Thestra, Wife of the Storm]] | [[lore/Thestrus]] | [[lore/Varis Liadon]]
+[[lore/Aaura the Bard]] | [[lore/Balazar Keerin]] | [[lore/Birt]] | [[lore/Captain Liza]] | [[lore/Euclid]] | [[lore/Evelyandrin of the Spring Court]] | [[lore/Firekeeper Morn Loregramar]] | [[lore/Helm Goldentooth]] | [[lore/Hydillia]] | [[lore/Leonidas of Summer's Last Light]] | [[lore/Mehen]] | [[lore/Randall]] | [[lore/Sargent Professor Edwin Forebeak]] | [[lore/The Amazing Dr. Grackel]] | [[lore/Terrell Temptus, The Storm King]] | [[lore/Thestra, Wife of the Storm]] | [[lore/Thestrus]] | [[lore/Varis Laindon]]
 
 **Locations:**
 [[lore/Alexandria]] | [[lore/Booksworth Academy]] | [[lore/Sand Seas]] | [[lore/Jack the Beanstalk]]

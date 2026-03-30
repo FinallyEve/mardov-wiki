@@ -18,7 +18,7 @@ The [[Feywild|Fae Wildes]] are organized into four seasonal courts, each with it
 ## The Four Courts
 
 ### Spring Court — Brier Patch
-- **Fey Lord:** Evylanndrin of the Spring Court
+- **Fey Lord:** Evelyandrin of the Spring Court
 - **Eladrin Representative:** [[Haden Dar]] (Platinum Seat of Illusionist Covenant)
 
 ### Summer Court — Flowerfield
@@ -52,7 +52,7 @@ The [[Feywild|Fae Wildes]] are organized into four seasonal courts, each with it
 All planes began converging into the Feywild:
 - Orchestrated by [[Reynaldine]]
 - **Stone Table Ritual:** sacrifice + benefactor = sovereignty
-- Knights needed: [[Riven Fen|Fen]], [[Josh Coolbreeze|Josh]], [[Varis Liadon|Varis]], [[Sprocket Overspark|Sprocket]]
+- Knights needed: [[Riven Fen|Fen]], [[Josh Coolbreeze|Josh]], [[Varis Laindon|Varis]], [[Sprocket Overspark|Sprocket]]
 - [[Graz'zt]] swapped with Gabriel at the ritual
 - [[Bergs Fireforge|Bergs]] forced both himself and [[Graz'zt]] onto the Stone Table
 - **Result:** [[Bergs Fireforge|Bergs]] becomes deity of Mardov's Feywild

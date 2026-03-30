@@ -1,16 +1,23 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Fen Darkeyes"
 aliases: ["Fen BrightHallow", "The Cursed One"]
-race: "Dragonborn"
+race: "Human"
 class: "Ranger"
+status: alive
+zenith_role: none
+zenith: none
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: [1, 2, 3, 4, 5]
 affiliation: "[[Scarlet Tunic Brigade]]"
 location: "[[Winter Zenith]] (alone)"
-status: unknown
 first_appearance: "Mid-campaign"
 source: ["Player Notes"]
 art: ["assets/pc-art-source/Fen Darkeyes (BrightHallow)/Fen Brighthallow.png"]
+tags:
+  - pc
+  - act-5
 ---
 
 ## Description

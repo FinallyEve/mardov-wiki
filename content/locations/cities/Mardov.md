@@ -2,7 +2,12 @@
 type: location
 category: region
 name: "Mardov"
+status: contested
+zenith: none
 source: ["stub — auto-generated from wikilink references"]
+tags:
+  - location
+  - region
 ---
 
 # Mardov

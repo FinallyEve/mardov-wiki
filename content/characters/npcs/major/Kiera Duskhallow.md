@@ -15,6 +15,9 @@ art: ["assets/npc-art-source/Met/Kiera Duskhallow"]
 
 ## Description
 
+![[assets/npc-art-source/Met/Kiera Duskhallow - Mother of Tesca.jpg]]
+
+
 Kiera Duskhallow was [[Tesca]]'s mother, married to [[Tenzin Duskhallow]]. Desperate and impoverished in the slums of [[dawnpass]], the couple took a job from the Dusker's Initiative to case the [[Monastery of the Dawn]] for clues to the [[Diadem of Dawn]]'s location. They were caught by [[Elder Roku]], who showed mercy and offered the family refuge.
 
 But they were sloppy. The Dusker's Initiative discovered the deception and ordered the family eliminated. Tenzin was killed first. Kiera doubled back toward their burning house with little Tesca in tow, ultimately dying to save her daughter.

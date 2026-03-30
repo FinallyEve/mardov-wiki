@@ -1,16 +1,22 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Frozen Song"
 aliases: []
 race: "Dragonborn (Purple/Blue)"
 class: "Bard"
+status: unknown
+zenith_role: none
+zenith: none
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: [2, 3]
 affiliation: "[[Scarlet Tunic Brigade]]"
 location: "Unknown"
-status: unknown
 first_appearance: "Mid-campaign"
 source: ["Player Notes"]
 art: ["assets/pc-art-source/Frozen Song/Frozen Song.png"]
+tags:
+  - pc
 ---
 
 ## Description

@@ -2,14 +2,14 @@
 type: player-summary
 chapter: 28
 author: "Varis"
-source: ["NFS/Mardov Dnd Reference Guide/Summary 28 - fragment from _The Travelogue of Varis Liadon_.docx"]
+source: ["NFS/Mardov Dnd Reference Guide/Summary 28 - fragment from _The Travelogue of Varis Laindon_.docx"]
 ---
 
 # Session 28 Summary
 
 *Written by Varis*
 
-Summary 28: *fragment of \'The Travelogue of Varis Liadon\'*
+Summary 28: *fragment of \'The Travelogue of Varis Laindon\'*
 
 Ziggy, I found my way home, at least for a little while. I\'m starting to get a handle on this plane shifting, I think. I\'m even learning to use it, which sometimes scares me a bit. But with the rapid decline in our world, I\'ll grab any tool to help.
 

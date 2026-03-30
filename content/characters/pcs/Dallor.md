@@ -1,16 +1,25 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Dallor Dallorbill"
 aliases: ["The Turncoat", "The Newest Titan"]
 race: "Human"
 class: "Rogue"
+zodiac: "Serpent"
+status: alive
+zenith_role: controller
+zenith: winter
+faction: ["[[Scarlet Tunic Brigade]]"]
+acts_present: [1, 2, 3, 4, 5]
 affiliation: "[[Scarlet Tunic Brigade]] (former)"
 location: "Unknown (ascended to Titan)"
-status: alive (Titan form)
 first_appearance: "Chapter 0"
 source: ["Player Notes (Ch. 0-25)", "DM Notes"]
 art: ["assets/pc-art-source/Dallor/Dallor - Newest Titan.jpg"]
+tags:
+  - pc
+  - act-5
+  - winter-zenith
 ---
 
 ## Description

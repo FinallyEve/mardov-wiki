@@ -3,6 +3,8 @@ type: location
 category: city
 name: Conquis Abbey
 parent: "[[monethern]]"
+status: allied
+zenith: none
 aliases:
   - "Conq'is Abby"
   - The Holy City
@@ -12,9 +14,10 @@ notable_npcs:
   - "[[Patrice Cue]]"
 chapters:
   - Act 1
-source: Places/Monethern/Conquis Abby/
+source: Places/Monethern/Conquis Abbey/
 maps: []
 tags:
+  - location
   - city
   - conquis-abbey
   - monethern
@@ -109,10 +112,10 @@ The Church of the Ashen God and the Temple of the Fallen hint at darker elements
 
 ## Gallery
 
-![[assets/maps-source/Monethern/Conquis Abby/Conq'is Abby.jpg]]
-![[assets/maps-source/Monethern/Conquis Abby/Conquis Abbey at nightfall.jpg]]
-![[assets/maps-source/Monethern/Conquis Abby/Conquis Abby Main temple.jpg]]
-![[assets/maps-source/Monethern/Conquis Abby/Conquis Abbey Channels.jpg]]
-![[assets/maps-source/Monethern/Conquis Abby/Crypts of Conquis Abby.jpg]]
-![[assets/maps-source/Monethern/Conquis Abby/Elysium District.jpg]]
-![[assets/maps-source/Monethern/Conquis Abby/Court of the Creators/Court of the Creators.jpg]]
+![[assets/maps-source/Monethern/Conquis Abbey/Conq'is Abbey.jpg]]
+![[assets/maps-source/Monethern/Conquis Abbey/Conquis Abbey at nightfall.jpg]]
+![[assets/maps-source/Monethern/Conquis Abbey/Conquis Abbey Main temple.jpg]]
+![[assets/maps-source/Monethern/Conquis Abbey/Conquis Abbey Channels.jpg]]
+![[assets/maps-source/Monethern/Conquis Abbey/Crypts of Conquis Abbey.jpg]]
+![[assets/maps-source/Monethern/Conquis Abbey/Elysium District.jpg]]
+![[assets/maps-source/Monethern/Conquis Abbey/Court of the Creators/Court of the Creators.jpg]]

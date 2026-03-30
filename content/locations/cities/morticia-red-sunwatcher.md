@@ -1,6 +1,6 @@
 ---
 type: location
-name: "Morticia 'Red' Sunwatcher"
+name: 'Morticia "Red" Sunwatcher'
 status: stub
 ---
 

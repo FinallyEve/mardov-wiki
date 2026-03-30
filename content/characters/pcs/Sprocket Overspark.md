@@ -1,16 +1,27 @@
 ---
 type: character
-role: pc
+category: pc
 name: "Sprocket Overspark"
-aliases: ["The Brain", "The Clock", "Sabine Ra's Chosen"]
+aliases: ["The Brain", "The Clock", "Sabine Ra's Chosen", "Platinum Seat of Divination", "Knight of Spring"]
 race: "Gnome"
-class: "Wizard (Divination)"
+class: "Wizard"
+subclass: "School of Divination"
+player: "Chad"
+zodiac: "Rabbit"
+status: alive
+zenith_role: wielder
+zenith: forest
+faction: ["[[Scarlet Tunic Brigade]]", "[[Alabaster Seat]]"]
+acts_present: [1, 2, 3, 4, 5]
 affiliation: "[[Scarlet Tunic Brigade]], [[Alabaster Seat]]"
 location: "Mardov (traveling)"
-status: alive
 first_appearance: "Chapter 0"
 source: ["Player Notes (Ch. 0-136)", "Character Sheets"]
 art: ["assets/pc-art-source/Sprocket Overspark/Sprocket_hq_mardov_bg.png"]
+tags:
+  - pc
+  - act-5
+  - forest-zenith
 ---
 
 ## Description
@@ -85,7 +96,7 @@ Sprocket was marked for death and freed simultaneously by the [[Alabaster Seat]]
 
 *From the Audrey commission for "Mardov: Echoes of the Shadowfell" (Session 100, April 2022)*
 
-- **Race/Class**: Goblin Wizard
+- **Race/Class**: Gnome Wizard
 - **Player**: The packrat magic item hoarder
 - **Third Eye**: On forehead, sees into the ethereal plane. Normally not visible; shown via a subtle glowing "20" at the spot (can see the future and pick the number on the roll)
 - **Hands**: 6 fingers

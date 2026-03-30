@@ -3,6 +3,8 @@ type: location
 category: city
 name: Cloud City
 parent: "[[DawnHaven]]"
+status: neutral
+zenith: none
 aliases:
   - Storm Peaks
   - The Floating City
@@ -18,6 +20,7 @@ source: "Places/DawnHaven/Cloud City_Storm Peaks(slash conflict)/"
 maps:
   - "[[Cloud City Map.jpg]]"
 tags:
+  - location
   - city
   - cloud-city
   - dawnhaven
